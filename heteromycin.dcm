@@ -1,0 +1,28 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP AP1501A-50K5G-13
+D 5V, 5A, 150kHz PWM BUCK DC/DC CONVERTER
+F https://www.mouser.de/datasheet/2/115/AP1501A-85813.pdf
+$ENDCMP
+#
+$CMP AP2112K-3.3TRG1
+D 600mA CMOS LDO REGULATOR WITH ENABLE
+F https://www.diodes.com/assets/Datasheets/AP2112.pdf
+$ENDCMP
+#
+$CMP ECS-TXO-3225
+D HCMOS TCXO
+F https://www.ecsxtal.com/store/pdf/ECS-TXO-3225.pdf
+$ENDCMP
+#
+$CMP PMPB20EN
+D 30 V, N-channel Trench MOSFET
+F https://assets.nexperia.com/documents/data-sheet/PMPB20EN.pdf
+$ENDCMP
+#
+$CMP TMC2160-TA
+D 2-phase stepper motors up to 20A coil current (external MOSFETs)
+F https://www.trinamic.com/fileadmin/assets/Products/ICs_Documents/TMC2160-datasheet_Rev1.00.pdf
+$ENDCMP
+#
+#End Doc Library

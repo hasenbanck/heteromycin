@@ -1,0 +1,1079 @@
+EESchema Schematic File Version 4
+LIBS:heteromycin-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title "Power"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 1200 2750 0    50   Input ~ 0
+VDD5V
+Wire Wire Line
+	1200 2750 1350 2750
+Wire Wire Line
+	1700 2750 1700 3050
+Wire Wire Line
+	1700 3050 1800 3050
+Connection ~ 1700 2750
+Wire Wire Line
+	1700 2750 1800 2750
+$Comp
+L Device:C C?
+U 1 1 5AD0C5B0
+P 1350 2900
+F 0 "C?" H 1465 2946 50  0000 L CNN
+F 1 "10uF" H 1465 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1388 2750 50  0001 C CNN
+F 3 "~" H 1350 2900 50  0001 C CNN
+	1    1350 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5AD0C639
+P 2700 2900
+F 0 "C?" H 2815 2946 50  0000 L CNN
+F 1 "10uF" H 2815 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2738 2750 50  0001 C CNN
+F 3 "~" H 2700 2900 50  0001 C CNN
+	1    2700 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1350 2750
+Wire Wire Line
+	1350 2750 1700 2750
+Text GLabel 4500 2750 2    50   Input ~ 0
+VDD3V3
+Text Notes 2400 3350 0    50   ~ 0
+min. 600 mA
+$Comp
+L remram-custom:TPS54308 U?
+U 1 1 5AF60AE7
+P 4900 1150
+F 0 "U?" H 4900 1565 50  0000 C CNN
+F 1 "TPS54308" H 4900 1474 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 4900 1150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/tps54308.pdf" H 4900 1150 50  0001 C CNN
+	1    4900 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5AF61095
+P 2350 1150
+F 0 "C?" H 2465 1196 50  0000 L CNN
+F 1 "10uF" H 2465 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2388 1000 50  0001 C CNN
+F 3 "~" H 2350 1150 50  0001 C CNN
+	1    2350 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5AF6112E
+P 5600 1000
+F 0 "C?" V 5852 1000 50  0000 C CNN
+F 1 "100nF" V 5761 1000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5638 850 50  0001 C CNN
+F 3 "~" H 5600 1000 50  0001 C CNN
+	1    5600 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5AF611D6
+P 6850 1300
+F 0 "C?" H 6965 1346 50  0000 L CNN
+F 1 "22uF" H 6965 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 6888 1150 50  0001 C CNN
+F 3 "~" H 6850 1300 50  0001 C CNN
+	1    6850 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5AF6122A
+P 7250 1300
+F 0 "C?" H 7365 1346 50  0000 L CNN
+F 1 "22uF" H 7365 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7288 1150 50  0001 C CNN
+F 3 "~" H 7250 1300 50  0001 C CNN
+	1    7250 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L_Core_Iron L?
+U 1 1 5AF61471
+P 6250 1150
+F 0 "L?" V 6475 1150 50  0000 C CNN
+F 1 "18uH" V 6384 1150 50  0000 C CNN
+F 2 "custom-footprints:L_Wuerth_WE-PDF" H 6250 1150 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/445/7447798181-539715.pdf" H 6250 1150 50  0001 C CNN
+F 4 "7447798181" V 6250 1150 50  0001 C CNN "Notice"
+	1    6250 1150
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 1150 5900 1150
+Wire Wire Line
+	5750 1000 5900 1000
+Wire Wire Line
+	5900 1000 5900 1150
+Connection ~ 5900 1150
+Wire Wire Line
+	5900 1150 5450 1150
+Wire Wire Line
+	6400 1150 6850 1150
+Wire Wire Line
+	6850 1150 7250 1150
+Connection ~ 6850 1150
+$Comp
+L Device:R R?
+U 1 1 5AF622B8
+P 8500 1600
+F 0 "R?" H 8570 1646 50  0000 L CNN
+F 1 "100k" H 8570 1555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8430 1600 50  0001 C CNN
+F 3 "~" H 8500 1600 50  0001 C CNN
+	1    8500 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5AF62345
+P 8500 1900
+F 0 "R?" H 8570 1946 50  0000 L CNN
+F 1 "13.3k" H 8570 1855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8430 1900 50  0001 C CNN
+F 3 "~" H 8500 1900 50  0001 C CNN
+	1    8500 1900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6400 1300 5450 1300
+Connection ~ 8500 1750
+Connection ~ 7250 1150
+$Comp
+L Device:LED D?
+U 1 1 5AF67AB2
+P 3550 3200
+F 0 "D?" V 3588 3082 50  0000 R CNN
+F 1 "LTST-C194KGKT" V 3497 3082 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 3550 3200 50  0001 C CNN
+F 3 "~" H 3550 3200 50  0001 C CNN
+	1    3550 3200
+	0    -1   -1   0   
+$EndComp
+Connection ~ 3550 2750
+Text GLabel 8950 1150 2    50   Input ~ 0
+VDD5V
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5AF6A3DF
+P 3550 2750
+F 0 "#PWR?" H 3550 2600 50  0001 C CNN
+F 1 "+3V3" H 3565 2923 50  0000 C CNN
+F 2 "" H 3550 2750 50  0001 C CNN
+F 3 "" H 3550 2750 50  0001 C CNN
+	1    3550 2750
+	1    0    0    -1  
+$EndComp
+Text Notes 5000 1500 0    50   ~ 0
+max. 3 A
+$Comp
+L Connector_Generic:Conn_01x06 J?
+U 1 1 5AF719E7
+P 1000 4550
+F 0 "J?" H 920 4967 50  0000 C CNN
+F 1 "4DB-P108-06" H 920 4876 50  0000 C CNN
+F 2 "custom-footprints:4DB-P108-06" H 1000 4550 50  0001 C CNN
+F 3 "~" H 1000 4550 50  0001 C CNN
+	1    1000 4550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1200 4550 1750 4550
+Wire Wire Line
+	1750 4550 1750 4750
+Wire Wire Line
+	1200 4650 1650 4650
+Wire Wire Line
+	1650 4650 1650 5050
+Wire Wire Line
+	1200 4750 1550 4750
+Wire Wire Line
+	1550 4750 1550 5350
+Wire Wire Line
+	1200 4850 1450 4850
+Wire Wire Line
+	1450 4850 1450 5650
+Wire Wire Line
+	8950 1150 8500 1150
+$Comp
+L Device:Fuse F?
+U 1 1 5AF82AAA
+P 4000 4150
+F 0 "F?" V 3803 4150 50  0000 C CNN
+F 1 "3557-2" V 3894 4150 50  0000 C CNN
+F 2 "custom-footprints:KEYSTONE-FUSE-3557-2" V 3930 4150 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/215/557-2-744839.pdf" H 4000 4150 50  0001 C CNN
+	1    4000 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5AF6A259
+P 4000 4700
+F 0 "F?" V 3803 4700 50  0000 C CNN
+F 1 "3557-2" V 3894 4700 50  0000 C CNN
+F 2 "custom-footprints:KEYSTONE-FUSE-3557-2" V 3930 4700 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/215/557-2-744839.pdf" H 4000 4700 50  0001 C CNN
+	1    4000 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Fuse F?
+U 1 1 5AF6B243
+P 4000 5300
+F 0 "F?" V 3803 5300 50  0000 C CNN
+F 1 "3557-2" V 3894 5300 50  0000 C CNN
+F 2 "custom-footprints:KEYSTONE-FUSE-3557-2" V 3930 5300 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/215/557-2-744839.pdf" H 4000 5300 50  0001 C CNN
+	1    4000 5300
+	0    1    1    0   
+$EndComp
+Text Notes 3950 4300 0    50   ~ 0
+5A
+Text Notes 3950 4850 0    50   ~ 0
+5A
+Text Notes 3950 5450 0    50   ~ 0
+15A
+Wire Wire Line
+	4150 4150 4350 4150
+Wire Wire Line
+	3350 5300 3850 5300
+Wire Wire Line
+	3350 4750 3350 5300
+Wire Wire Line
+	3850 4700 3550 4700
+Wire Wire Line
+	3550 4700 3550 4150
+Connection ~ 3550 4150
+Wire Wire Line
+	3550 4150 3850 4150
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AF85236
+P 2650 4450
+F 0 "#PWR?" H 2650 4250 50  0001 C CNN
+F 1 "GNDPWR" H 2650 4300 50  0000 C CNN
+F 2 "" H 2650 4400 50  0001 C CNN
+F 3 "" H 2650 4400 50  0001 C CNN
+	1    2650 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AF87BAE
+P 2650 5050
+F 0 "#PWR?" H 2650 4850 50  0001 C CNN
+F 1 "GNDPWR" H 2650 4900 50  0000 C CNN
+F 2 "" H 2650 5000 50  0001 C CNN
+F 3 "" H 2650 5000 50  0001 C CNN
+	1    2650 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AF8A7B4
+P 2350 1600
+F 0 "#PWR?" H 2350 1400 50  0001 C CNN
+F 1 "GNDPWR" H 2350 1450 50  0000 C CNN
+F 2 "" H 2350 1550 50  0001 C CNN
+F 3 "" H 2350 1550 50  0001 C CNN
+	1    2350 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AF8D3AD
+P 8500 2050
+F 0 "#PWR?" H 8500 1850 50  0001 C CNN
+F 1 "GNDPWR" H 8500 1900 50  0000 C CNN
+F 2 "" H 8500 2000 50  0001 C CNN
+F 3 "" H 8500 2000 50  0001 C CNN
+	1    8500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AF936FC
+P 6850 1450
+F 0 "#PWR?" H 6850 1250 50  0001 C CNN
+F 1 "GNDPWR" H 6850 1300 50  0000 C CNN
+F 2 "" H 6850 1400 50  0001 C CNN
+F 3 "" H 6850 1400 50  0001 C CNN
+	1    6850 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AF94C32
+P 7250 1450
+F 0 "#PWR?" H 7250 1250 50  0001 C CNN
+F 1 "GNDPWR" H 7250 1300 50  0000 C CNN
+F 2 "" H 7250 1400 50  0001 C CNN
+F 3 "" H 7250 1400 50  0001 C CNN
+	1    7250 1450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AF96291
+P 3550 3350
+F 0 "#PWR?" H 3550 3150 50  0001 C CNN
+F 1 "GNDPWR" H 3550 3200 50  0000 C CNN
+F 2 "" H 3550 3300 50  0001 C CNN
+F 3 "" H 3550 3300 50  0001 C CNN
+	1    3550 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AF977C7
+P 2700 3050
+F 0 "#PWR?" H 2700 2850 50  0001 C CNN
+F 1 "GNDPWR" H 2700 2900 50  0000 C CNN
+F 2 "" H 2700 3000 50  0001 C CNN
+F 3 "" H 2700 3000 50  0001 C CNN
+	1    2700 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AF98CFD
+P 2150 3250
+F 0 "#PWR?" H 2150 3050 50  0001 C CNN
+F 1 "GNDPWR" H 2150 3100 50  0000 C CNN
+F 2 "" H 2150 3200 50  0001 C CNN
+F 3 "" H 2150 3200 50  0001 C CNN
+	1    2150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AF9A233
+P 1350 3050
+F 0 "#PWR?" H 1350 2850 50  0001 C CNN
+F 1 "GNDPWR" H 1350 2900 50  0000 C CNN
+F 2 "" H 1350 3000 50  0001 C CNN
+F 3 "" H 1350 3000 50  0001 C CNN
+	1    1350 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AF9C4B1
+P 4200 1150
+F 0 "#PWR?" H 4200 950 50  0001 C CNN
+F 1 "GNDPWR" H 4200 1200 50  0000 C CNN
+F 2 "" H 4200 1100 50  0001 C CNN
+F 3 "" H 4200 1100 50  0001 C CNN
+	1    4200 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4200 1150 4350 1150
+$Comp
+L Device:D D?
+U 1 1 5AFA3F16
+P 4350 4300
+F 0 "D?" V 4304 4379 50  0000 L CNN
+F 1 "SMAJ28A" V 4395 4379 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 4350 4300 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/240/Littelfuse_TVS_Diode_SMAJ_Datasheet.pdf-540740.pdf" H 4350 4300 50  0001 C CNN
+	1    4350 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP C?
+U 1 1 5AFA5D98
+P 5000 4850
+F 0 "C?" H 5118 4896 50  0000 L CNN
+F 1 "100uF" H 5118 4805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5038 4700 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-uvz-1219460.pdf" H 5000 4850 50  0001 C CNN
+	1    5000 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5AFAB14E
+P 4350 4850
+F 0 "D?" V 4304 4929 50  0000 L CNN
+F 1 "SMAJ28A" V 4395 4929 50  0000 L CNN
+F 2 "Diode_SMD:D_SMA" H 4350 4850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/240/Littelfuse_TVS_Diode_SMAJ_Datasheet.pdf-540740.pdf" H 4350 4850 50  0001 C CNN
+	1    4350 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4150 4700 4350 4700
+Connection ~ 4350 4700
+Wire Wire Line
+	4350 4700 5000 4700
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AFB706E
+P 4350 4450
+F 0 "#PWR?" H 4350 4250 50  0001 C CNN
+F 1 "GNDPWR" H 4350 4300 50  0000 C CNN
+F 2 "" H 4350 4400 50  0001 C CNN
+F 3 "" H 4350 4400 50  0001 C CNN
+	1    4350 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AFB71B9
+P 5450 4450
+F 0 "#PWR?" H 5450 4250 50  0001 C CNN
+F 1 "GNDPWR" H 5450 4300 50  0000 C CNN
+F 2 "" H 5450 4400 50  0001 C CNN
+F 3 "" H 5450 4400 50  0001 C CNN
+	1    5450 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AFB8B47
+P 4350 5000
+F 0 "#PWR?" H 4350 4800 50  0001 C CNN
+F 1 "GNDPWR" H 4350 4850 50  0000 C CNN
+F 2 "" H 4350 4950 50  0001 C CNN
+F 3 "" H 4350 4950 50  0001 C CNN
+	1    4350 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AFBA4D5
+P 5000 5000
+F 0 "#PWR?" H 5000 4800 50  0001 C CNN
+F 1 "GNDPWR" H 5000 4850 50  0000 C CNN
+F 2 "" H 5000 4950 50  0001 C CNN
+F 3 "" H 5000 4950 50  0001 C CNN
+	1    5000 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AFBBE63
+P 5450 5000
+F 0 "#PWR?" H 5450 4800 50  0001 C CNN
+F 1 "GNDPWR" H 5450 4850 50  0000 C CNN
+F 2 "" H 5450 4950 50  0001 C CNN
+F 3 "" H 5450 4950 50  0001 C CNN
+	1    5450 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5AFBE17F
+P 5450 5450
+F 0 "C?" H 5565 5496 50  0000 L CNN
+F 1 "100nF" H 5565 5405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1812_4532Metric" H 5488 5300 50  0001 C CNN
+F 3 "" H 5450 5450 50  0001 C CNN
+	1    5450 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5AFBE18D
+P 4350 5450
+F 0 "D?" V 4304 5529 50  0000 L CNN
+F 1 "S3A-13-F" V 4395 5529 50  0000 L CNN
+F 2 "Diode_SMD:D_SMC" H 4350 5450 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/115/ds16005-37880.pdf" H 4350 5450 50  0001 C CNN
+	1    4350 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 5300 5450 5300
+Connection ~ 5450 5300
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AFC4CE3
+P 4350 5600
+F 0 "#PWR?" H 4350 5400 50  0001 C CNN
+F 1 "GNDPWR" H 4350 5450 50  0000 C CNN
+F 2 "" H 4350 5550 50  0001 C CNN
+F 3 "" H 4350 5550 50  0001 C CNN
+	1    4350 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AFC4CE9
+P 5000 5600
+F 0 "#PWR?" H 5000 5400 50  0001 C CNN
+F 1 "GNDPWR" H 5000 5450 50  0000 C CNN
+F 2 "" H 5000 5550 50  0001 C CNN
+F 3 "" H 5000 5550 50  0001 C CNN
+	1    5000 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AFC4CEF
+P 5450 5600
+F 0 "#PWR?" H 5450 5400 50  0001 C CNN
+F 1 "GNDPWR" H 5450 5450 50  0000 C CNN
+F 2 "" H 5450 5550 50  0001 C CNN
+F 3 "" H 5450 5550 50  0001 C CNN
+	1    5450 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5AFCAA09
+P 5450 4850
+F 0 "C?" H 5565 4896 50  0000 L CNN
+F 1 "100nF" H 5565 4805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1812_4532Metric" H 5488 4700 50  0001 C CNN
+F 3 "" H 5450 4850 50  0001 C CNN
+	1    5450 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5AFCC3AE
+P 5450 4300
+F 0 "C?" H 5565 4346 50  0000 L CNN
+F 1 "100nF" H 5565 4255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1812_4532Metric" H 5488 4150 50  0001 C CNN
+F 3 "" H 5450 4300 50  0001 C CNN
+	1    5450 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 4150 5450 4150
+Connection ~ 4350 4150
+Connection ~ 5450 4150
+Wire Wire Line
+	5000 4700 5450 4700
+Connection ~ 5000 4700
+Connection ~ 5450 4700
+Wire Wire Line
+	5450 4700 5600 4700
+Wire Wire Line
+	4150 5300 4350 5300
+$Comp
+L Device:CP C?
+U 1 1 5AFD173F
+P 5000 5450
+F 0 "C?" H 5118 5496 50  0000 L CNN
+F 1 "100uF" H 5118 5405 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 5038 5300 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-uvz-1219460.pdf" H 5000 5450 50  0001 C CNN
+	1    5000 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4350 1600 4150
+Wire Wire Line
+	1200 4350 1600 4350
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5AFD7C84
+P 1300 7250
+F 0 "#PWR?" H 1300 7050 50  0001 C CNN
+F 1 "GNDPWR" H 1300 7100 50  0000 C CNN
+F 2 "" H 1300 7200 50  0001 C CNN
+F 3 "" H 1300 7200 50  0001 C CNN
+	1    1300 7250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5AFD7DB1
+P 1200 7350
+F 0 "#PWR?" H 1200 7100 50  0001 C CNN
+F 1 "GND" H 1200 7200 50  0000 C CNN
+F 2 "" H 1200 7350 50  0001 C CNN
+F 3 "" H 1200 7350 50  0001 C CNN
+	1    1200 7350
+	1    0    0    -1  
+$EndComp
+Text Notes 750  7000 0    50   Italic 10
+Ground Plane Connections
+$Comp
+L power:GNDA #PWR?
+U 1 1 5B058B1E
+P 1100 7250
+F 0 "#PWR?" H 1100 7000 50  0001 C CNN
+F 1 "GNDA" H 1105 7077 50  0000 C CNN
+F 2 "" H 1100 7250 50  0001 C CNN
+F 3 "" H 1100 7250 50  0001 C CNN
+	1    1100 7250
+	0    1    1    0   
+$EndComp
+Connection ~ 4350 5300
+Wire Wire Line
+	4350 5300 5000 5300
+Connection ~ 5000 5300
+Wire Wire Line
+	5000 5300 5450 5300
+Text HLabel 5600 5300 2    50   Output ~ 0
+VDD_BED
+Text HLabel 5600 4700 2    50   Output ~ 0
+VDD_HEAT
+Text HLabel 2500 5350 2    50   Input ~ 0
+VDD_BED
+Text HLabel 2500 5650 2    50   Output ~ 0
+BED_OUT
+$Comp
+L Connector:Conn_01x02_Male J?
+U 1 1 5B1B2A8C
+P 1000 6100
+F 0 "J?" H 1106 6278 50  0000 C CNN
+F 1 "039531-1002" H 1106 6187 50  0000 C CNN
+F 2 "custom-footprints:39531-1002" H 1000 6100 50  0001 C CNN
+F 3 "~" H 1000 6100 50  0001 C CNN
+	1    1000 6100
+	1    0    0    -1  
+$EndComp
+Text HLabel 2100 6150 2    50   Input ~ 0
+VDD_HEAT
+Text HLabel 2100 6450 2    50   Output ~ 0
+HEAT_OUT
+Text Notes 4200 3800 2    50   ~ 0
+High Current Power Connections
+Wire Notes Line
+	6350 3850 6350 6650
+Wire Notes Line
+	6350 6650 700  6650
+Wire Notes Line
+	700  6650 700  3850
+Wire Notes Line
+	700  3850 6350 3850
+Text Notes 5900 600  2    50   ~ 0
+5V Power Supply
+Wire Notes Line
+	4950 2400 4950 3600
+Wire Notes Line
+	4950 3600 700  3600
+Wire Notes Line
+	700  3600 700  2400
+Wire Notes Line
+	700  2400 4950 2400
+Text Notes 3200 2350 2    50   ~ 0
+MCU 3V3 Power Supply
+$Comp
+L Mechanical:Mounting_Hole_PAD MK?
+U 1 1 5B0578B3
+P 2250 7250
+F 0 "MK?" H 2350 7301 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 2350 7210 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 2250 7250 50  0001 C CNN
+F 3 "" H 2250 7250 50  0001 C CNN
+	1    2250 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK?
+U 1 1 5B0578BA
+P 3450 7250
+F 0 "MK?" H 3550 7301 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 3550 7210 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 3450 7250 50  0001 C CNN
+F 3 "" H 3450 7250 50  0001 C CNN
+	1    3450 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK?
+U 1 1 5B0578C1
+P 4500 7250
+F 0 "MK?" H 4600 7301 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 4600 7210 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 4500 7250 50  0001 C CNN
+F 3 "" H 4500 7250 50  0001 C CNN
+	1    4500 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Mounting_Hole_PAD MK?
+U 1 1 5B0578C8
+P 5500 7250
+F 0 "MK?" H 5600 7301 50  0000 L CNN
+F 1 "Mounting_Hole_PAD" H 5600 7210 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.5mm_Pad" H 5500 7250 50  0001 C CNN
+F 3 "" H 5500 7250 50  0001 C CNN
+	1    5500 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5AF63223
+P 8000 1150
+F 0 "#PWR?" H 8000 1000 50  0001 C CNN
+F 1 "+5V" H 8015 1323 50  0000 C CNN
+F 2 "" H 8000 1150 50  0001 C CNN
+F 3 "" H 8000 1150 50  0001 C CNN
+	1    8000 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5AFA3BBA
+P 2850 1150
+F 0 "C?" H 2968 1196 50  0000 L CNN
+F 1 "100nF" H 2968 1105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2888 1000 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-uvz-1219460.pdf" H 2850 1150 50  0001 C CNN
+	1    2850 1150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1100 7250 1200 7250
+Wire Wire Line
+	1200 7350 1200 7250
+Connection ~ 1200 7250
+Wire Wire Line
+	1200 7250 1300 7250
+Text GLabel 5550 4150 2    50   Input ~ 0
+VDD_PWR
+Text GLabel 1750 1000 0    50   Input ~ 0
+VDD_PWR
+Wire Wire Line
+	1450 6150 1450 6100
+Wire Wire Line
+	1350 6450 1350 6200
+Wire Wire Line
+	1350 6200 1200 6200
+Wire Wire Line
+	1450 6100 1200 6100
+$Comp
+L remram-custom:AP2112K-3.3TRG1 U?
+U 1 1 5B072E31
+P 2150 2850
+F 0 "U?" H 2150 3215 50  0000 C CNN
+F 1 "AP2112K-3.3TRG1" H 2150 3124 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 2150 2850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/115/AP2112-271550.pdf" H 2150 2850 50  0001 C CNN
+	1    2150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 2750 2700 2750
+Connection ~ 2700 2750
+Wire Wire Line
+	2700 2750 3550 2750
+$Comp
+L Device:R R?
+U 1 1 5AF56C08
+P 3550 2900
+F 0 "R?" H 3620 2946 50  0000 L CNN
+F 1 "1k" H 3620 2855 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 2900 50  0001 C CNN
+F 3 "~" H 3550 2900 50  0001 C CNN
+	1    3550 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 2850 1000
+Wire Wire Line
+	2350 1300 2850 1300
+Wire Wire Line
+	5450 4150 4950 4150
+Wire Wire Line
+	2350 1600 2350 1300
+Wire Wire Line
+	2350 1000 2850 1000
+$Comp
+L Device:CP C?
+U 1 1 5B0321B5
+P 4950 4300
+F 0 "C?" H 5068 4346 50  0000 L CNN
+F 1 "100uF" H 5068 4255 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 4988 4150 50  0001 C CNN
+F 3 "https://eu.mouser.com/datasheet/2/293/e-uvz-1219460.pdf" H 4950 4300 50  0001 C CNN
+	1    4950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5B034E9B
+P 4950 4450
+F 0 "#PWR?" H 4950 4250 50  0001 C CNN
+F 1 "GNDPWR" H 4950 4300 50  0000 C CNN
+F 2 "" H 4950 4400 50  0001 C CNN
+F 3 "" H 4950 4400 50  0001 C CNN
+	1    4950 4450
+	1    0    0    -1  
+$EndComp
+Connection ~ 4950 4150
+Wire Wire Line
+	4950 4150 4350 4150
+Connection ~ 2350 1300
+Wire Wire Line
+	2850 1000 3500 1000
+$Comp
+L Device:C C?
+U 1 1 5B31591E
+P 7650 1300
+F 0 "C?" H 7765 1346 50  0000 L CNN
+F 1 "22uF" H 7765 1255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7688 1150 50  0001 C CNN
+F 3 "~" H 7650 1300 50  0001 C CNN
+	1    7650 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5B315925
+P 7650 1450
+F 0 "#PWR?" H 7650 1250 50  0001 C CNN
+F 1 "GNDPWR" H 7650 1300 50  0000 C CNN
+F 2 "" H 7650 1400 50  0001 C CNN
+F 3 "" H 7650 1400 50  0001 C CNN
+	1    7650 1450
+	1    0    0    -1  
+$EndComp
+Connection ~ 7650 1150
+Wire Wire Line
+	7650 1150 7250 1150
+Wire Wire Line
+	1600 4150 3550 4150
+Wire Wire Line
+	1200 4450 2650 4450
+Wire Wire Line
+	1750 4750 3350 4750
+Wire Wire Line
+	1650 5050 2650 5050
+Wire Wire Line
+	1550 5350 2500 5350
+Wire Wire Line
+	1450 5650 2500 5650
+Wire Wire Line
+	1450 6150 2100 6150
+Wire Wire Line
+	1350 6450 2100 6450
+Wire Wire Line
+	1750 1000 2350 1000
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5B3BDEFD
+P 3500 1600
+F 0 "#PWR?" H 3500 1400 50  0001 C CNN
+F 1 "GNDPWR" H 3504 1446 50  0000 C CNN
+F 2 "" H 3500 1550 50  0001 C CNN
+F 3 "" H 3500 1550 50  0001 C CNN
+	1    3500 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2350 1000
+$Comp
+L Device:R R?
+U 1 1 5B3FDE02
+P 3500 1150
+F 0 "R?" H 3570 1196 50  0000 L CNN
+F 1 "511k" H 3570 1105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 1150 50  0001 C CNN
+F 3 "~" H 3500 1150 50  0001 C CNN
+	1    3500 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5B3FDF7A
+P 3500 1450
+F 0 "R?" H 3570 1496 50  0000 L CNN
+F 1 "105k" H 3570 1405 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3430 1450 50  0001 C CNN
+F 3 "~" H 3500 1450 50  0001 C CNN
+	1    3500 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 1300 3500 1300
+Connection ~ 3500 1300
+Wire Notes Line
+	700  650  9350 650 
+Wire Wire Line
+	3500 1000 4350 1000
+Connection ~ 3500 1000
+$Comp
+L Device:R R?
+U 1 1 5B420ADE
+P 8500 1300
+F 0 "R?" H 8570 1346 50  0000 L CNN
+F 1 "49.9" H 8570 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8430 1300 50  0001 C CNN
+F 3 "~" H 8500 1300 50  0001 C CNN
+	1    8500 1300
+	1    0    0    -1  
+$EndComp
+Connection ~ 8500 1150
+$Comp
+L Device:R R?
+U 1 1 5B42B89D
+P 8250 1450
+F 0 "R?" V 8043 1450 50  0000 C CNN
+F 1 "2k" V 8134 1450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 8180 1450 50  0001 C CNN
+F 3 "~" H 8250 1450 50  0001 C CNN
+	1    8250 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5B42B9A9
+P 7950 1600
+F 0 "C?" H 8065 1646 50  0000 L CNN
+F 1 "75pF" H 8065 1555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7988 1450 50  0001 C CNN
+F 3 "~" H 7950 1600 50  0001 C CNN
+	1    7950 1600
+	1    0    0    -1  
+$EndComp
+Connection ~ 7950 1750
+Wire Wire Line
+	7950 1750 8500 1750
+Wire Wire Line
+	7650 1150 8000 1150
+Connection ~ 8000 1150
+Wire Wire Line
+	8000 1150 8500 1150
+Wire Wire Line
+	8500 1450 8400 1450
+Connection ~ 8500 1450
+Wire Wire Line
+	8100 1450 7950 1450
+Wire Wire Line
+	6400 1300 6400 1750
+Wire Wire Line
+	6400 1750 7950 1750
+NoConn ~ 2500 3050
+NoConn ~ 2250 7350
+NoConn ~ 3450 7350
+NoConn ~ 4500 7350
+NoConn ~ 5500 7350
+Wire Notes Line
+	700  2250 9350 2250
+Wire Notes Line
+	700  650  700  2250
+Wire Notes Line
+	9350 650  9350 2250
+Wire Wire Line
+	3550 2750 4500 2750
+Text GLabel 5600 2750 0    50   Input ~ 0
+VDD5V
+Wire Wire Line
+	5600 2750 5750 2750
+Wire Wire Line
+	6100 2750 6100 3050
+Wire Wire Line
+	6100 3050 6200 3050
+Connection ~ 6100 2750
+Wire Wire Line
+	6100 2750 6200 2750
+$Comp
+L Device:C C?
+U 1 1 5BB8A1E0
+P 5750 2900
+F 0 "C?" H 5865 2946 50  0000 L CNN
+F 1 "10uF" H 5865 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5788 2750 50  0001 C CNN
+F 3 "~" H 5750 2900 50  0001 C CNN
+	1    5750 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 5BB8A1E7
+P 7100 2900
+F 0 "C?" H 7215 2946 50  0000 L CNN
+F 1 "10uF" H 7215 2855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7138 2750 50  0001 C CNN
+F 3 "~" H 7100 2900 50  0001 C CNN
+	1    7100 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5750 2750
+Wire Wire Line
+	5750 2750 6100 2750
+Text GLabel 8700 2750 2    50   Input ~ 0
+VDD3V3-SD
+Text Notes 6800 3350 0    50   ~ 0
+min. 600 mA
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BB8A206
+P 7100 3050
+F 0 "#PWR?" H 7100 2850 50  0001 C CNN
+F 1 "GNDPWR" H 7100 2900 50  0000 C CNN
+F 2 "" H 7100 3000 50  0001 C CNN
+F 3 "" H 7100 3000 50  0001 C CNN
+	1    7100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BB8A20C
+P 6550 3250
+F 0 "#PWR?" H 6550 3050 50  0001 C CNN
+F 1 "GNDPWR" H 6550 3100 50  0000 C CNN
+F 2 "" H 6550 3200 50  0001 C CNN
+F 3 "" H 6550 3200 50  0001 C CNN
+	1    6550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDPWR #PWR?
+U 1 1 5BB8A212
+P 5750 3050
+F 0 "#PWR?" H 5750 2850 50  0001 C CNN
+F 1 "GNDPWR" H 5750 2900 50  0000 C CNN
+F 2 "" H 5750 3000 50  0001 C CNN
+F 3 "" H 5750 3000 50  0001 C CNN
+	1    5750 3050
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	9350 2400 9350 3600
+Wire Notes Line
+	9350 3600 5100 3600
+Wire Notes Line
+	5100 3600 5100 2400
+Wire Notes Line
+	5100 2400 9350 2400
+Text Notes 7600 2350 2    50   ~ 0
+SDCARD 3V3 Power Supply
+$Comp
+L remram-custom:AP2112K-3.3TRG1 U?
+U 1 1 5BB8A21D
+P 6550 2850
+F 0 "U?" H 6550 3215 50  0000 C CNN
+F 1 "AP2112K-3.3TRG1" H 6550 3124 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 6550 2850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/115/AP2112-271550.pdf" H 6550 2850 50  0001 C CNN
+	1    6550 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6900 2750 7100 2750
+Connection ~ 7100 2750
+NoConn ~ 6900 3050
+Wire Wire Line
+	7100 2750 8700 2750
+$EndSCHEMATC
