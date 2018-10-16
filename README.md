@@ -2,14 +2,14 @@
 
 Heteromycin is a 3d printer controller that aims to provide a full stack user
 experience around Octoprint / Marlin using a custom designed board that
-integrates a Raspberry Pi Zero W. It will also provide a solid, powerfull
+integrates a Raspberry Pi 3 or Zero W. It will also provide a solid, powerfull
 hardware by utilizing quality components, a STM32 32bit MCU and
 powerfull TMC5160 driver.
 
 ## Features
 
 * 32bit STM32F765VI 200Mhz / 512KB RAM / 2MB Flash MCU
-* Integrated Raspberry Pi Zero W as the main user interface
+* Integrated Raspberry Pi 3 / Zero W as the main user interface
 * 5x TMC5160 stepper driver with 8x external Power MOSFET for each driver
 * 3x high power MOSFET for heating (2x heater, 1x heatbed, 24V)
 * 4x low power MOSFET for fans (5V and 24V)
