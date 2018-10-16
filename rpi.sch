@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Mechanical:MountingHole H1
-U 1 1 5BC4B184
-P 7050 4600
-F 0 "H1" H 6900 4700 60  0000 C CNN
-F 1 "3mm_Mounting_Hole" H 7050 4450 60  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm" H 6950 4600 60  0001 C CNN
-F 3 "" H 6950 4600 60  0001 C CNN
-	1    7050 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L heteromycin:OX40HAT J1
 U 1 1 5BC4B18B
 P 3250 1100
