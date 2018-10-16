@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 7
+Sheet 3 11
 Title ""
 Date ""
 Rev ""
@@ -137,8 +137,8 @@ U 1 1 5BC5695B
 P 1250 1900
 F 0 "C1" H 1368 1946 50  0000 L CNN
 F 1 "100uF" H 1368 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 1288 1750 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/865080545012?qs=0KOYDY2FL297tvB6LOdg5A%3d%3d" H 1250 1900 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 1288 1750 50  0001 C CNN
+F 3 "" H 1250 1900 50  0001 C CNN
 	1    1250 1900
 	1    0    0    -1  
 $EndComp
@@ -200,28 +200,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 1000 5050 1000
 $Comp
-L Device:C C14
-U 1 1 5BC5B3FE
-P 7000 1900
-F 0 "C14" H 7115 1946 50  0000 L CNN
-F 1 "10uF" H 7115 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7038 1750 50  0001 C CNN
-F 3 "~" H 7000 1900 50  0001 C CNN
-	1    7000 1900
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C15
-U 1 1 5BC5B47D
-P 8450 1900
-F 0 "C15" H 8565 1946 50  0000 L CNN
-F 1 "10uF" H 8565 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 8488 1750 50  0001 C CNN
-F 3 "~" H 8450 1900 50  0001 C CNN
-	1    8450 1900
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R6
 U 1 1 5BC5B537
 P 8900 1900
@@ -247,19 +225,11 @@ Text GLabel 9100 1750 2    50   Input ~ 0
 VDD3V3
 Wire Wire Line
 	9100 1750 8900 1750
-Connection ~ 8450 1750
-Wire Wire Line
-	8450 1750 8250 1750
 Connection ~ 8900 1750
-Wire Wire Line
-	8900 1750 8450 1750
-Wire Wire Line
-	7000 1750 7350 1750
 Wire Wire Line
 	7350 1750 7350 2050
 Wire Wire Line
 	7350 2050 7550 2050
-Connection ~ 7350 1750
 Wire Wire Line
 	7350 1750 7550 1750
 $Comp
@@ -273,11 +243,8 @@ F 3 "" H 7900 2450 50  0001 C CNN
 	1    7900 2450
 	1    0    0    -1  
 $EndComp
-Text GLabel 6700 1750 0    50   Input ~ 0
+Text GLabel 6350 1750 0    50   Input ~ 0
 VDD5V
-Wire Wire Line
-	6700 1750 7000 1750
-Connection ~ 7000 1750
 Text Notes 1850 800  0    157  ~ 31
 5V Power supply
 Text Notes 6750 850  0    157  ~ 31
@@ -292,15 +259,12 @@ F 0 "J2" H 1120 4417 50  0000 C CNN
 F 1 "4DB-P108-06" H 1120 4326 50  0000 C CNN
 F 2 "heteromycin:4DB-P108-06" H 1200 4000 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/418/NG_CD_2-1437667-4_N8-639207.pdf" H 1200 4000 50  0001 C CNN
+F 4 "Alternative: OSTYK42106030" H 1200 4000 50  0001 C CNN "Note"
 	1    1200 4000
 	-1   0    0    -1  
 $EndComp
 Text GLabel 4150 3800 2    50   Input ~ 0
 VDD24V
-Text HLabel 4200 4400 2    50   Input ~ 0
-VDD_HEAT1
-Text HLabel 4200 5000 2    50   Input ~ 0
-VDD_HEAT2
 $Comp
 L Device:Fuse F2
 U 1 1 5BC63761
@@ -362,10 +326,6 @@ F 3 "~" H 2600 5600 50  0001 C CNN
 $EndComp
 Text Notes 2550 5750 0    50   ~ 0
 15A
-Text HLabel 1400 4200 2    50   Input ~ 0
-VDD_BED
-Text HLabel 1400 4300 2    50   Input ~ 0
-BED_OUT
 $Comp
 L Connector_Generic:Conn_01x02 J3
 U 1 1 5BC6AB00
@@ -377,10 +337,6 @@ F 3 "~" H 1200 4700 50  0001 C CNN
 	1    1200 4700
 	-1   0    0    -1  
 $EndComp
-Text HLabel 1400 4700 2    50   Input ~ 0
-VDD_HEAT1
-Text HLabel 1400 4800 2    50   Input ~ 0
-HEAT1_OUT
 $Comp
 L Connector_Generic:Conn_01x02 J4
 U 1 1 5BC6C5E7
@@ -392,10 +348,6 @@ F 3 "~" H 1200 5200 50  0001 C CNN
 	1    1200 5200
 	-1   0    0    -1  
 $EndComp
-Text HLabel 1400 5200 2    50   Input ~ 0
-VDD_HEAT2
-Text HLabel 1400 5300 2    50   Input ~ 0
-HEAT2_OUT
 Wire Wire Line
 	7000 2350 7900 2350
 Wire Wire Line
@@ -500,8 +452,6 @@ Wire Wire Line
 Wire Wire Line
 	2750 5600 2950 5600
 Connection ~ 2950 5600
-Text HLabel 4200 5600 2    50   Output ~ 0
-VDD_BED
 $Comp
 L Device:Fuse F3
 U 1 1 5BC3EA26
@@ -704,59 +654,144 @@ Wire Wire Line
 Wire Wire Line
 	2950 5600 3550 5600
 $Comp
-L Device:CP C3
-U 1 1 5BEFFED4
-P 3550 3950
-F 0 "C3" H 3668 3996 50  0000 L CNN
-F 1 "100uF" H 3668 3905 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 3588 3800 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/865080545012?qs=0KOYDY2FL297tvB6LOdg5A%3d%3d" H 3550 3950 50  0001 C CNN
-	1    3550 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP C4
-U 1 1 5BF01408
-P 3550 4550
-F 0 "C4" H 3668 4596 50  0000 L CNN
-F 1 "100uF" H 3668 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 3588 4400 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/865080545012?qs=0KOYDY2FL297tvB6LOdg5A%3d%3d" H 3550 4550 50  0001 C CNN
-	1    3550 4550
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP C5
-U 1 1 5BF0293A
+U 1 1 5BC4FDD0
 P 3550 5150
 F 0 "C5" H 3668 5196 50  0000 L CNN
 F 1 "100uF" H 3668 5105 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 3588 5000 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/865080545012?qs=0KOYDY2FL297tvB6LOdg5A%3d%3d" H 3550 5150 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 3588 5000 50  0001 C CNN
+F 3 "" H 3550 5150 50  0001 C CNN
 	1    3550 5150
 	1    0    0    -1  
 $EndComp
 $Comp
+L Device:CP C4
+U 1 1 5BC51306
+P 3550 4550
+F 0 "C4" H 3668 4596 50  0000 L CNN
+F 1 "100uF" H 3668 4505 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 3588 4400 50  0001 C CNN
+F 3 "" H 3550 4550 50  0001 C CNN
+	1    3550 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C3
+U 1 1 5BC52840
+P 3550 3950
+F 0 "C3" H 3668 3996 50  0000 L CNN
+F 1 "100uF" H 3668 3905 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 3588 3800 50  0001 C CNN
+F 3 "" H 3550 3950 50  0001 C CNN
+	1    3550 3950
+	1    0    0    -1  
+$EndComp
+$Comp
 L Device:CP C6
-U 1 1 5BF03E76
+U 1 1 5BC53D94
 P 3550 5750
 F 0 "C6" H 3668 5796 50  0000 L CNN
 F 1 "100uF" H 3668 5705 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 3588 5600 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Wurth-Electronics/865080545012?qs=0KOYDY2FL297tvB6LOdg5A%3d%3d" H 3550 5750 50  0001 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 3588 5600 50  0001 C CNN
+F 3 "" H 3550 5750 50  0001 C CNN
 	1    3550 5750
 	1    0    0    -1  
 $EndComp
+Connection ~ 3550 5600
+Wire Wire Line
+	3550 5600 4050 5600
+Connection ~ 3550 5000
+Wire Wire Line
+	3550 5000 4050 5000
 Connection ~ 3550 4400
 Wire Wire Line
 	3550 4400 4050 4400
 Connection ~ 3550 3800
 Wire Wire Line
 	3550 3800 4050 3800
-Connection ~ 3550 5000
+$Comp
+L Device:C C14
+U 1 1 5BCBCE1D
+P 7000 1900
+F 0 "C14" H 7115 1946 50  0000 L CNN
+F 1 "22uF" H 7115 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 7038 1750 50  0001 C CNN
+F 3 "~" H 7000 1900 50  0001 C CNN
+	1    7000 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 5BCC4BBE
+P 6650 1750
+AR Path="/5BC1C8A4/5BCC4BBE" Ref="FB?"  Part="1" 
+AR Path="/5BC54251/5BCC4BBE" Ref="FB1"  Part="1" 
+F 0 "FB1" V 6800 1700 50  0000 C CNN
+F 1 "MPZ1608S221A" V 6900 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 1750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/400/eads_commercial_power_mpz1608_en-923650.pdf" H 6650 1750 50  0001 C CNN
+	1    6650 1750
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	3550 5000 4050 5000
-Connection ~ 3550 5600
+	6350 1750 6550 1750
+$Comp
+L Device:C C15
+U 1 1 5BCCA55E
+P 8450 1900
+F 0 "C15" H 8565 1946 50  0000 L CNN
+F 1 "10uF" H 8565 1855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 8488 1750 50  0001 C CNN
+F 3 "~" H 8450 1900 50  0001 C CNN
+	1    8450 1900
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3550 5600 4050 5600
+	8250 1750 8450 1750
+Connection ~ 8450 1750
+Wire Wire Line
+	8450 1750 8900 1750
+Wire Wire Line
+	6750 1750 7000 1750
+Wire Wire Line
+	7000 1750 7350 1750
+Connection ~ 7000 1750
+Connection ~ 7350 1750
+Text GLabel 4200 5600 2    50   Input ~ 0
+VDD_BED
+Text GLabel 4200 4400 2    50   Input ~ 0
+VDD_HEAT1
+Text GLabel 4200 5000 2    50   Input ~ 0
+VDD_HEAT2
+Text GLabel 1400 4200 2    50   Input ~ 0
+VDD_BED
+Text GLabel 1400 4700 2    50   Input ~ 0
+VDD_HEAT1
+Text GLabel 1400 5200 2    50   Input ~ 0
+VDD_HEAT2
+Text GLabel 1400 4300 2    50   Input ~ 0
+BED_OUT
+Text GLabel 1400 4800 2    50   Input ~ 0
+HEAT1_OUT
+Text GLabel 1400 5300 2    50   Input ~ 0
+HEAT2_OUT
+$Comp
+L Jumper:Jumper_3_Bridged12 JP2
+U 1 1 5BC68888
+P 7900 3850
+F 0 "JP2" H 7900 4054 50  0000 C CNN
+F 1 "Jumper_3_Bridged12" H 7900 3963 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7900 3850 50  0001 C CNN
+F 3 "~" H 7900 3850 50  0001 C CNN
+	1    7900 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 7650 3850 0    50   Input ~ 0
+VDD5V
+Text GLabel 8150 3850 2    50   Input ~ 0
+VDD24V
+Text GLabel 7900 4000 3    50   Input ~ 0
+VDD_FAN
+Text Notes 6450 3150 0    157  ~ 31
+FAN Voltage Selection
 $EndSCHEMATC

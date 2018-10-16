@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 11
 Title "MCU"
 Date ""
 Rev ""
@@ -83,104 +83,59 @@ Text GLabel 950  7150 0    50   Input ~ 0
 VDD3V3
 $Comp
 L Device:C C16
-U 1 1 5AD093F4
-P 1200 7300
-F 0 "C16" H 1315 7346 50  0000 L CNN
-F 1 "4.7uF" H 1315 7255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1238 7150 50  0001 C CNN
-F 3 "~" H 1200 7300 50  0001 C CNN
-	1    1200 7300
+U 1 1 5AD0945E
+P 1150 7300
+F 0 "C16" H 1265 7346 50  0000 L CNN
+F 1 "100nF" H 1265 7255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1188 7150 50  0001 C CNN
+F 3 "~" H 1150 7300 50  0001 C CNN
+	1    1150 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C17
-U 1 1 5AD0945E
-P 1650 7300
-F 0 "C17" H 1765 7346 50  0000 L CNN
-F 1 "100nF" H 1765 7255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1688 7150 50  0001 C CNN
-F 3 "~" H 1650 7300 50  0001 C CNN
-	1    1650 7300
+U 1 1 5AD09C8C
+P 1600 7300
+F 0 "C17" H 1715 7346 50  0000 L CNN
+F 1 "100nF" H 1715 7255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1638 7150 50  0001 C CNN
+F 3 "~" H 1600 7300 50  0001 C CNN
+	1    1600 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C22
-U 1 1 5AD09C8C
-P 2100 7300
-F 0 "C22" H 2215 7346 50  0000 L CNN
-F 1 "100nF" H 2215 7255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2138 7150 50  0001 C CNN
-F 3 "~" H 2100 7300 50  0001 C CNN
-	1    2100 7300
+U 1 1 5AD09D94
+P 2050 7300
+F 0 "C22" H 2165 7346 50  0000 L CNN
+F 1 "100nF" H 2165 7255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2088 7150 50  0001 C CNN
+F 3 "~" H 2050 7300 50  0001 C CNN
+	1    2050 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C25
-U 1 1 5AD09D94
-P 2550 7300
-F 0 "C25" H 2665 7346 50  0000 L CNN
-F 1 "100nF" H 2665 7255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2588 7150 50  0001 C CNN
-F 3 "~" H 2550 7300 50  0001 C CNN
-	1    2550 7300
+U 1 1 5AD09D9B
+P 2500 7300
+F 0 "C25" H 2615 7346 50  0000 L CNN
+F 1 "100nF" H 2615 7255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2538 7150 50  0001 C CNN
+F 3 "~" H 2500 7300 50  0001 C CNN
+	1    2500 7300
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C C26
-U 1 1 5AD09D9B
-P 3000 7300
-F 0 "C26" H 3115 7346 50  0000 L CNN
-F 1 "100nF" H 3115 7255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3038 7150 50  0001 C CNN
-F 3 "~" H 3000 7300 50  0001 C CNN
-	1    3000 7300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C28
 U 1 1 5AD09E94
-P 3450 7300
-F 0 "C28" H 3565 7346 50  0000 L CNN
-F 1 "100nF" H 3565 7255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3488 7150 50  0001 C CNN
-F 3 "~" H 3450 7300 50  0001 C CNN
-	1    3450 7300
+P 2950 7300
+F 0 "C26" H 3065 7346 50  0000 L CNN
+F 1 "100nF" H 3065 7255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2988 7150 50  0001 C CNN
+F 3 "~" H 2950 7300 50  0001 C CNN
+	1    2950 7300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	950  7150 1200 7150
-Connection ~ 1200 7150
-Wire Wire Line
-	1200 7150 1650 7150
-Connection ~ 1650 7150
-Wire Wire Line
-	1650 7150 2100 7150
-Connection ~ 2100 7150
-Wire Wire Line
-	2100 7150 2550 7150
-Connection ~ 2550 7150
-Wire Wire Line
-	2550 7150 3000 7150
-Connection ~ 3000 7150
-Wire Wire Line
-	3000 7150 3450 7150
-Connection ~ 1200 7450
-Wire Wire Line
-	1200 7450 950  7450
-Connection ~ 1650 7450
-Wire Wire Line
-	1650 7450 1200 7450
-Connection ~ 2100 7450
-Wire Wire Line
-	2100 7450 1650 7450
-Connection ~ 2550 7450
-Wire Wire Line
-	2550 7450 2100 7450
-Connection ~ 3000 7450
-Wire Wire Line
-	3000 7450 2550 7450
-Wire Wire Line
-	3450 7450 3000 7450
 Text Notes 1650 7550 0    50   ~ 0
 Place as close as possible to pins!
 Text Notes 1500 5700 0    157  ~ 31
@@ -354,10 +309,10 @@ F 3 "" H 10450 5700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB1
+L Device:Ferrite_Bead_Small FB2
 U 1 1 5AF6D789
 P 1250 6400
-F 0 "FB1" V 1013 6400 50  0000 C CNN
+F 0 "FB2" V 1013 6400 50  0000 C CNN
 F 1 "MPZ1608S221A" V 1104 6400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1180 6400 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/400/eads_commercial_power_mpz1608_en-923650.pdf" H 1250 6400 50  0001 C CNN
@@ -365,10 +320,10 @@ F 3 "https://www.mouser.de/datasheet/2/400/eads_commercial_power_mpz1608_en-9236
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB2
+L Device:Ferrite_Bead_Small FB3
 U 1 1 5AF6DF9B
 P 1350 6500
-F 0 "FB2" V 1500 6450 50  0000 C CNN
+F 0 "FB3" V 1500 6450 50  0000 C CNN
 F 1 "MPZ1608S221A" V 1600 6450 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 1280 6500 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/400/eads_commercial_power_mpz1608_en-923650.pdf" H 1350 6500 50  0001 C CNN
@@ -530,22 +485,16 @@ Wire Wire Line
 Text GLabel 5150 2300 0    50   Input ~ 0
 VDD3V3
 $Comp
-L Device:C C30
+L Device:C C28
 U 1 1 5BC224AB
-P 3900 7300
-F 0 "C30" H 4015 7346 50  0000 L CNN
-F 1 "100nF" H 4015 7255 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3938 7150 50  0001 C CNN
-F 3 "~" H 3900 7300 50  0001 C CNN
-	1    3900 7300
+P 3400 7300
+F 0 "C28" H 3515 7346 50  0000 L CNN
+F 1 "100nF" H 3515 7255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3438 7150 50  0001 C CNN
+F 3 "~" H 3400 7300 50  0001 C CNN
+	1    3400 7300
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3450 7150 3900 7150
-Connection ~ 3450 7150
-Wire Wire Line
-	3450 7450 3900 7450
-Connection ~ 3450 7450
 Wire Wire Line
 	1300 4350 1300 4550
 Wire Wire Line
@@ -600,7 +549,7 @@ L Device:R R7
 U 1 1 5BCD0D7A
 P 9600 5950
 F 0 "R7" H 9400 5900 50  0000 L CNN
-F 1 "47k" H 9400 6000 50  0000 L CNN
+F 1 "4.7k" H 9400 6000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9530 5950 50  0001 C CNN
 F 3 "~" H 9600 5950 50  0001 C CNN
 	1    9600 5950
@@ -613,7 +562,7 @@ L Device:R R8
 U 1 1 5BCDCE1E
 P 9900 5950
 F 0 "R8" H 9700 5900 50  0000 L CNN
-F 1 "47k" H 9700 6000 50  0000 L CNN
+F 1 "4.7k" H 9700 6000 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9830 5950 50  0001 C CNN
 F 3 "~" H 9900 5950 50  0001 C CNN
 	1    9900 5950
@@ -713,4 +662,38 @@ Wire Wire Line
 Connection ~ 7850 5100
 Wire Wire Line
 	7850 5100 7850 4600
+Wire Wire Line
+	950  7150 1150 7150
+Wire Wire Line
+	950  7450 1150 7450
+Connection ~ 1150 7150
+Wire Wire Line
+	1150 7150 1600 7150
+Connection ~ 1150 7450
+Wire Wire Line
+	1150 7450 1600 7450
+Connection ~ 1600 7150
+Connection ~ 1600 7450
+Connection ~ 2050 7150
+Connection ~ 2050 7450
+Connection ~ 2500 7150
+Connection ~ 2500 7450
+Connection ~ 2950 7150
+Connection ~ 2950 7450
+Wire Wire Line
+	1600 7150 2050 7150
+Wire Wire Line
+	2050 7150 2500 7150
+Wire Wire Line
+	2500 7150 2950 7150
+Wire Wire Line
+	2950 7150 3400 7150
+Wire Wire Line
+	2050 7450 2500 7450
+Wire Wire Line
+	2500 7450 2950 7450
+Wire Wire Line
+	2950 7450 3400 7450
+Wire Wire Line
+	1600 7450 2050 7450
 $EndSCHEMATC

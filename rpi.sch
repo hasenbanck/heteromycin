@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 7
+Sheet 2 11
 Title "Raspberry Pi Connector"
 Date ""
 Rev ""
@@ -470,4 +470,37 @@ F 3 "" H 3850 2500 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 NoConn ~ 2650 1900
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5BC57D78
+P 9050 4600
+F 0 "H5" H 8900 4700 60  0000 C CNN
+F 1 "3mm_Mounting_Hole" H 9050 4450 60  0000 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 8950 4600 60  0001 C CNN
+F 3 "" H 8950 4600 60  0001 C CNN
+	1    9050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5BC57D7F
+P 10000 4600
+F 0 "H7" H 9850 4700 60  0000 C CNN
+F 1 "3mm_Mounting_Hole" H 10000 4450 60  0000 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 9900 4600 60  0001 C CNN
+F 3 "" H 9900 4600 60  0001 C CNN
+	1    10000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H6
+U 1 1 5BC57D86
+P 9050 5100
+F 0 "H6" H 8900 5200 60  0000 C CNN
+F 1 "3mm_Mounting_Hole" H 9050 4950 60  0000 C CNN
+F 2 "MountingHole:MountingHole_3mm" H 8950 5100 60  0001 C CNN
+F 3 "" H 8950 5100 60  0001 C CNN
+	1    9050 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

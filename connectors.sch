@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 11
 Title "Connectors"
 Date ""
 Rev ""
@@ -76,10 +76,10 @@ F 3 "" H 2600 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C31
+L Device:C C30
 U 1 1 5B1719D4
 P 1050 3450
-F 0 "C31" H 1165 3496 50  0000 L CNN
+F 0 "C30" H 1165 3496 50  0000 L CNN
 F 1 "100nF" H 1165 3405 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 3300 50  0001 C CNN
 F 3 "~" H 1050 3450 50  0001 C CNN
@@ -159,8 +159,6 @@ Text HLabel 4050 6900 0    50   Input ~ 0
 Z_MIN
 Text HLabel 4050 5700 0    50   Input ~ 0
 Y_MIN
-Text HLabel 4600 1300 0    50   Input ~ 0
-FAN1_OUT
 Text GLabel 4600 1400 0    50   Input ~ 0
 VDD_FAN
 NoConn ~ 1300 1750
@@ -177,15 +175,13 @@ F 3 "https://www.mouser.de/ProductDetail/Molex/70543-0003?qs=sGAEpiMZZMs%252bGHl
 	1    0    0    -1  
 $EndComp
 Text HLabel 4600 3000 0    50   Input ~ 0
-Z_OA1
+Z_BMB1
 Text HLabel 4600 3100 0    50   Input ~ 0
-Z_OA2
+Z_BMB2
 Text HLabel 4600 3300 0    50   Input ~ 0
-Z_OB2
+Z_BMA2
 Text HLabel 4600 3200 0    50   Input ~ 0
-Z_OB1
-Text HLabel 4600 1600 0    50   Input ~ 0
-FAN2_OUT
+Z_BMA1
 Text GLabel 4600 1700 0    50   Input ~ 0
 VDD_FAN
 $Comp
@@ -348,10 +344,10 @@ VDD3V3
 Wire Wire Line
 	2150 4500 2150 4400
 $Comp
-L Device:C C32
+L Device:C C31
 U 1 1 5B56580A
 P 1050 4650
-F 0 "C32" H 1165 4696 50  0000 L CNN
+F 0 "C31" H 1165 4696 50  0000 L CNN
 F 1 "100nF" H 1165 4605 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 4500 50  0001 C CNN
 F 3 "~" H 1050 4650 50  0001 C CNN
@@ -426,10 +422,10 @@ VDD3V3
 Wire Wire Line
 	2150 5700 2150 5600
 $Comp
-L Device:C C33
+L Device:C C32
 U 1 1 5B57C5D0
 P 1050 5850
-F 0 "C33" H 1165 5896 50  0000 L CNN
+F 0 "C32" H 1165 5896 50  0000 L CNN
 F 1 "100nF" H 1165 5805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 5700 50  0001 C CNN
 F 3 "~" H 1050 5850 50  0001 C CNN
@@ -576,10 +572,10 @@ VDD3V3
 Wire Wire Line
 	2150 6900 2150 6800
 $Comp
-L Device:C C34
+L Device:C C33
 U 1 1 5BC983BD
 P 1050 7050
-F 0 "C34" H 1165 7096 50  0000 L CNN
+F 0 "C33" H 1165 7096 50  0000 L CNN
 F 1 "100nF" H 1165 7005 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 1088 6900 50  0001 C CNN
 F 3 "~" H 1050 7050 50  0001 C CNN
@@ -788,12 +784,8 @@ F 3 "https://www.mouser.de/ProductDetail/Molex/50-57-9402?qs=%2fha2pyFadujDsSJKP
 	1    4800 1300
 	1    0    0    -1  
 $EndComp
-Text HLabel 4600 1900 0    50   Input ~ 0
-FAN3_OUT
 Text GLabel 4600 2000 0    50   Input ~ 0
 VDD_FAN
-Text HLabel 4600 2200 0    50   Input ~ 0
-FAN4_OUT
 Text GLabel 4600 2300 0    50   Input ~ 0
 VDD_FAN
 Text Notes 8100 1050 0    157  ~ 31
@@ -912,4 +904,12 @@ F 3 "" H 2800 6900 50  0001 C CNN
 	1    2800 6900
 	1    0    0    -1  
 $EndComp
+Text GLabel 4600 1300 0    50   Input ~ 0
+FAN1_OUT
+Text GLabel 4600 1600 0    50   Input ~ 0
+FAN2_OUT
+Text GLabel 4600 1900 0    50   Input ~ 0
+FAN3_OUT
+Text GLabel 4600 2200 0    50   Input ~ 0
+FAN4_OUT
 $EndSCHEMATC

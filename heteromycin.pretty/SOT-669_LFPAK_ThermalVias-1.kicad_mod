@@ -1,4 +1,4 @@
-(module SOT-669_LFPAK_ThermalVias-1 (layer F.Cu) (tedit 5BB5DF7E)
+(module SOT-669_LFPAK_ThermalVias-1 (layer F.Cu) (tedit 5BC4BD75)
   (descr "LFPAK https://assets.nexperia.com/documents/leaflet/939775016838_LR.pdf")
   (tags "LFPAK SOT669 Thermal Vias 0.4mm Power-SO8")
   (solder_mask_margin 0.07)
@@ -134,7 +134,7 @@
     (zone_connect 2))
   (pad 5 smd rect (at 0.445 2.2 270) (size 0.6 3.3) (layers F.Cu)
     (zone_connect 2))
-  (model ${KIPRJMOD}/packages3d/SOT669.step
+  (model ${KIPRJMOD}/packages3d/SOT669.stp
     (offset (xyz -0.5 0 0.25))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
