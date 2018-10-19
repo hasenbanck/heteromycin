@@ -801,43 +801,6 @@ F 3 "~" H 8350 2200 50  0001 C CNN
 	1    8350 2200
 	1    0    0    -1  
 $EndComp
-Text Label 5550 4500 0    50   ~ 0
-X_MIN
-Text Label 5550 5700 0    50   ~ 0
-Y_MIN
-Text Label 5550 6900 0    50   ~ 0
-Z_MIN
-Text Label 8650 1300 0    50   ~ 0
-X_MIN
-Text Label 8650 1400 0    50   ~ 0
-Y_MIN
-Text Label 8650 1500 0    50   ~ 0
-Z_MIN
-$Comp
-L power:GND #PWR061
-U 1 1 5BD3671D
-P 7200 3300
-F 0 "#PWR061" H 7200 3050 50  0001 C CNN
-F 1 "GND" H 7205 3127 50  0000 C CNN
-F 2 "" H 7200 3300 50  0001 C CNN
-F 3 "" H 7200 3300 50  0001 C CNN
-	1    7200 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7200 3300 7200 1500
-Wire Wire Line
-	7200 1300 8150 1300
-Connection ~ 7200 1400
-Wire Wire Line
-	7200 1400 7200 1300
-Wire Wire Line
-	7200 1400 8150 1400
-Wire Wire Line
-	8150 1500 7200 1500
-Connection ~ 7200 1500
-Wire Wire Line
-	7200 1500 7200 1400
 $Comp
 L Connector_Generic:Conn_01x02 J11
 U 1 1 5BC6B4B4
@@ -912,4 +875,122 @@ Text GLabel 4600 1900 0    50   Input ~ 0
 FAN3_OUT
 Text GLabel 4600 2200 0    50   Input ~ 0
 FAN4_OUT
+$Comp
+L Connector_Generic:Conn_01x03 J22
+U 1 1 5BCA3C01
+P 5750 4600
+F 0 "J22" H 5830 4642 50  0000 L CNN
+F 1 "Conn_01x03" H 5830 4551 50  0000 L CNN
+F 2 "heteromycin:70543-0002" H 5750 4600 50  0001 C CNN
+F 3 "~" H 5750 4600 50  0001 C CNN
+	1    5750 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J23
+U 1 1 5BCAFD14
+P 5750 5800
+F 0 "J23" H 5830 5842 50  0000 L CNN
+F 1 "Conn_01x03" H 5830 5751 50  0000 L CNN
+F 2 "heteromycin:70543-0002" H 5750 5800 50  0001 C CNN
+F 3 "~" H 5750 5800 50  0001 C CNN
+	1    5750 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J24
+U 1 1 5BCB490A
+P 5750 7000
+F 0 "J24" H 5830 7042 50  0000 L CNN
+F 1 "Conn_01x03" H 5830 6951 50  0000 L CNN
+F 2 "heteromycin:70543-0002" H 5750 7000 50  0001 C CNN
+F 3 "~" H 5750 7000 50  0001 C CNN
+	1    5750 7000
+	1    0    0    -1  
+$EndComp
+Text GLabel 5550 7100 0    50   Input ~ 0
+VDD3V3
+$Comp
+L power:GND #PWR072
+U 1 1 5BCB635E
+P 5550 7000
+F 0 "#PWR072" H 5550 6750 50  0001 C CNN
+F 1 "GND" V 5555 6872 50  0000 R CNN
+F 2 "" H 5550 7000 50  0001 C CNN
+F 3 "" H 5550 7000 50  0001 C CNN
+	1    5550 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR071
+U 1 1 5BCB65D2
+P 5550 5800
+F 0 "#PWR071" H 5550 5550 50  0001 C CNN
+F 1 "GND" V 5555 5672 50  0000 R CNN
+F 2 "" H 5550 5800 50  0001 C CNN
+F 3 "" H 5550 5800 50  0001 C CNN
+	1    5550 5800
+	0    1    1    0   
+$EndComp
+Text GLabel 5550 5900 0    50   Input ~ 0
+VDD3V3
+Text GLabel 5550 4700 0    50   Input ~ 0
+VDD3V3
+$Comp
+L power:GND #PWR061
+U 1 1 5BCBB169
+P 5550 4600
+F 0 "#PWR061" H 5550 4350 50  0001 C CNN
+F 1 "GND" V 5555 4472 50  0000 R CNN
+F 2 "" H 5550 4600 50  0001 C CNN
+F 3 "" H 5550 4600 50  0001 C CNN
+	1    5550 4600
+	0    1    1    0   
+$EndComp
+Text GLabel 8650 1300 2    50   Input ~ 0
+VDD5V
+Text GLabel 8650 1400 2    50   Input ~ 0
+VDD5V
+Text GLabel 8150 1300 0    50   Input ~ 0
+VDD5V
+Text GLabel 8150 1400 0    50   Input ~ 0
+VDD5V
+$Comp
+L power:GND #PWR?
+U 1 1 5BCCC745
+P 7500 3250
+F 0 "#PWR?" H 7500 3000 50  0001 C CNN
+F 1 "GND" H 7505 3077 50  0000 C CNN
+F 2 "" H 7500 3250 50  0001 C CNN
+F 3 "" H 7500 3250 50  0001 C CNN
+	1    7500 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5BCCC827
+P 9250 3250
+F 0 "#PWR?" H 9250 3000 50  0001 C CNN
+F 1 "GND" H 9255 3077 50  0000 C CNN
+F 2 "" H 9250 3250 50  0001 C CNN
+F 3 "" H 9250 3250 50  0001 C CNN
+	1    9250 3250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7500 3250 7500 1500
+Wire Wire Line
+	7500 1500 8150 1500
+Wire Wire Line
+	9250 3250 9250 1500
+Wire Wire Line
+	9250 1500 8650 1500
+Text GLabel 8150 1600 0    50   Input ~ 0
+VDD3V3
+Text GLabel 8650 1600 2    50   Input ~ 0
+VDD3V3
+Text GLabel 8150 1700 0    50   Input ~ 0
+VDD3V3
+Text GLabel 8650 1700 2    50   Input ~ 0
+VDD3V3
 $EndSCHEMATC
