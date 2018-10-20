@@ -360,17 +360,6 @@ F 3 "" H 950 7450 50  0001 C CNN
 	1    950  7450
 	0    1    1    0   
 $EndComp
-$Comp
-L heteromycin:STM32F765VIT6 U5
-U 1 1 5AD0AB9A
-P 6750 3000
-F 0 "U5" H 6750 3000 50  0000 L CNN
-F 1 "STM32F765VIT6" H 6500 2900 50  0000 L CNN
-F 2 "heteromycin:TQFP-100_14x14mm_P0.5mm" H 6750 3000 50  0001 C CNN
-F 3 "http://www.st.com/en/microcontrollers/stm32f765vi.html" H 6750 3000 50  0001 C CNN
-	1    6750 3000
-	1    0    0    -1  
-$EndComp
 Text HLabel 10400 6200 2    50   Input ~ 0
 BOOT
 Text Notes 6500 950  0    157  ~ 31
@@ -696,4 +685,149 @@ Wire Wire Line
 	2950 7450 3400 7450
 Wire Wire Line
 	1600 7450 2050 7450
+Text HLabel 5150 2100 0    50   Input ~ 0
+PWM_BED
+Text HLabel 5150 2200 0    50   Input ~ 0
+PWM_HEAT2
+Text HLabel 5150 3500 0    50   Input ~ 0
+TEMP1
+Text HLabel 5150 3400 0    50   Input ~ 0
+TEMP2
+Text HLabel 5150 3300 0    50   Input ~ 0
+TEMP3
+Text HLabel 5150 3200 0    50   Input ~ 0
+TEMP4
+Text HLabel 5150 3900 0    50   Input ~ 0
+PWM_HEAT1
+Text HLabel 5150 4000 0    50   Input ~ 0
+STEP_Z
+Text HLabel 5150 4100 0    50   Input ~ 0
+STEP_Y
+Text HLabel 5150 4200 0    50   Input ~ 0
+STEP_X
+Text HLabel 5850 4600 3    50   Input ~ 0
+SPI1_SCK
+Text HLabel 5950 4600 3    50   Input ~ 0
+SPI1_MISO
+Text HLabel 6050 4600 3    50   Input ~ 0
+SPI1_MOSI
+NoConn ~ 6150 4600
+NoConn ~ 6850 4600
+NoConn ~ 6950 4600
+Text HLabel 6350 4600 3    50   Input ~ 0
+SS_Z
+Text HLabel 6250 4600 3    50   Input ~ 0
+DIR_Z
+Text HLabel 6550 4600 3    50   Input ~ 0
+SS_Y
+Text HLabel 6450 4600 3    50   Input ~ 0
+DIR_Y
+Text HLabel 6750 4600 3    50   Input ~ 0
+SS_X
+Text HLabel 5750 4600 3    50   Input ~ 0
+MCU_SS
+Text HLabel 7150 4600 3    50   Input ~ 0
+SPI4_SCK
+Text HLabel 7250 4600 3    50   Input ~ 0
+SPI4_MISO
+NoConn ~ 7450 4600
+Text HLabel 7350 4600 3    50   Input ~ 0
+SPI4_MOSI
+Text HLabel 7550 4600 3    50   Input ~ 0
+DIR_E1
+Text HLabel 8350 4200 2    50   Input ~ 0
+SS_E1
+Text HLabel 8350 4100 2    50   Input ~ 0
+DIR_E0
+Text HLabel 8350 3700 2    50   Input ~ 0
+SS_E0
+Text HLabel 8350 4000 2    50   Input ~ 0
+STEP_E1
+Text HLabel 8350 3900 2    50   Input ~ 0
+STEP_E0
+Text HLabel 8350 3400 2    50   Input ~ 0
+PWM_FAN1
+Text HLabel 8350 3300 2    50   Input ~ 0
+PWM_FAN2
+Text HLabel 8350 3200 2    50   Input ~ 0
+PWM_FAN3
+Text HLabel 8350 3100 2    50   Input ~ 0
+PWM_FAN4
+Text HLabel 8350 2700 2    50   Input ~ 0
+PWM_EXT1
+Text HLabel 8350 2800 2    50   Input ~ 0
+PWM_EXT2
+Text HLabel 8350 2900 2    50   Input ~ 0
+PWM_EXT3
+Text HLabel 8350 3000 2    50   Input ~ 0
+PWM_EXT4
+Text HLabel 8350 2500 2    50   Input ~ 0
+USART1_TX
+Text HLabel 8350 2400 2    50   Input ~ 0
+USART1_RX
+NoConn ~ 8350 2300
+Text HLabel 8350 3600 2    50   Input ~ 0
+SS_SD
+NoConn ~ 8350 2600
+NoConn ~ 8350 2200
+Text HLabel 8350 2100 2    50   Input ~ 0
+SWDIO
+Text HLabel 7950 1400 1    50   Input ~ 0
+SWCLK
+Text HLabel 6650 1400 1    50   Input ~ 0
+SWO
+Text HLabel 7750 1400 1    50   Input ~ 0
+USART3_TX
+Text HLabel 7650 1400 1    50   Input ~ 0
+USART3_RX
+Text HLabel 6350 1400 1    50   Input ~ 0
+SCL
+Text HLabel 5950 1400 1    50   Input ~ 0
+SDA
+NoConn ~ 5150 2400
+NoConn ~ 7850 1400
+NoConn ~ 7550 1400
+NoConn ~ 7450 1400
+NoConn ~ 6750 1400
+NoConn ~ 6550 1400
+NoConn ~ 6450 1400
+NoConn ~ 6250 1400
+NoConn ~ 6050 1400
+NoConn ~ 5850 1400
+NoConn ~ 5750 1400
+Text HLabel 6650 4600 3    50   Input ~ 0
+DIR_X
+NoConn ~ 8350 3800
+NoConn ~ 7650 4600
+Text HLabel 8350 3500 2    50   Input ~ 0
+SD_DETECT
+NoConn ~ 7050 4600
+Text HLabel 5150 2000 0    50   Input ~ 0
+X_MIN
+Text HLabel 5150 1900 0    50   Input ~ 0
+Y_MIN
+Text HLabel 5150 1800 0    50   Input ~ 0
+Z_MIN
+$Comp
+L heteromycin:STM32F765VIT6 U5
+U 1 1 5AD0AB9A
+P 6750 3000
+F 0 "U5" H 6750 3000 50  0000 L CNN
+F 1 "STM32F765VIT6" H 6500 2900 50  0000 L CNN
+F 2 "heteromycin:TQFP-100_14x14mm_P0.5mm" H 6750 3000 50  0001 C CNN
+F 3 "http://www.st.com/en/microcontrollers/stm32f765vi.html" H 6750 3000 50  0001 C CNN
+	1    6750 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 6850 1400 1    50   Input ~ 0
+D1
+Text HLabel 6950 1400 1    50   Input ~ 0
+D2
+Text HLabel 7050 1400 1    50   Input ~ 0
+D3
+Text HLabel 7150 1400 1    50   Input ~ 0
+D4
+Text HLabel 7250 1400 1    50   Input ~ 0
+D5
+NoConn ~ 7350 1400
 $EndSCHEMATC

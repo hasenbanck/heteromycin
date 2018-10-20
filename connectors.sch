@@ -970,11 +970,7 @@ F 3 "" H 9250 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7500 3250 7500 3000
-Wire Wire Line
 	7500 1500 8150 1500
-Wire Wire Line
-	9250 3250 9250 3000
 Wire Wire Line
 	9250 1500 8650 1500
 Text GLabel 8150 1600 0    50   Input ~ 0
@@ -986,12 +982,6 @@ VDD3V3
 Text GLabel 8650 1700 2    50   Input ~ 0
 VDD3V3
 Wire Wire Line
-	8650 3000 9250 3000
-Connection ~ 9250 3000
-Wire Wire Line
-	7500 3000 8150 3000
-Connection ~ 7500 3000
-Wire Wire Line
 	8650 1800 9250 1800
 Connection ~ 9250 1800
 Wire Wire Line
@@ -1001,10 +991,6 @@ Wire Wire Line
 Connection ~ 7500 1800
 Wire Wire Line
 	7500 1800 7500 1500
-Wire Wire Line
-	7500 1800 7500 3000
-Wire Wire Line
-	9250 1800 9250 3000
 Text HLabel 4600 3200 0    50   Input ~ 0
 Z_BMA1
 Text HLabel 4600 3300 0    50   Input ~ 0
@@ -1013,4 +999,70 @@ Text HLabel 4600 3100 0    50   Input ~ 0
 Z_BMB2
 Text HLabel 4600 3000 0    50   Input ~ 0
 Z_BMB1
+Text HLabel 8150 3100 0    50   Input ~ 0
+PWM_EXT1
+Text HLabel 8650 3100 2    50   Input ~ 0
+PWM_EXT2
+Text HLabel 8150 3200 0    50   Input ~ 0
+PWM_EXT3
+Text HLabel 8650 3200 2    50   Input ~ 0
+PWM_EXT4
+Text HLabel 8650 1900 2    50   Input ~ 0
+SDA
+Text HLabel 8150 1900 0    50   Input ~ 0
+SCL
+Text HLabel 8150 2000 0    50   Input ~ 0
+MCU_SCK
+Text HLabel 8150 2200 0    50   Input ~ 0
+MCU_MOSI
+Text HLabel 8150 2100 0    50   Input ~ 0
+MCU_MISO
+Text HLabel 8150 2300 0    50   Input ~ 0
+MCU_D1
+Text HLabel 8150 2400 0    50   Input ~ 0
+MCU_D2
+Text HLabel 8150 2500 0    50   Input ~ 0
+MCU_D3
+Text HLabel 8150 2800 0    50   Input ~ 0
+TX
+Text HLabel 8650 2800 2    50   Input ~ 0
+RX
+Text HLabel 8150 2600 0    50   Input ~ 0
+MCU_D4
+Text HLabel 8150 2700 0    50   Input ~ 0
+MCU_D5
+Text HLabel 8650 2200 2    50   Input ~ 0
+PI_SCK
+Text HLabel 8650 2700 2    50   Input ~ 0
+PI_SS1
+Text HLabel 8650 2300 2    50   Input ~ 0
+PI_D1
+Text HLabel 8650 2400 2    50   Input ~ 0
+PI_D2
+Text HLabel 8650 2000 2    50   Input ~ 0
+PI_MOSI
+Text HLabel 8650 2100 2    50   Input ~ 0
+PI_MISO
+Text HLabel 8650 2500 2    50   Input ~ 0
+PI_D3
+Text HLabel 8650 2600 2    50   Input ~ 0
+PI_D4
+Wire Wire Line
+	7500 1800 7500 2900
+Wire Wire Line
+	9250 1800 9250 2900
+Text GLabel 8650 3000 2    50   Input ~ 0
+VDD3V3
+Text GLabel 8150 3000 0    50   Input ~ 0
+VDD3V3
+Wire Wire Line
+	8650 2900 9250 2900
+Connection ~ 9250 2900
+Wire Wire Line
+	9250 2900 9250 3250
+Wire Wire Line
+	8150 2900 7500 2900
+Connection ~ 7500 2900
+Wire Wire Line
+	7500 2900 7500 3250
 $EndSCHEMATC

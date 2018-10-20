@@ -492,4 +492,45 @@ F 3 "" H 8950 5100 60  0001 C CNN
 	1    9050 5100
 	1    0    0    -1  
 $EndComp
+Text HLabel 2650 1200 0    50   Input ~ 0
+SDA
+Text HLabel 2650 1300 0    50   Input ~ 0
+SCL
+Text HLabel 2650 1400 0    50   Input ~ 0
+BOOT
+Text HLabel 3850 1600 2    50   Input ~ 0
+nRESET
+Text HLabel 3850 1400 2    50   Input ~ 0
+TX
+Text HLabel 3850 1500 2    50   Input ~ 0
+RX
+Text HLabel 2650 2000 0    50   Input ~ 0
+MOSI
+Text HLabel 2650 2100 0    50   Input ~ 0
+MISO
+Text HLabel 2650 2200 0    50   Input ~ 0
+SCLK
+Text HLabel 3850 2200 2    50   Input ~ 0
+SS_0
+Text HLabel 3850 2300 2    50   Input ~ 0
+SS_1
+Text HLabel 2650 2500 0    50   Input ~ 0
+D1
+Text HLabel 2650 2600 0    50   Input ~ 0
+D2
+Text HLabel 2650 2700 0    50   Input ~ 0
+D3
+Text HLabel 2650 2800 0    50   Input ~ 0
+D4
+NoConn ~ 2650 1600
+NoConn ~ 2650 1700
+NoConn ~ 2650 1800
+NoConn ~ 2650 2900
+NoConn ~ 3850 1800
+NoConn ~ 3850 1900
+NoConn ~ 3850 2100
+NoConn ~ 3850 2600
+NoConn ~ 3850 2800
+NoConn ~ 3850 2900
+NoConn ~ 3850 3000
 $EndSCHEMATC
