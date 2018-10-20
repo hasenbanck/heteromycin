@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 10 12
+Sheet 7 12
 Title "Motor"
 Date ""
 Rev ""
@@ -113,14 +113,6 @@ VDD3V3
 Connection ~ 1800 1500
 Wire Wire Line
 	1800 1500 2300 1500
-Text HLabel 4700 7200 0    50   Input ~ 0
-BMA1
-Text HLabel 4700 7300 0    50   Input ~ 0
-BMA2
-Text HLabel 4700 7100 0    50   Input ~ 0
-BMB2
-Text HLabel 4700 7000 0    50   Input ~ 0
-BMB1
 Text GLabel 1500 1100 0    50   Input ~ 0
 VDD24V
 Wire Wire Line
@@ -287,12 +279,7 @@ SRBL
 Wire Wire Line
 	3150 2200 3150 2700
 Wire Wire Line
-	3150 2800 3550 2800
-Wire Wire Line
 	3550 2700 3150 2700
-Connection ~ 3150 2700
-Wire Wire Line
-	3150 2700 3150 2800
 Wire Wire Line
 	3150 2200 3550 2200
 Connection ~ 3150 2200
@@ -820,10 +807,6 @@ Wire Wire Line
 	8450 5150 8450 4850
 Connection ~ 8450 5150
 Connection ~ 8450 4700
-Text HLabel 10950 4850 2    50   Input ~ 0
-BMA1
-Text HLabel 10950 5050 2    50   Input ~ 0
-BMA2
 Connection ~ 8450 4850
 Wire Wire Line
 	8450 4850 8450 4800
@@ -1231,10 +1214,6 @@ Wire Wire Line
 	8450 2250 8450 1950
 Connection ~ 8450 2250
 Connection ~ 8450 1800
-Text HLabel 10950 1950 2    50   Input ~ 0
-BMB1
-Text HLabel 10950 2150 2    50   Input ~ 0
-BMB2
 Connection ~ 8450 1950
 Wire Wire Line
 	8450 1950 8450 1900
@@ -1603,4 +1582,25 @@ F 3 "" H 10900 4150 50  0001 C CNN
 	1    10900 4150
 	1    0    0    -1  
 $EndComp
+Text HLabel 10950 5050 2    50   Input ~ 0
+BMA2
+Text HLabel 10950 4850 2    50   Input ~ 0
+BMA1
+Text HLabel 10950 2150 2    50   Input ~ 0
+BMB2
+Text HLabel 10950 1950 2    50   Input ~ 0
+BMB1
+Text HLabel 4700 7300 0    50   Input ~ 0
+BMA2
+Text HLabel 4700 7200 0    50   Input ~ 0
+BMA1
+Text HLabel 4700 7100 0    50   Input ~ 0
+BMB2
+Text HLabel 4700 7000 0    50   Input ~ 0
+BMB1
+Connection ~ 3150 2700
+Wire Wire Line
+	3150 2700 3150 2800
+Wire Wire Line
+	3150 2800 3550 2800
 $EndSCHEMATC

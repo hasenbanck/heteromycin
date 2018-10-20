@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 12 12
+Sheet 11 12
 Title ""
 Date ""
 Rev ""
@@ -34,7 +34,7 @@ MOSI
 Text HLabel 3450 3150 0    50   Input ~ 0
 SCK
 Text HLabel 3450 2850 0    50   Input ~ 0
-SS_SD
+SS
 $Comp
 L Device:R R?
 U 1 1 5BC83407

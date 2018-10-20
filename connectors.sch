@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 12
+Sheet 12 12
 Title "Connectors"
 Date ""
 Rev ""
@@ -174,14 +174,6 @@ F 3 "https://www.mouser.de/ProductDetail/Molex/70543-0003?qs=sGAEpiMZZMs%252bGHl
 	1    4800 3100
 	1    0    0    -1  
 $EndComp
-Text HLabel 4600 3000 0    50   Input ~ 0
-Z_BMB1
-Text HLabel 4600 3100 0    50   Input ~ 0
-Z_BMB2
-Text HLabel 4600 3300 0    50   Input ~ 0
-Z_BMA2
-Text HLabel 4600 3200 0    50   Input ~ 0
-Z_BMA1
 Text GLabel 4600 1700 0    50   Input ~ 0
 VDD_FAN
 $Comp
@@ -880,7 +872,7 @@ L Connector_Generic:Conn_01x03 J22
 U 1 1 5BCA3C01
 P 5750 4600
 F 0 "J22" H 5830 4642 50  0000 L CNN
-F 1 "Conn_01x03" H 5830 4551 50  0000 L CNN
+F 1 "70543-0002" H 5830 4551 50  0000 L CNN
 F 2 "heteromycin:70543-0002" H 5750 4600 50  0001 C CNN
 F 3 "~" H 5750 4600 50  0001 C CNN
 	1    5750 4600
@@ -891,7 +883,7 @@ L Connector_Generic:Conn_01x03 J23
 U 1 1 5BCAFD14
 P 5750 5800
 F 0 "J23" H 5830 5842 50  0000 L CNN
-F 1 "Conn_01x03" H 5830 5751 50  0000 L CNN
+F 1 "70543-0002" H 5830 5751 50  0000 L CNN
 F 2 "heteromycin:70543-0002" H 5750 5800 50  0001 C CNN
 F 3 "~" H 5750 5800 50  0001 C CNN
 	1    5750 5800
@@ -902,7 +894,7 @@ L Connector_Generic:Conn_01x03 J24
 U 1 1 5BCB490A
 P 5750 7000
 F 0 "J24" H 5830 7042 50  0000 L CNN
-F 1 "Conn_01x03" H 5830 6951 50  0000 L CNN
+F 1 "70543-0002" H 5830 6951 50  0000 L CNN
 F 2 "heteromycin:70543-0002" H 5750 7000 50  0001 C CNN
 F 3 "~" H 5750 7000 50  0001 C CNN
 	1    5750 7000
@@ -956,10 +948,10 @@ VDD5V
 Text GLabel 8150 1400 0    50   Input ~ 0
 VDD5V
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0129
 U 1 1 5BCCC745
 P 7500 3250
-F 0 "#PWR?" H 7500 3000 50  0001 C CNN
+F 0 "#PWR0129" H 7500 3000 50  0001 C CNN
 F 1 "GND" H 7505 3077 50  0000 C CNN
 F 2 "" H 7500 3250 50  0001 C CNN
 F 3 "" H 7500 3250 50  0001 C CNN
@@ -967,10 +959,10 @@ F 3 "" H 7500 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0130
 U 1 1 5BCCC827
 P 9250 3250
-F 0 "#PWR?" H 9250 3000 50  0001 C CNN
+F 0 "#PWR0130" H 9250 3000 50  0001 C CNN
 F 1 "GND" H 9255 3077 50  0000 C CNN
 F 2 "" H 9250 3250 50  0001 C CNN
 F 3 "" H 9250 3250 50  0001 C CNN
@@ -978,11 +970,11 @@ F 3 "" H 9250 3250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7500 3250 7500 1500
+	7500 3250 7500 3000
 Wire Wire Line
 	7500 1500 8150 1500
 Wire Wire Line
-	9250 3250 9250 1500
+	9250 3250 9250 3000
 Wire Wire Line
 	9250 1500 8650 1500
 Text GLabel 8150 1600 0    50   Input ~ 0
@@ -993,4 +985,32 @@ Text GLabel 8150 1700 0    50   Input ~ 0
 VDD3V3
 Text GLabel 8650 1700 2    50   Input ~ 0
 VDD3V3
+Wire Wire Line
+	8650 3000 9250 3000
+Connection ~ 9250 3000
+Wire Wire Line
+	7500 3000 8150 3000
+Connection ~ 7500 3000
+Wire Wire Line
+	8650 1800 9250 1800
+Connection ~ 9250 1800
+Wire Wire Line
+	9250 1800 9250 1500
+Wire Wire Line
+	8150 1800 7500 1800
+Connection ~ 7500 1800
+Wire Wire Line
+	7500 1800 7500 1500
+Wire Wire Line
+	7500 1800 7500 3000
+Wire Wire Line
+	9250 1800 9250 3000
+Text HLabel 4600 3200 0    50   Input ~ 0
+Z_BMA1
+Text HLabel 4600 3300 0    50   Input ~ 0
+Z_BMA2
+Text HLabel 4600 3100 0    50   Input ~ 0
+Z_BMB2
+Text HLabel 4600 3000 0    50   Input ~ 0
+Z_BMB1
 $EndSCHEMATC
