@@ -10,7 +10,7 @@ TMC5160 or TMC2160 driver (SD / SPI mode).
 
 ## Features
 
-* 32bit STM32F765VI 200Mhz / 512KB RAM / 2MB Flash MCU / 32 KB EEPROM
+* 32bit STM32F765VI 216Mhz / 512KiB RAM / 2MiB Flash MCU / 32 KiB EEPROM
 * Integrated Raspberry Pi 3 / Zero W HAT connector as the main user interface
 * Integrated DC/DC switching module for 5V / 3.3V power supply
 * 5x TMC5160 or TMC2160 stepper driver with 8x external Power MOSFET each
@@ -35,7 +35,7 @@ TMC5160 or TMC2160 driver (SD / SPI mode).
   * [x] Describe the general functionality and select the main components
   * [x] Draw the schematics of the PCB
   * [x] Placement & routing of the PCB
-  * [ ] Production of a debvelopment board
+  * [ ] Production of a development board
   * [ ] Testing the PCB
   * [ ] Repreat until hardware is finished
 * Software
