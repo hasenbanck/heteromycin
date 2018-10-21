@@ -508,11 +508,7 @@ Wire Wire Line
 	2200 5000 2450 5000
 Connection ~ 2200 4400
 Wire Wire Line
-	1400 4000 2050 4000
-Wire Wire Line
 	2050 4000 2050 5600
-Wire Wire Line
-	2050 5600 2450 5600
 Wire Wire Line
 	2950 3800 3550 3800
 Wire Wire Line
@@ -618,11 +614,7 @@ Wire Wire Line
 	8250 1750 8450 1750
 Connection ~ 8450 1750
 Wire Wire Line
-	8450 1750 8900 1750
-Wire Wire Line
 	6750 1750 7000 1750
-Wire Wire Line
-	7000 1750 7350 1750
 Connection ~ 7000 1750
 Connection ~ 7350 1750
 Text GLabel 4200 5600 2    50   Input ~ 0
@@ -788,9 +780,18 @@ Wire Wire Line
 Wire Wire Line
 	3750 1450 3750 1250
 Connection ~ 3750 1250
-Wire Wire Line
-	3750 1250 4550 1250
 Connection ~ 2050 1250
 Wire Wire Line
 	2050 1250 2450 1250
+Wire Wire Line
+	1400 4000 2050 4000
+NoConn ~ 8250 2050
+Wire Wire Line
+	2050 5600 2450 5600
+Wire Wire Line
+	3750 1250 4550 1250
+Wire Wire Line
+	7000 1750 7350 1750
+Wire Wire Line
+	8450 1750 8900 1750
 $EndSCHEMATC
