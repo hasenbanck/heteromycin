@@ -287,9 +287,9 @@ L Device:D_Schottky D25
 U 1 1 5BD6B250
 P 5500 1300
 F 0 "D25" H 5450 1500 50  0000 L CNN
-F 1 "CTS521,L3F" H 5300 1400 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 5500 1300 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 5500 1300 50  0001 C CNN
+F 1 "BAT54GWJ" H 5300 1400 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 5500 1300 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 5500 1300 50  0001 C CNN
 	1    5500 1300
 	1    0    0    -1  
 $EndComp
@@ -298,9 +298,9 @@ L Device:D_Schottky D26
 U 1 1 5BD6D4A2
 P 5500 2950
 F 0 "D26" H 5450 3150 50  0000 L CNN
-F 1 "CTS521,L3F" H 5300 3050 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 5500 2950 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 5500 2950 50  0001 C CNN
+F 1 "BAT54GWJ" H 5300 3050 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 5500 2950 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 5500 2950 50  0001 C CNN
 	1    5500 2950
 	1    0    0    -1  
 $EndComp
@@ -623,9 +623,9 @@ L Device:D_Schottky D27
 U 1 1 5BC57D0F
 P 7950 1300
 F 0 "D27" H 7900 1500 50  0000 L CNN
-F 1 "CTS521,L3F" H 7750 1400 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 7950 1300 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 7950 1300 50  0001 C CNN
+F 1 "BAT54GWJ" H 7750 1400 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 7950 1300 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 7950 1300 50  0001 C CNN
 	1    7950 1300
 	1    0    0    -1  
 $EndComp
@@ -634,9 +634,9 @@ L Device:D_Schottky D28
 U 1 1 5BC57D16
 P 7950 2950
 F 0 "D28" H 7900 3150 50  0000 L CNN
-F 1 "CTS521,L3F" H 7750 3050 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 7950 2950 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 7950 2950 50  0001 C CNN
+F 1 "BAT54GWJ" H 7750 3050 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 7950 2950 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 7950 2950 50  0001 C CNN
 	1    7950 2950
 	1    0    0    -1  
 $EndComp

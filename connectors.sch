@@ -612,160 +612,6 @@ Wire Wire Line
 Wire Wire Line
 	2150 6900 2600 6900
 $Comp
-L Device:D_Schottky D7
-U 1 1 5B17198C
-P 1500 3050
-F 0 "D7" V 1454 3129 50  0000 L CNN
-F 1 "CTS521,L3F" V 1545 3129 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 1500 3050 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 1500 3050 50  0001 C CNN
-	1    1500 3050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D8
-U 1 1 5BCAA44E
-P 1500 3550
-F 0 "D8" V 1454 3629 50  0000 L CNN
-F 1 "CTS521,L3F" V 1545 3629 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 1500 3550 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 1500 3550 50  0001 C CNN
-	1    1500 3550
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D9
-U 1 1 5BCADD40
-P 1500 4250
-F 0 "D9" V 1454 4329 50  0000 L CNN
-F 1 "CTS521,L3F" V 1545 4329 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 1500 4250 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 1500 4250 50  0001 C CNN
-	1    1500 4250
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D10
-U 1 1 5BCB1636
-P 1500 4750
-F 0 "D10" V 1454 4829 50  0000 L CNN
-F 1 "CTS521,L3F" V 1545 4829 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 1500 4750 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 1500 4750 50  0001 C CNN
-	1    1500 4750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D11
-U 1 1 5BCB4F9A
-P 1500 5450
-F 0 "D11" V 1454 5529 50  0000 L CNN
-F 1 "CTS521,L3F" V 1545 5529 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 1500 5450 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 1500 5450 50  0001 C CNN
-	1    1500 5450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D12
-U 1 1 5BCB88B6
-P 1500 5950
-F 0 "D12" V 1454 6029 50  0000 L CNN
-F 1 "CTS521,L3F" V 1545 6029 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 1500 5950 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 1500 5950 50  0001 C CNN
-	1    1500 5950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D13
-U 1 1 5BCBC26C
-P 1500 6650
-F 0 "D13" V 1454 6729 50  0000 L CNN
-F 1 "CTS521,L3F" V 1545 6729 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 1500 6650 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 1500 6650 50  0001 C CNN
-	1    1500 6650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D14
-U 1 1 5BCBFB54
-P 1500 7150
-F 0 "D14" V 1454 7229 50  0000 L CNN
-F 1 "CTS521,L3F" V 1545 7229 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 1500 7150 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 1500 7150 50  0001 C CNN
-	1    1500 7150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D20
-U 1 1 5BCC35D6
-P 4500 7150
-F 0 "D20" V 4454 7229 50  0000 L CNN
-F 1 "CTS521,L3F" V 4545 7229 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 4500 7150 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 4500 7150 50  0001 C CNN
-	1    4500 7150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D18
-U 1 1 5BCC6F8A
-P 4500 5950
-F 0 "D18" V 4454 6029 50  0000 L CNN
-F 1 "CTS521,L3F" V 4545 6029 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 4500 5950 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 4500 5950 50  0001 C CNN
-	1    4500 5950
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D19
-U 1 1 5BCCA87C
-P 4500 6650
-F 0 "D19" V 4454 6729 50  0000 L CNN
-F 1 "CTS521,L3F" V 4545 6729 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 4500 6650 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 4500 6650 50  0001 C CNN
-	1    4500 6650
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D17
-U 1 1 5BCCE31E
-P 4500 5450
-F 0 "D17" V 4454 5529 50  0000 L CNN
-F 1 "CTS521,L3F" V 4545 5529 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 4500 5450 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 4500 5450 50  0001 C CNN
-	1    4500 5450
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D16
-U 1 1 5BCD1C16
-P 4500 4750
-F 0 "D16" V 4454 4829 50  0000 L CNN
-F 1 "CTS521,L3F" V 4545 4829 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 4500 4750 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 4500 4750 50  0001 C CNN
-	1    4500 4750
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:D_Schottky D15
-U 1 1 5BCD550C
-P 4500 4250
-F 0 "D15" V 4454 4329 50  0000 L CNN
-F 1 "CTS521,L3F" V 4545 4329 50  0000 L CNN
-F 2 "heteromycin:SOD882" H 4500 4250 50  0001 C CNN
-F 3 "http://toshiba.semicon-storage.com/info/lookup.jsp?pid=CTS521&lang=en" H 4500 4250 50  0001 C CNN
-	1    4500 4250
-	0    1    1    0   
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J10
 U 1 1 5BCF44AA
 P 4800 1300
@@ -1065,4 +911,186 @@ Wire Wire Line
 Connection ~ 7500 2900
 Wire Wire Line
 	7500 2900 7500 3250
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BCF829E
+P 1500 3050
+AR Path="/5BC2F648/5BCF829E" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BCF829E" Ref="D7"  Part="1" 
+F 0 "D7" H 1450 3250 50  0000 L CNN
+F 1 "BAT54GWJ" H 1300 3150 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1500 3050 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 3050 50  0001 C CNN
+	1    1500 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BCFC008
+P 1500 4250
+AR Path="/5BC2F648/5BCFC008" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BCFC008" Ref="D9"  Part="1" 
+F 0 "D9" H 1450 4450 50  0000 L CNN
+F 1 "BAT54GWJ" H 1300 4350 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1500 4250 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 4250 50  0001 C CNN
+	1    1500 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BCFDE39
+P 1500 4750
+AR Path="/5BC2F648/5BCFDE39" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BCFDE39" Ref="D10"  Part="1" 
+F 0 "D10" H 1450 4950 50  0000 L CNN
+F 1 "BAT54GWJ" H 1300 4850 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1500 4750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 4750 50  0001 C CNN
+	1    1500 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BCFFC64
+P 1500 5450
+AR Path="/5BC2F648/5BCFFC64" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BCFFC64" Ref="D11"  Part="1" 
+F 0 "D11" H 1450 5650 50  0000 L CNN
+F 1 "BAT54GWJ" H 1300 5550 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1500 5450 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 5450 50  0001 C CNN
+	1    1500 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BD01AAD
+P 1500 5950
+AR Path="/5BC2F648/5BD01AAD" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BD01AAD" Ref="D12"  Part="1" 
+F 0 "D12" H 1450 6150 50  0000 L CNN
+F 1 "BAT54GWJ" H 1300 6050 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1500 5950 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 5950 50  0001 C CNN
+	1    1500 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BD038E4
+P 1500 6650
+AR Path="/5BC2F648/5BD038E4" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BD038E4" Ref="D13"  Part="1" 
+F 0 "D13" H 1450 6850 50  0000 L CNN
+F 1 "BAT54GWJ" H 1300 6750 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1500 6650 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 6650 50  0001 C CNN
+	1    1500 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BD059B2
+P 1500 7150
+AR Path="/5BC2F648/5BD059B2" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BD059B2" Ref="D14"  Part="1" 
+F 0 "D14" H 1450 7350 50  0000 L CNN
+F 1 "BAT54GWJ" H 1300 7250 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1500 7150 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 7150 50  0001 C CNN
+	1    1500 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BD07803
+P 4500 7150
+AR Path="/5BC2F648/5BD07803" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BD07803" Ref="D20"  Part="1" 
+F 0 "D20" H 4450 7350 50  0000 L CNN
+F 1 "BAT54GWJ" H 4300 7250 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 7150 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 4500 7150 50  0001 C CNN
+	1    4500 7150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BD09650
+P 4500 6650
+AR Path="/5BC2F648/5BD09650" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BD09650" Ref="D19"  Part="1" 
+F 0 "D19" H 4450 6850 50  0000 L CNN
+F 1 "BAT54GWJ" H 4300 6750 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 6650 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 4500 6650 50  0001 C CNN
+	1    4500 6650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BD0B48B
+P 4500 5950
+AR Path="/5BC2F648/5BD0B48B" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BD0B48B" Ref="D18"  Part="1" 
+F 0 "D18" H 4450 6150 50  0000 L CNN
+F 1 "BAT54GWJ" H 4300 6050 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 5950 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 4500 5950 50  0001 C CNN
+	1    4500 5950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BD0D2CE
+P 4500 4750
+AR Path="/5BC2F648/5BD0D2CE" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BD0D2CE" Ref="D16"  Part="1" 
+F 0 "D16" H 4450 4950 50  0000 L CNN
+F 1 "BAT54GWJ" H 4300 4850 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 4750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 4500 4750 50  0001 C CNN
+	1    4500 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BD0F10B
+P 4500 4250
+AR Path="/5BC2F648/5BD0F10B" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BD0F10B" Ref="D15"  Part="1" 
+F 0 "D15" H 4450 4450 50  0000 L CNN
+F 1 "BAT54GWJ" H 4300 4350 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 4250 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 4500 4250 50  0001 C CNN
+	1    4500 4250
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BD10F46
+P 4500 5450
+AR Path="/5BC2F648/5BD10F46" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BD10F46" Ref="D17"  Part="1" 
+F 0 "D17" H 4450 5650 50  0000 L CNN
+F 1 "BAT54GWJ" H 4300 5550 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 4500 5450 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 4500 5450 50  0001 C CNN
+	1    4500 5450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:D_Schottky D?
+U 1 1 5BD130B1
+P 1500 3550
+AR Path="/5BC2F648/5BD130B1" Ref="D?"  Part="1" 
+AR Path="/5BC2F290/5BD130B1" Ref="D8"  Part="1" 
+F 0 "D8" H 1450 3750 50  0000 L CNN
+F 1 "BAT54GWJ" H 1300 3650 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 1500 3550 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 1500 3550 50  0001 C CNN
+	1    1500 3550
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
