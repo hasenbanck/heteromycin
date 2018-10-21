@@ -872,4 +872,15 @@ F 3 "" H 5550 6700 50  0001 C CNN
 	1    5550 6700
 	1    0    0    -1  
 $EndComp
+$Comp
+L Graphic:Logo_Open_Hardware_Large LOGO1
+U 1 1 5BD3A860
+P 10300 1200
+F 0 "LOGO1" H 10300 1700 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 10300 800 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo2_14.6x12mm_SilkScreen" H 10300 1200 50  0001 C CNN
+F 3 "~" H 10300 1200 50  0001 C CNN
+	1    10300 1200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
