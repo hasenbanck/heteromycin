@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L heteromycin:AP1501A-50K5G-13 U2
-U 1 1 5BC55592
-P 2750 1750
-F 0 "U2" H 2700 1750 50  0000 L CNN
-F 1 "AP1501A-50K5G-13" H 1750 2200 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TO-263-5_TabPin3" H 2750 1750 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/115/AP1501A-85813.pdf" H 2750 1750 50  0001 C CNN
-	1    2750 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L heteromycin:AP2112K-3.3TRG1 U3
 U 1 1 5BC555F6
 P 7900 1850
@@ -36,35 +25,6 @@ F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 7900 1850 50  0001 C
 	1    7900 1850
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:D_Schottky D5
-U 1 1 5BC55B92
-P 3500 1900
-F 0 "D5" V 3454 1979 50  0000 L CNN
-F 1 "S310FA" V 3545 1979 50  0000 L CNN
-F 2 "Diode_SMD:D_SOD-123" H 3500 1900 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/308/S310FA-1307029.pdf" H 3500 1900 50  0001 C CNN
-	1    3500 1900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:L L1
-U 1 1 5BC55D50
-P 3950 1750
-F 0 "L1" V 4140 1750 50  0000 C CNN
-F 1 "22uH" V 4049 1750 50  0000 C CNN
-F 2 "heteromycin:SRP1038A-220M" H 3950 1750 50  0001 C CNN
-F 3 "https://www.mouser.de/ProductDetail/Bourns/SRP1038A-220M?qs=sGAEpiMZZMsg%252by3WlYCkU3WuiCT54zcgeuyXFL0i92Y%3d" H 3950 1750 50  0001 C CNN
-	1    3950 1750
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	2750 1000 2750 1250
-Wire Wire Line
-	3300 1750 3500 1750
-Wire Wire Line
-	3800 1750 3500 1750
-Connection ~ 3500 1750
 $Comp
 L power:GND #PWR020
 U 1 1 5BC561B5
@@ -78,132 +38,40 @@ F 3 "" H 3250 2450 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3250 2450 3250 2350
-Wire Wire Line
-	3250 2350 2950 2350
-Wire Wire Line
-	2950 2350 2950 2250
-Wire Wire Line
-	2550 2350 2950 2350
-Connection ~ 2950 2350
-Wire Wire Line
-	3250 2350 3500 2350
-Wire Wire Line
-	3500 2350 3500 2050
 Connection ~ 3250 2350
-Text GLabel 5550 1750 2    50   Input ~ 0
+Text GLabel 5500 1250 2    50   Input ~ 0
 VDD5V
-Wire Wire Line
-	4100 1750 4250 1750
 $Comp
 L Device:C C11
 U 1 1 5BC5651E
-P 4250 1900
-F 0 "C11" H 4365 1946 50  0000 L CNN
-F 1 "22uF" H 4365 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 4288 1750 50  0001 C CNN
-F 3 "~" H 4250 1900 50  0001 C CNN
-	1    4250 1900
-	1    0    0    -1  
-$EndComp
-Connection ~ 4250 1750
-$Comp
-L Device:C C12
-U 1 1 5BC565B1
-P 4650 1900
-F 0 "C12" H 4765 1946 50  0000 L CNN
-F 1 "22uF" H 4765 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 4688 1750 50  0001 C CNN
-F 3 "~" H 4650 1900 50  0001 C CNN
-	1    4650 1900
-	1    0    0    -1  
-$EndComp
-Connection ~ 4650 1750
-Wire Wire Line
-	4250 1750 4650 1750
-$Comp
-L Device:C C2
-U 1 1 5BC5686A
-P 1750 1900
-F 0 "C2" H 1865 1946 50  0000 L CNN
-F 1 "10uF" H 1865 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 1788 1750 50  0001 C CNN
-F 3 "~" H 1750 1900 50  0001 C CNN
-	1    1750 1900
+P 4550 1400
+F 0 "C11" H 4665 1446 50  0000 L CNN
+F 1 "22uF" H 4665 1355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4588 1250 50  0001 C CNN
+F 3 "~" H 4550 1400 50  0001 C CNN
+	1    4550 1400
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP C1
 U 1 1 5BC5695B
-P 1250 1900
-F 0 "C1" H 1368 1946 50  0000 L CNN
-F 1 "100uF" H 1368 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 1288 1750 50  0001 C CNN
-F 3 "" H 1250 1900 50  0001 C CNN
-	1    1250 1900
+P 1500 1400
+F 0 "C1" H 1618 1446 50  0000 L CNN
+F 1 "100uF" H 1618 1355 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 1538 1250 50  0001 C CNN
+F 3 "" H 1500 1400 50  0001 C CNN
+	1    1500 1400
 	1    0    0    -1  
 $EndComp
-Text GLabel 950  1750 0    50   Input ~ 0
+Text GLabel 1200 1250 0    50   Input ~ 0
 VDD24V
 Wire Wire Line
-	950  1750 1250 1750
-Wire Wire Line
-	1250 1750 1750 1750
-Connection ~ 1250 1750
-Wire Wire Line
-	1750 1750 2200 1750
-Connection ~ 1750 1750
-Wire Wire Line
-	1750 2050 1750 2350
-Wire Wire Line
-	1750 2350 2550 2350
-Connection ~ 2550 2350
-Wire Wire Line
-	2550 2250 2550 2350
-Wire Wire Line
-	1250 2050 1250 2350
-Wire Wire Line
-	1250 2350 1750 2350
-Connection ~ 1750 2350
-Wire Wire Line
-	3500 2350 4250 2350
-Wire Wire Line
-	4250 2350 4250 2050
-Connection ~ 3500 2350
-Wire Wire Line
-	4250 2350 4650 2350
-Wire Wire Line
-	4650 2350 4650 2050
-Connection ~ 4250 2350
+	1200 1250 1500 1250
 $Comp
-L Device:C C13
-U 1 1 5BC584E1
-P 5050 1900
-F 0 "C13" H 5165 1946 50  0000 L CNN
-F 1 "22uF" H 5165 1855 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1206_3216Metric" H 5088 1750 50  0001 C CNN
-F 3 "~" H 5050 1900 50  0001 C CNN
-	1    5050 1900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4650 1750 5050 1750
-Connection ~ 5050 1750
-Wire Wire Line
-	5050 1750 5550 1750
-Wire Wire Line
-	5050 2050 5050 2350
-Wire Wire Line
-	5050 2350 4650 2350
-Connection ~ 4650 2350
-Wire Wire Line
-	5050 1000 5050 1750
-Wire Wire Line
-	2750 1000 5050 1000
-$Comp
-L Device:R R6
+L Device:R R8
 U 1 1 5BC5B537
 P 8900 1900
-F 0 "R6" H 8970 1946 50  0000 L CNN
+F 0 "R8" H 8970 1946 50  0000 L CNN
 F 1 "1k" H 8970 1855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8830 1900 50  0001 C CNN
 F 3 "~" H 8900 1900 50  0001 C CNN
@@ -211,10 +79,10 @@ F 3 "~" H 8900 1900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED D6
+L Device:LED D5
 U 1 1 5BC5B5D6
 P 8900 2200
-F 0 "D6" V 8938 2083 50  0000 R CNN
+F 0 "D5" V 8938 2083 50  0000 R CNN
 F 1 "LTST-C194KGKT" V 8847 2083 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 8900 2200 50  0001 C CNN
 F 3 "~" H 8900 2200 50  0001 C CNN
@@ -364,8 +232,8 @@ Wire Wire Line
 	8450 2350 7900 2350
 Wire Wire Line
 	7000 2050 7000 2350
-Text Notes 5600 1900 0    50   ~ 0
-max 5A
+Text Notes 5550 1400 0    50   ~ 0
+max 8A
 Text Notes 9150 1900 0    50   ~ 0
 max 600mA
 Wire Wire Line
@@ -710,10 +578,10 @@ Connection ~ 3550 3800
 Wire Wire Line
 	3550 3800 4050 3800
 $Comp
-L Device:C C14
+L Device:C C13
 U 1 1 5BCBCE1D
 P 7000 1900
-F 0 "C14" H 7115 1946 50  0000 L CNN
+F 0 "C13" H 7115 1946 50  0000 L CNN
 F 1 "22uF" H 7115 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 7038 1750 50  0001 C CNN
 F 3 "~" H 7000 1900 50  0001 C CNN
@@ -736,10 +604,10 @@ $EndComp
 Wire Wire Line
 	6350 1750 6550 1750
 $Comp
-L Device:C C15
+L Device:C C14
 U 1 1 5BCCA55E
 P 8450 1900
-F 0 "C15" H 8565 1946 50  0000 L CNN
+F 0 "C14" H 8565 1946 50  0000 L CNN
 F 1 "10uF" H 8565 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8488 1750 50  0001 C CNN
 F 3 "~" H 8450 1900 50  0001 C CNN
@@ -794,4 +662,135 @@ Text GLabel 7900 4000 3    50   Input ~ 0
 VDD_FAN
 Text Notes 6450 3150 0    157  ~ 31
 FAN Voltage Selection
+$Comp
+L Device:C C12
+U 1 1 5BC565B1
+P 4950 1400
+F 0 "C12" H 5065 1446 50  0000 L CNN
+F 1 "100nF" H 5065 1355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 4988 1250 50  0001 C CNN
+F 3 "~" H 4950 1400 50  0001 C CNN
+	1    4950 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3250 2350 3650 2350
+$Comp
+L heteromycin:i3A U2
+U 1 1 5BCDC650
+P 3000 1650
+F 0 "U2" H 3000 2315 50  0000 C CNN
+F 1 "i3A" H 3000 2224 50  0000 C CNN
+F 2 "heteromycin:i3A" H 3000 1650 50  0001 C CNN
+F 3 "https://www.us.tdk-lambda.com/ftp/specs/i3a_full_datasheet.pdf" H 3000 1650 50  0001 C CNN
+	1    3000 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 5BCDDC43
+P 3900 2000
+F 0 "R6" H 3970 2046 50  0000 L CNN
+F 1 "20k" H 3970 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 2000 50  0001 C CNN
+F 3 "~" H 3900 2000 50  0001 C CNN
+	1    3900 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 5BCDE830
+P 4150 2000
+F 0 "R7" H 4220 2046 50  0000 L CNN
+F 1 "15k" H 4220 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 2000 50  0001 C CNN
+F 3 "~" H 4150 2000 50  0001 C CNN
+	1    4150 2000
+	1    0    0    -1  
+$EndComp
+NoConn ~ 3550 1850
+Wire Wire Line
+	3550 2050 3650 2050
+Wire Wire Line
+	3650 2050 3650 2350
+Connection ~ 3650 2350
+Wire Wire Line
+	3650 2350 3900 2350
+Wire Wire Line
+	2450 2050 2350 2050
+Wire Wire Line
+	2350 2050 2350 2350
+Connection ~ 2350 2350
+Wire Wire Line
+	2350 2350 3250 2350
+Wire Wire Line
+	3900 1850 4150 1850
+Wire Wire Line
+	3900 1650 3900 1850
+Connection ~ 3900 1850
+Wire Wire Line
+	3900 2150 3900 2350
+Connection ~ 3900 2350
+Wire Wire Line
+	3900 2350 4550 2350
+Wire Wire Line
+	3900 2150 4150 2150
+Connection ~ 3900 2150
+Text Notes 4050 2250 0    50   ~ 0
+8.57 kOhm
+Wire Wire Line
+	3550 1650 3900 1650
+Wire Wire Line
+	3550 1250 3750 1250
+Connection ~ 4550 1250
+Wire Wire Line
+	4550 1250 4950 1250
+Connection ~ 4950 1250
+Wire Wire Line
+	4950 1250 5500 1250
+Wire Wire Line
+	4550 1550 4550 2350
+Connection ~ 4550 2350
+Wire Wire Line
+	4550 2350 4950 2350
+Wire Wire Line
+	4950 1550 4950 2350
+Wire Wire Line
+	1500 1250 2050 1250
+Connection ~ 1500 1250
+Wire Wire Line
+	1500 1550 1500 2350
+Wire Wire Line
+	1500 2350 2050 2350
+Wire Wire Line
+	2350 2050 2350 1650
+Wire Wire Line
+	2350 1650 2450 1650
+Connection ~ 2350 2050
+$Comp
+L Device:C C2
+U 1 1 5BCFC548
+P 2050 1400
+F 0 "C2" H 2165 1446 50  0000 L CNN
+F 1 "100nF" H 2165 1355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1812_4532Metric" H 2088 1250 50  0001 C CNN
+F 3 "" H 2050 1400 50  0001 C CNN
+	1    2050 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1550 2050 2350
+Connection ~ 2050 2350
+Wire Wire Line
+	2050 2350 2350 2350
+Wire Wire Line
+	3550 1450 3750 1450
+Wire Wire Line
+	3750 1450 3750 1250
+Connection ~ 3750 1250
+Wire Wire Line
+	3750 1250 4550 1250
+Connection ~ 2050 1250
+Wire Wire Line
+	2050 1250 2450 1250
 $EndSCHEMATC

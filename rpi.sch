@@ -214,36 +214,36 @@ F 3 "" H 8100 1850 50  0000 L CNN
 	1    0    0    1   
 $EndComp
 $Comp
-L Mechanical:MountingHole H2
+L Mechanical:MountingHole H1
 U 1 1 5BC4B22D
-P 8000 4600
-F 0 "H2" H 7850 4700 60  0000 C CNN
-F 1 "3mm_Mounting_Hole" H 8000 4450 60  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm" H 7900 4600 60  0001 C CNN
-F 3 "" H 7900 4600 60  0001 C CNN
-	1    8000 4600
+P 7050 4600
+F 0 "H1" H 6900 4700 60  0000 C CNN
+F 1 "3mm_Mounting_Hole" H 7050 4450 60  0000 C CNN
+F 2 "heteromycin:MountingHole_3mm" H 6950 4600 60  0001 C CNN
+F 3 "" H 6950 4600 60  0001 C CNN
+	1    7050 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H1
+L Mechanical:MountingHole H2
 U 1 1 5BC4B234
 P 7050 5100
-F 0 "H1" H 6900 5200 60  0000 C CNN
+F 0 "H2" H 6900 5200 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 7050 4950 60  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm" H 6950 5100 60  0001 C CNN
+F 2 "heteromycin:MountingHole_3mm" H 6950 5100 60  0001 C CNN
 F 3 "" H 6950 5100 60  0001 C CNN
 	1    7050 5100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H3
+L Mechanical:MountingHole H4
 U 1 1 5BC4B23B
-P 8000 5100
-F 0 "H3" H 7850 5200 60  0000 C CNN
-F 1 "3mm_Mounting_Hole" H 8000 4950 60  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm" H 7900 5100 60  0001 C CNN
-F 3 "" H 7900 5100 60  0001 C CNN
-	1    8000 5100
+P 8050 5100
+F 0 "H4" H 7900 5200 60  0000 C CNN
+F 1 "3mm_Mounting_Hole" H 8050 4950 60  0000 C CNN
+F 2 "heteromycin:MountingHole_3mm" H 7950 5100 60  0001 C CNN
+F 3 "" H 7950 5100 60  0001 C CNN
+	1    8050 5100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -460,34 +460,34 @@ F 3 "" H 3850 2500 50  0001 C CNN
 $EndComp
 NoConn ~ 2650 1900
 $Comp
-L Mechanical:MountingHole H4
+L Mechanical:MountingHole H3
 U 1 1 5BC57D78
+P 8050 4600
+F 0 "H3" H 7900 4700 60  0000 C CNN
+F 1 "3mm_Mounting_Hole" H 8050 4450 60  0000 C CNN
+F 2 "heteromycin:MountingHole_3mm" H 7950 4600 60  0001 C CNN
+F 3 "" H 7950 4600 60  0001 C CNN
+	1    8050 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H5
+U 1 1 5BC57D7F
 P 9050 4600
-F 0 "H4" H 8900 4700 60  0000 C CNN
+F 0 "H5" H 8900 4700 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 9050 4450 60  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm" H 8950 4600 60  0001 C CNN
+F 2 "heteromycin:MountingHole_3mm" H 8950 4600 60  0001 C CNN
 F 3 "" H 8950 4600 60  0001 C CNN
 	1    9050 4600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
-U 1 1 5BC57D7F
-P 10000 4600
-F 0 "H6" H 9850 4700 60  0000 C CNN
-F 1 "3mm_Mounting_Hole" H 10000 4450 60  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm" H 9900 4600 60  0001 C CNN
-F 3 "" H 9900 4600 60  0001 C CNN
-	1    10000 4600
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole H5
 U 1 1 5BC57D86
 P 9050 5100
-F 0 "H5" H 8900 5200 60  0000 C CNN
+F 0 "H6" H 8900 5200 60  0000 C CNN
 F 1 "3mm_Mounting_Hole" H 9050 4950 60  0000 C CNN
-F 2 "MountingHole:MountingHole_3mm" H 8950 5100 60  0001 C CNN
+F 2 "heteromycin:MountingHole_3mm" H 8950 5100 60  0001 C CNN
 F 3 "" H 8950 5100 60  0001 C CNN
 	1    9050 5100
 	1    0    0    -1  
