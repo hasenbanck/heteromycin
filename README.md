@@ -48,6 +48,26 @@ TMC5160 or TMC2160 driver (SD / SPI mode).
   preinstalled
   * [ ] Documentation
 
+## Alternative Parts
+
+### Stepper driver
+
+You can use both TMC5160 or TMC2160 as the stepper driver, since they both are
+functionally / pin equal when used in SD / SPI-Mode.
+
+It doesn't mater choosing one over the other, other than price and availability.
+
+### MOSFET
+
+For the small SOT1220 N-Channel MOSFET you can choose one of the
+following MOSFET (default: PMPB11EN):
+
+* PMPB11EN,115
+* BUK9D23-40E
+* PMPB20EN,115
+
+Fine tuning of the MOSFET driver may be necessary.
+
 ## License
 
 The hardware is licensed under CERN OHL version 1.2.
