@@ -72,8 +72,8 @@ back_power 2 # Heteromycin can provide up to 8A on the 5V rail
 setgpio  2     ALT0     DEFAULT # SDA
 setgpio  3     ALT0     DEFAULT # SCL
 setgpio  4     INPUT     NONE # MCU BOOT Pin
-setgpio  5     INPUT     DEFAULT # GPIO
-setgpio  6     INPUT     DEFAULT # GPIO
+setgpio  5     INPUT     NONE # GPIO
+setgpio  6     INPUT     NONE # GPIO
 setgpio  7     ALT0     DEFAULT # SS_0
 setgpio  8     ALT0     DEFAULT # SS_1
 setgpio  9     ALT0     DEFAULT # MISO
@@ -86,11 +86,11 @@ setgpio  15    ALT0     DEFAULT # RX
 #setgpio  16    INPUT     DEFAULT
 #setgpio  17    INPUT     DEFAULT
 setgpio  18    INPUT     NONE # MCU nRESET Pin
-setgpio  19    INPUT     DEFAULT # GPIO
+setgpio  19    INPUT     NONE # GPIO
 #setgpio  20    INPUT     DEFAULT
 #setgpio  21    INPUT     DEFAULT
 #setgpio  22    INPUT     DEFAULT
-#setgpio  23    INPUT     DEFAULT4
+#setgpio  23    INPUT     DEFAULT
 #setgpio  24    INPUT     DEFAULT
 #setgpio  25    INPUT     DEFAULT
 #setgpio  26    INPUT     DEFAULT
