@@ -533,4 +533,15 @@ NoConn ~ 3850 2600
 NoConn ~ 3850 2800
 NoConn ~ 3850 2900
 NoConn ~ 3850 3000
+$Comp
+L Mechanical:MountingHole H7
+U 1 1 5BCFB1ED
+P 10150 5100
+F 0 "H7" H 10000 5200 60  0000 C CNN
+F 1 "3mm_Mounting_Hole" H 10150 4950 60  0000 C CNN
+F 2 "heteromycin:MountingHole_3mm" H 10050 5100 60  0001 C CNN
+F 3 "" H 10050 5100 60  0001 C CNN
+	1    10150 5100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
