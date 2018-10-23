@@ -2,7 +2,7 @@
 # EEPROM settings text file
 #
 # Edit this file for your particular board and run through eepmake tool,
-# then use eepflash tool to write to attached HAT ID EEPROM 
+# then use eepflash tool to write to attached HAT ID EEPROM
 #
 # Tools available:
 #  eepmake   Parses EEPROM text file and creates binary .eep file
@@ -16,19 +16,19 @@
 
 # 128 bit UUID. If left at zero eepmake tool will auto-generate
 # RFC 4122 compliant UUID
-product_uuid 00000000-0000-0000-0000-000000000000
+product_uuid ba184594-9e9b-4886-a79a-3c380cfe95e4
 
 # 16 bit product id
-product_id 0x0000
+product_id 0xFE10
 
 # 16 bit product version
-product_ver 0x0000
+product_ver 0x0001
 
 # ASCII vendor string  (max 255 characters)
-vendor "ACME Technology Company"
+vendor "Heteromycin development team"
 
 # ASCII product string (max 255 characters)
-product "Special Sensor Board"
+product "3D printer controller Heteromycin"
 
 
 ########################################################################
@@ -50,9 +50,9 @@ gpio_hysteresis 0
 # 1 = board back-powers and can supply the Pi with a minimum of 1.3A
 # 2 = board back-powers and can supply the Pi with a minimum of 2A
 # 3 = reserved
-# If back_power=2 then USB high current mode will be automatically 
+# If back_power=2 then USB high current mode will be automatically
 # enabled on the Pi
-back_power 0
+back_power 2 # Heteromycin can provide up to 8A on the 5V rail
 
 ########################################################################
 # GPIO pins, uncomment for GPIOs used on board
@@ -62,28 +62,35 @@ back_power 0
 
 #         GPIO  FUNCTION  PULL
 #         ----  --------  ----
-#setgpio  2     INPUT     DEFAULT
-#setgpio  3     INPUT     DEFAULT
-#setgpio  4     INPUT     DEFAULT
-#setgpio  5     INPUT     DEFAULT
-#setgpio  6     INPUT     DEFAULT
-#setgpio  7     INPUT     DEFAULT
-#setgpio  8     INPUT     DEFAULT
-#setgpio  9     INPUT     DEFAULT
-#setgpio  10    INPUT     DEFAULT
-#setgpio  11    INPUT     DEFAULT
+
+#####
+# We define GPIO pins at startup as INPUTS and user programms can later
+# define the needed behavior, this way we boot in a known state and don't
+# cause any unforseen resets or problems.
+#####
+
+setgpio  2     ALT0     DEFAULT # SDA
+setgpio  3     ALT0     DEFAULT # SCL
+setgpio  4     INPUT     NONE # MCU BOOT Pin
+setgpio  5     INPUT     DEFAULT # GPIO
+setgpio  6     INPUT     DEFAULT # GPIO
+setgpio  7     ALT0     DEFAULT # SS_0
+setgpio  8     ALT0     DEFAULT # SS_1
+setgpio  9     ALT0     DEFAULT # MISO
+setgpio  10    ALT0     DEFAULT # MOSI
+setgpio  11    ALT0     DEFAULT # SCLK
 #setgpio  12    INPUT     DEFAULT
-#setgpio  13    INPUT     DEFAULT
-#setgpio  14    INPUT     DEFAULT
-#setgpio  15    INPUT     DEFAULT
+setgpio  13    INPUT     DEFAULT # GPIO
+setgpio  14    ALT0     DEFAULT # TX
+setgpio  15    ALT0     DEFAULT # RX
 #setgpio  16    INPUT     DEFAULT
 #setgpio  17    INPUT     DEFAULT
-#setgpio  18    INPUT     DEFAULT
-#setgpio  19    INPUT     DEFAULT
+setgpio  18    INPUT     NONE # MCU nRESET Pin
+setgpio  19    INPUT     DEFAULT # GPIO
 #setgpio  20    INPUT     DEFAULT
 #setgpio  21    INPUT     DEFAULT
 #setgpio  22    INPUT     DEFAULT
-#setgpio  23    INPUT     DEFAULT
+#setgpio  23    INPUT     DEFAULT4
 #setgpio  24    INPUT     DEFAULT
 #setgpio  25    INPUT     DEFAULT
 #setgpio  26    INPUT     DEFAULT
