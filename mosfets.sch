@@ -122,9 +122,9 @@ L heteromycin:PMPB20EN Q14
 U 1 1 5B1FB146
 P 5750 1750
 F 0 "Q14" H 5955 1796 50  0000 L CNN
-F 1 "PMPB20EN" H 5955 1705 50  0000 L CNN
+F 1 "PMPB11EN" H 5955 1705 50  0000 L CNN
 F 2 "heteromycin:SOT1220" H 5950 1675 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMPB20EN.pdf" H 5750 1750 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMPB11EN.pdf" H 5750 1750 50  0001 L CNN
 	1    5750 1750
 	1    0    0    -1  
 $EndComp
@@ -309,9 +309,9 @@ L heteromycin:PMPB20EN Q15
 U 1 1 5BC35639
 P 5750 3400
 F 0 "Q15" H 5955 3446 50  0000 L CNN
-F 1 "PMPB20EN" H 5955 3355 50  0000 L CNN
+F 1 "PMPB11EN" H 5955 3355 50  0000 L CNN
 F 2 "heteromycin:SOT1220" H 5950 3325 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMPB20EN.pdf" H 5750 3400 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMPB11EN.pdf" H 5750 3400 50  0001 L CNN
 	1    5750 3400
 	1    0    0    -1  
 $EndComp
@@ -510,9 +510,9 @@ L heteromycin:PMPB20EN Q16
 U 1 1 5BC57CCA
 P 8200 1750
 F 0 "Q16" H 8405 1796 50  0000 L CNN
-F 1 "PMPB20EN" H 8405 1705 50  0000 L CNN
+F 1 "PMPB11EN" H 8405 1705 50  0000 L CNN
 F 2 "heteromycin:SOT1220" H 8400 1675 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMPB20EN.pdf" H 8200 1750 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMPB11EN.pdf" H 8200 1750 50  0001 L CNN
 	1    8200 1750
 	1    0    0    -1  
 $EndComp
@@ -645,9 +645,9 @@ L heteromycin:PMPB20EN Q17
 U 1 1 5BC57D1D
 P 8200 3400
 F 0 "Q17" H 8405 3446 50  0000 L CNN
-F 1 "PMPB20EN" H 8405 3355 50  0000 L CNN
+F 1 "PMPB11EN" H 8405 3355 50  0000 L CNN
 F 2 "heteromycin:SOT1220" H 8400 3325 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMPB20EN.pdf" H 8200 3400 50  0001 L CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMPB11EN.pdf" H 8200 3400 50  0001 L CNN
 	1    8200 3400
 	1    0    0    -1  
 $EndComp
