@@ -5832,7 +5832,7 @@
     (fp_text reference J10 (at -7.7 -4.4) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.1)))
     )
-    (fp_text value Micro_SD_Card_Det_Hirose_DM3AT (at 1.8 11.6 270) (layer F.Fab)
+    (fp_text value DM3D-SF (at 1.8 11.6 270) (layer F.Fab)
       (effects (font (size 0.6 0.6) (thickness 0.1)))
     )
     (fp_text user KEEPOUT (at -0.275 -0.525 270) (layer Cmts.User)
