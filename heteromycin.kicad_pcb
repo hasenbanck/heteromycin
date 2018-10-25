@@ -5527,7 +5527,7 @@
     (fp_text reference J1 (at 2.1 -20.1 180) (layer F.SilkS)
       (effects (font (size 0.6 0.6) (thickness 0.1)))
     )
-    (fp_text value 920-0135-01 (at -1.27 -51.03 90) (layer B.Fab)
+    (fp_text value M20-7832046 (at -1.27 -51.03 90) (layer B.Fab)
       (effects (font (size 0.6 0.6) (thickness 0.1)) (justify mirror))
     )
     (fp_line (start -3.81 1.27) (end 0.27 1.27) (layer B.Fab) (width 0.1))
