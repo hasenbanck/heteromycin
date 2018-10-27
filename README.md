@@ -41,7 +41,7 @@ TMC5160 or TMC2160 driver (SD / SPI mode).
   * [ ] Testing the PCB
   * [ ] Repreat until hardware is finished
 * Software
-  * [ ] Write arduino core board definition once first PCB design is finished
+  * [x] Write arduino core board definition once first PCB design is finished
   * [ ] Write PIN file for Marlin
   * [ ] Test board (esp. the TMC*160 driver)
   * [ ] Octoprint plugin for firmware upgrade
