@@ -1,5 +1,7 @@
 # Heteromycin - 3D printer board
 
+[Join us on Discord!](https://discord.gg/f4dmGsn)
+
 Heteromycin is a 3D printer controller that aims to provide a full stack user
 experience around Octoprint / Marlin using a custom designed board that
 integrates a Raspberry Pi 3 or Zero W. It will also provide a solid, powerfull
