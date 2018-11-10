@@ -19,9 +19,9 @@ L heteromycin:AP2112K-3.3TRG1 U3
 U 1 1 5BC555F6
 P 7900 1850
 F 0 "U3" H 7900 1850 50  0000 C CNN
-F 1 "AP2112K-3.3TRG1" H 7850 2150 50  0000 C CNN
+F 1 "AP7365-33WG-7" H 7850 2150 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7900 1850 50  0001 C CNN
-F 3 "https://www.diodes.com/assets/Datasheets/AP2112.pdf" H 7900 1850 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/115/AP7365-86154.pdf" H 7900 1850 50  0001 C CNN
 	1    7900 1850
 	1    0    0    -1  
 $EndComp

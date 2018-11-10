@@ -120,7 +120,6 @@ Wire Wire Line
 	4850 2650 4850 2750
 Wire Wire Line
 	4850 2750 5100 2750
-NoConn ~ 5100 3650
 Text GLabel 3600 2250 0    50   Input ~ 0
 VDD3V3
 Wire Wire Line
@@ -239,4 +238,9 @@ F 3 "" H 4400 4000 50  0001 C CNN
 	1    4400 4000
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5100 4000 4400 4000
+Wire Wire Line
+	5100 3650 5100 4000
+Connection ~ 4400 4000
 $EndSCHEMATC
