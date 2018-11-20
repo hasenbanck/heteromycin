@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:D_Schottky D8
+L Device:D_Schottky D7
 U 1 1 5B1A3271
 P 1950 1300
-F 0 "D8" H 1950 1516 50  0000 C CNN
+F 0 "D7" H 1950 1516 50  0000 C CNN
 F 1 "SK310A-LTP" H 1950 1425 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 1950 1300 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Micro-Commercial-Components-MCC/SK310A-TP?qs=O2qRfqcg9D9SKx4%252bV6P4XQ%3D%3D" H 1950 1300 50  0001 C CNN
@@ -69,10 +69,10 @@ Wire Wire Line
 Wire Wire Line
 	2300 1550 2300 1300
 $Comp
-L Device:D_Schottky D9
+L Device:D_Schottky D8
 U 1 1 5B1B03B6
 P 1950 2950
-F 0 "D9" H 1950 3166 50  0000 C CNN
+F 0 "D8" H 1950 3166 50  0000 C CNN
 F 1 "SK310A-LTP" H 1950 3075 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 1950 2950 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Micro-Commercial-Components-MCC/SK310A-TP?qs=O2qRfqcg9D9SKx4%252bV6P4XQ%3D%3D" H 1950 2950 50  0001 C CNN
@@ -118,17 +118,6 @@ Wire Wire Line
 	2600 2950 2300 2950
 Connection ~ 2300 2950
 $Comp
-L heteromycin:PMPB20EN Q15
-U 1 1 5B1FB146
-P 5750 1750
-F 0 "Q15" H 5955 1796 50  0000 L CNN
-F 1 "PMPB11EN" H 5955 1705 50  0000 L CNN
-F 2 "heteromycin:SOT1220" H 5950 1675 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMPB11EN.pdf" H 5750 1750 50  0001 L CNN
-	1    5750 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R38
 U 1 1 5B1FB287
 P 5150 1750
@@ -145,8 +134,6 @@ Wire Wire Line
 	4900 1750 5000 1750
 Wire Wire Line
 	5250 1300 5350 1300
-Wire Wire Line
-	5850 1550 5850 1450
 Wire Wire Line
 	5650 1300 5850 1300
 Connection ~ 5850 1300
@@ -171,8 +158,6 @@ Wire Wire Line
 	4900 3400 5000 3400
 Wire Wire Line
 	5250 2950 5350 2950
-Wire Wire Line
-	5850 3200 5850 3100
 Wire Wire Line
 	5650 2950 5850 2950
 Connection ~ 5850 2950
@@ -283,10 +268,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PSMN1R2-30YLC.pdf" V 2200 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D11
+L Device:D_Schottky D10
 U 1 1 5BD6B250
 P 5500 1300
-F 0 "D11" H 5450 1500 50  0000 L CNN
+F 0 "D10" H 5450 1500 50  0000 L CNN
 F 1 "BAT54GWJ" H 5300 1400 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 5500 1300 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 5500 1300 50  0001 C CNN
@@ -294,79 +279,16 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 5500 1300 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D12
+L Device:D_Schottky D11
 U 1 1 5BD6D4A2
 P 5500 2950
-F 0 "D12" H 5450 3150 50  0000 L CNN
+F 0 "D11" H 5450 3150 50  0000 L CNN
 F 1 "BAT54GWJ" H 5300 3050 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 5500 2950 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 5500 2950 50  0001 C CNN
 	1    5500 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L heteromycin:PMPB20EN Q16
-U 1 1 5BC35639
-P 5750 3400
-F 0 "Q16" H 5955 3446 50  0000 L CNN
-F 1 "PMPB11EN" H 5955 3355 50  0000 L CNN
-F 2 "heteromycin:SOT1220" H 5950 3325 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMPB11EN.pdf" H 5750 3400 50  0001 L CNN
-	1    5750 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6250 3200 6250 3100
-Wire Wire Line
-	6250 3100 6150 3100
-Connection ~ 5850 3100
-Wire Wire Line
-	5850 3100 5850 2950
-Wire Wire Line
-	5950 3100 5950 3200
-Connection ~ 5950 3100
-Wire Wire Line
-	5950 3100 5850 3100
-Wire Wire Line
-	6050 3100 6050 3200
-Connection ~ 6050 3100
-Wire Wire Line
-	6050 3100 5950 3100
-Wire Wire Line
-	6150 3100 6150 3200
-Connection ~ 6150 3100
-Wire Wire Line
-	6150 3100 6050 3100
-Wire Wire Line
-	5950 3600 5950 3850
-Wire Wire Line
-	5950 3850 5850 3850
-Wire Wire Line
-	5850 2200 5950 2200
-Wire Wire Line
-	5950 2200 5950 1950
-Wire Wire Line
-	5950 1550 5950 1450
-Wire Wire Line
-	5950 1450 5850 1450
-Connection ~ 5850 1450
-Wire Wire Line
-	5850 1450 5850 1300
-Wire Wire Line
-	5950 1450 6050 1450
-Wire Wire Line
-	6250 1450 6250 1550
-Connection ~ 5950 1450
-Wire Wire Line
-	6150 1550 6150 1450
-Connection ~ 6150 1450
-Wire Wire Line
-	6150 1450 6250 1450
-Wire Wire Line
-	6050 1550 6050 1450
-Connection ~ 6050 1450
-Wire Wire Line
-	6050 1450 6150 1450
 Text Notes 6300 850  0    157  ~ 31
 Fan MOSFETs
 Text Notes 1200 850  0    157  ~ 31
@@ -375,10 +297,10 @@ Connection ~ 2300 3850
 Text HLabel 1250 4900 0    50   Input ~ 0
 PWM_HEAT2
 $Comp
-L Device:D_Schottky D10
+L Device:D_Schottky D9
 U 1 1 5BC4CDE5
 P 1950 4450
-F 0 "D10" H 1950 4666 50  0000 C CNN
+F 0 "D9" H 1950 4666 50  0000 C CNN
 F 1 "SK310A-LTP" H 1950 4575 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 1950 4450 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Micro-Commercial-Components-MCC/SK310A-TP?qs=O2qRfqcg9D9SKx4%252bV6P4XQ%3D%3D" H 1950 4450 50  0001 C CNN
@@ -506,17 +428,6 @@ F 3 "" H 5850 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L heteromycin:PMPB20EN Q17
-U 1 1 5BC57CCA
-P 8200 1750
-F 0 "Q17" H 8405 1796 50  0000 L CNN
-F 1 "PMPB11EN" H 8405 1705 50  0000 L CNN
-F 2 "heteromycin:SOT1220" H 8400 1675 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMPB11EN.pdf" H 8200 1750 50  0001 L CNN
-	1    8200 1750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R42
 U 1 1 5BC57CD1
 P 7600 1750
@@ -533,8 +444,6 @@ Wire Wire Line
 	7350 1750 7450 1750
 Wire Wire Line
 	7700 1300 7800 1300
-Wire Wire Line
-	8300 1550 8300 1450
 Wire Wire Line
 	8100 1300 8300 1300
 Connection ~ 8300 1300
@@ -559,8 +468,6 @@ Wire Wire Line
 	7350 3400 7450 3400
 Wire Wire Line
 	7700 2950 7800 2950
-Wire Wire Line
-	8300 3200 8300 3100
 Wire Wire Line
 	8100 2950 8300 2950
 Connection ~ 8300 2950
@@ -619,10 +526,10 @@ VDD_FAN
 Text GLabel 7700 2950 0    50   Input ~ 0
 VDD_FAN
 $Comp
-L Device:D_Schottky D13
+L Device:D_Schottky D12
 U 1 1 5BC57D0F
 P 7950 1300
-F 0 "D13" H 7900 1500 50  0000 L CNN
+F 0 "D12" H 7900 1500 50  0000 L CNN
 F 1 "BAT54GWJ" H 7750 1400 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 7950 1300 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 7950 1300 50  0001 C CNN
@@ -630,79 +537,16 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 7950 1300 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D14
+L Device:D_Schottky D13
 U 1 1 5BC57D16
 P 7950 2950
-F 0 "D14" H 7900 3150 50  0000 L CNN
+F 0 "D13" H 7900 3150 50  0000 L CNN
 F 1 "BAT54GWJ" H 7750 3050 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 7950 2950 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 7950 2950 50  0001 C CNN
 	1    7950 2950
 	1    0    0    -1  
 $EndComp
-$Comp
-L heteromycin:PMPB20EN Q18
-U 1 1 5BC57D1D
-P 8200 3400
-F 0 "Q18" H 8405 3446 50  0000 L CNN
-F 1 "PMPB11EN" H 8405 3355 50  0000 L CNN
-F 2 "heteromycin:SOT1220" H 8400 3325 50  0001 L CIN
-F 3 "https://assets.nexperia.com/documents/data-sheet/PMPB11EN.pdf" H 8200 3400 50  0001 L CNN
-	1    8200 3400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8700 3200 8700 3100
-Wire Wire Line
-	8700 3100 8600 3100
-Connection ~ 8300 3100
-Wire Wire Line
-	8300 3100 8300 2950
-Wire Wire Line
-	8400 3100 8400 3200
-Connection ~ 8400 3100
-Wire Wire Line
-	8400 3100 8300 3100
-Wire Wire Line
-	8500 3100 8500 3200
-Connection ~ 8500 3100
-Wire Wire Line
-	8500 3100 8400 3100
-Wire Wire Line
-	8600 3100 8600 3200
-Connection ~ 8600 3100
-Wire Wire Line
-	8600 3100 8500 3100
-Wire Wire Line
-	8400 3600 8400 3850
-Wire Wire Line
-	8400 3850 8300 3850
-Wire Wire Line
-	8300 2200 8400 2200
-Wire Wire Line
-	8400 2200 8400 1950
-Wire Wire Line
-	8400 1550 8400 1450
-Wire Wire Line
-	8400 1450 8300 1450
-Connection ~ 8300 1450
-Wire Wire Line
-	8300 1450 8300 1300
-Wire Wire Line
-	8400 1450 8500 1450
-Wire Wire Line
-	8700 1450 8700 1550
-Connection ~ 8400 1450
-Wire Wire Line
-	8600 1550 8600 1450
-Connection ~ 8600 1450
-Wire Wire Line
-	8600 1450 8700 1450
-Wire Wire Line
-	8500 1550 8500 1450
-Connection ~ 8500 1450
-Wire Wire Line
-	8500 1450 8600 1450
 $Comp
 L power:GND #PWR065
 U 1 1 5BC57D42
@@ -745,4 +589,80 @@ Text GLabel 6150 2950 2    50   Input ~ 0
 FAN3_OUT
 Text GLabel 8600 2950 2    50   Input ~ 0
 FAN4_OUT
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5BFEEB5C
+P 5750 1750
+AR Path="/5BC77F8A/5BFEEB5C" Ref="Q?"  Part="1" 
+AR Path="/5BC2F52C/5BFEEB5C" Ref="Q?"  Part="1" 
+AR Path="/5BC77BE8/5BFEEB5C" Ref="Q?"  Part="1" 
+AR Path="/5BC77F87/5BFEEB5C" Ref="Q?"  Part="1" 
+AR Path="/5BC77F8D/5BFEEB5C" Ref="Q?"  Part="1" 
+AR Path="/5BC2F648/5BFEEB5C" Ref="Q15"  Part="1" 
+F 0 "Q15" H 5956 1796 50  0000 L CNN
+F 1 "IRLML0030TRPbF" H 5956 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5950 1850 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df" H 5750 1750 50  0001 C CNN
+	1    5750 1750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5850 1300 5850 1550
+Wire Wire Line
+	8300 1300 8300 1550
+Wire Wire Line
+	8300 2950 8300 3200
+Wire Wire Line
+	5850 2950 5850 3200
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5C004C12
+P 5750 3400
+AR Path="/5BC77F8A/5C004C12" Ref="Q?"  Part="1" 
+AR Path="/5BC2F52C/5C004C12" Ref="Q?"  Part="1" 
+AR Path="/5BC77BE8/5C004C12" Ref="Q?"  Part="1" 
+AR Path="/5BC77F87/5C004C12" Ref="Q?"  Part="1" 
+AR Path="/5BC77F8D/5C004C12" Ref="Q?"  Part="1" 
+AR Path="/5BC2F648/5C004C12" Ref="Q16"  Part="1" 
+F 0 "Q16" H 5956 3446 50  0000 L CNN
+F 1 "IRLML0030TRPbF" H 5956 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5950 3500 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df" H 5750 3400 50  0001 C CNN
+	1    5750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5C006AFD
+P 8200 1750
+AR Path="/5BC77F8A/5C006AFD" Ref="Q?"  Part="1" 
+AR Path="/5BC2F52C/5C006AFD" Ref="Q?"  Part="1" 
+AR Path="/5BC77BE8/5C006AFD" Ref="Q?"  Part="1" 
+AR Path="/5BC77F87/5C006AFD" Ref="Q?"  Part="1" 
+AR Path="/5BC77F8D/5C006AFD" Ref="Q?"  Part="1" 
+AR Path="/5BC2F648/5C006AFD" Ref="Q17"  Part="1" 
+F 0 "Q17" H 8406 1796 50  0000 L CNN
+F 1 "IRLML0030TRPbF" H 8406 1705 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8400 1850 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df" H 8200 1750 50  0001 C CNN
+	1    8200 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Q_NMOS_GDS Q?
+U 1 1 5C0089E5
+P 8200 3400
+AR Path="/5BC77F8A/5C0089E5" Ref="Q?"  Part="1" 
+AR Path="/5BC2F52C/5C0089E5" Ref="Q?"  Part="1" 
+AR Path="/5BC77BE8/5C0089E5" Ref="Q?"  Part="1" 
+AR Path="/5BC77F87/5C0089E5" Ref="Q?"  Part="1" 
+AR Path="/5BC77F8D/5C0089E5" Ref="Q?"  Part="1" 
+AR Path="/5BC2F648/5C0089E5" Ref="Q18"  Part="1" 
+F 0 "Q18" H 8406 3446 50  0000 L CNN
+F 1 "IRLML0030TRPbF" H 8406 3355 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 8400 3500 50  0001 C CNN
+F 3 "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535664773825df" H 8200 3400 50  0001 C CNN
+	1    8200 3400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

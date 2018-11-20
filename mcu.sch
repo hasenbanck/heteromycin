@@ -754,7 +754,6 @@ NoConn ~ 8350 2300
 Text HLabel 8350 3600 2    50   Input ~ 0
 SS_SD
 NoConn ~ 8350 2600
-NoConn ~ 8350 2200
 Text HLabel 8350 2100 2    50   Input ~ 0
 SWDIO
 Text HLabel 7950 1400 1    50   Input ~ 0
@@ -814,7 +813,7 @@ D4
 Text HLabel 7250 1400 1    50   Input ~ 0
 D5
 NoConn ~ 7350 1400
-Text Label 7850 1400 1    50   ~ 0
+Text Label 8350 2200 0    50   ~ 0
 STATUS_LED
 Text Label 5550 6100 2    50   ~ 0
 STATUS_LED
@@ -957,4 +956,5 @@ Wire Wire Line
 	1900 2400 1850 2400
 Wire Wire Line
 	2000 2850 1900 2850
+NoConn ~ 7850 1400
 $EndSCHEMATC

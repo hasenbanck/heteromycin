@@ -58,7 +58,7 @@ U 1 1 5BC5695B
 P 1500 1400
 F 0 "C2" H 1618 1446 50  0000 L CNN
 F 1 "100uF" H 1618 1355 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 1538 1250 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1538 1250 50  0001 C CNN
 F 3 "" H 1500 1400 50  0001 C CNN
 	1    1500 1400
 	1    0    0    -1  
@@ -523,7 +523,7 @@ U 1 1 5BC4FDD0
 P 3550 5150
 F 0 "C6" H 3668 5196 50  0000 L CNN
 F 1 "100uF" H 3668 5105 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 3588 5000 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3588 5000 50  0001 C CNN
 F 3 "" H 3550 5150 50  0001 C CNN
 	1    3550 5150
 	1    0    0    -1  
@@ -534,7 +534,7 @@ U 1 1 5BC51306
 P 3550 4550
 F 0 "C5" H 3668 4596 50  0000 L CNN
 F 1 "100uF" H 3668 4505 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 3588 4400 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3588 4400 50  0001 C CNN
 F 3 "" H 3550 4550 50  0001 C CNN
 	1    3550 4550
 	1    0    0    -1  
@@ -545,7 +545,7 @@ U 1 1 5BC52840
 P 3550 3950
 F 0 "C4" H 3668 3996 50  0000 L CNN
 F 1 "100uF" H 3668 3905 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 3588 3800 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3588 3800 50  0001 C CNN
 F 3 "" H 3550 3950 50  0001 C CNN
 	1    3550 3950
 	1    0    0    -1  
@@ -556,7 +556,7 @@ U 1 1 5BC53D94
 P 3550 5750
 F 0 "C7" H 3668 5796 50  0000 L CNN
 F 1 "100uF" H 3668 5705 50  0000 L CNN
-F 2 "Capacitor_SMD:CP_Elec_6.3x5.7" H 3588 5600 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3588 5600 50  0001 C CNN
 F 3 "" H 3550 5750 50  0001 C CNN
 	1    3550 5750
 	1    0    0    -1  
@@ -625,32 +625,21 @@ Text GLabel 4200 5000 2    50   Input ~ 0
 VDD_HEAT2
 Text GLabel 1400 4200 2    50   Input ~ 0
 VDD_BED
-Text GLabel 1400 4700 2    50   Input ~ 0
+Text GLabel 1400 4800 2    50   Input ~ 0
 VDD_HEAT1
-Text GLabel 1400 5200 2    50   Input ~ 0
+Text GLabel 1400 5300 2    50   Input ~ 0
 VDD_HEAT2
 Text GLabel 1400 4300 2    50   Input ~ 0
 BED_OUT
-Text GLabel 1400 4800 2    50   Input ~ 0
+Text GLabel 1400 4700 2    50   Input ~ 0
 HEAT1_OUT
-Text GLabel 1400 5300 2    50   Input ~ 0
+Text GLabel 1400 5200 2    50   Input ~ 0
 HEAT2_OUT
-$Comp
-L Jumper:Jumper_3_Bridged12 JP2
-U 1 1 5BC68888
-P 7900 3850
-F 0 "JP2" H 7900 4054 50  0000 C CNN
-F 1 "Jumper_3_Bridged12" H 7900 3963 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7900 3850 50  0001 C CNN
-F 3 "~" H 7900 3850 50  0001 C CNN
-	1    7900 3850
-	1    0    0    -1  
-$EndComp
-Text GLabel 7650 3850 0    50   Input ~ 0
+Text GLabel 7750 3650 1    50   Input ~ 0
 VDD5V
-Text GLabel 8150 3850 2    50   Input ~ 0
+Text GLabel 7950 3650 1    50   Input ~ 0
 VDD24V
-Text GLabel 7900 4000 3    50   Input ~ 0
+Text GLabel 7850 4150 3    50   Input ~ 0
 VDD_FAN
 Text Notes 6450 3150 0    157  ~ 31
 FAN Voltage Selection
@@ -794,4 +783,21 @@ Wire Wire Line
 	7000 1750 7350 1750
 Wire Wire Line
 	8450 1750 8900 1750
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J25
+U 1 1 5C045A3C
+P 7850 3850
+F 0 "J25" V 7854 4030 50  0000 L CNN
+F 1 "Conn_02x03_Counter_Clockwise" V 7945 4030 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7850 3850 50  0001 C CNN
+F 3 "~" H 7850 3850 50  0001 C CNN
+	1    7850 3850
+	0    1    1    0   
+$EndComp
+Text GLabel 7850 3650 1    50   Input ~ 0
+VDD_FAN
+Text GLabel 7750 4150 3    50   Input ~ 0
+VDD5V
+Text GLabel 7950 4150 3    50   Input ~ 0
+VDD24V
 $EndSCHEMATC
