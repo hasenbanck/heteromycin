@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:D_Schottky D8
+L Device:D_Schottky D7
 U 1 1 5B1A3271
 P 1950 1300
-F 0 "D8" H 1950 1516 50  0000 C CNN
+F 0 "D7" H 1950 1516 50  0000 C CNN
 F 1 "SK310A-LTP" H 1950 1425 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 1950 1300 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Micro-Commercial-Components-MCC/SK310A-TP?qs=O2qRfqcg9D9SKx4%252bV6P4XQ%3D%3D" H 1950 1300 50  0001 C CNN
@@ -69,10 +69,10 @@ Wire Wire Line
 Wire Wire Line
 	2300 1550 2300 1300
 $Comp
-L Device:D_Schottky D9
+L Device:D_Schottky D8
 U 1 1 5B1B03B6
 P 1950 2950
-F 0 "D9" H 1950 3166 50  0000 C CNN
+F 0 "D8" H 1950 3166 50  0000 C CNN
 F 1 "SK310A-LTP" H 1950 3075 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 1950 2950 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Micro-Commercial-Components-MCC/SK310A-TP?qs=O2qRfqcg9D9SKx4%252bV6P4XQ%3D%3D" H 1950 2950 50  0001 C CNN
@@ -283,10 +283,10 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/PSMN1R2-30YLC.pdf" V 2200 
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D11
+L Device:D_Schottky D10
 U 1 1 5BD6B250
 P 5500 1300
-F 0 "D11" H 5450 1500 50  0000 L CNN
+F 0 "D10" H 5450 1500 50  0000 L CNN
 F 1 "BAT54GWJ" H 5300 1400 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 5500 1300 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 5500 1300 50  0001 C CNN
@@ -294,10 +294,10 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 5500 1300 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D12
+L Device:D_Schottky D11
 U 1 1 5BD6D4A2
 P 5500 2950
-F 0 "D12" H 5450 3150 50  0000 L CNN
+F 0 "D11" H 5450 3150 50  0000 L CNN
 F 1 "BAT54GWJ" H 5300 3050 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 5500 2950 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 5500 2950 50  0001 C CNN
@@ -375,10 +375,10 @@ Connection ~ 2300 3850
 Text HLabel 1250 4900 0    50   Input ~ 0
 PWM_HEAT2
 $Comp
-L Device:D_Schottky D10
+L Device:D_Schottky D9
 U 1 1 5BC4CDE5
 P 1950 4450
-F 0 "D10" H 1950 4666 50  0000 C CNN
+F 0 "D9" H 1950 4666 50  0000 C CNN
 F 1 "SK310A-LTP" H 1950 4575 50  0000 C CNN
 F 2 "Diode_SMD:D_SMA" H 1950 4450 50  0001 C CNN
 F 3 "https://www.mouser.de/ProductDetail/Micro-Commercial-Components-MCC/SK310A-TP?qs=O2qRfqcg9D9SKx4%252bV6P4XQ%3D%3D" H 1950 4450 50  0001 C CNN
@@ -619,10 +619,10 @@ VDD_FAN
 Text GLabel 7700 2950 0    50   Input ~ 0
 VDD_FAN
 $Comp
-L Device:D_Schottky D13
+L Device:D_Schottky D12
 U 1 1 5BC57D0F
 P 7950 1300
-F 0 "D13" H 7900 1500 50  0000 L CNN
+F 0 "D12" H 7900 1500 50  0000 L CNN
 F 1 "BAT54GWJ" H 7750 1400 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 7950 1300 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 7950 1300 50  0001 C CNN
@@ -630,10 +630,10 @@ F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 7950 1300 50  
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:D_Schottky D14
+L Device:D_Schottky D13
 U 1 1 5BC57D16
 P 7950 2950
-F 0 "D14" H 7900 3150 50  0000 L CNN
+F 0 "D13" H 7900 3150 50  0000 L CNN
 F 1 "BAT54GWJ" H 7750 3050 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123" H 7950 2950 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/916/BAT54GW-1318921.pdf" H 7950 2950 50  0001 C CNN
