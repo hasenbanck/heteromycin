@@ -1453,4 +1453,9 @@ F 3 "https://www.infineon.com/dgdl/irlml0030pbf.pdf?fileId=5546d462533600a401535
 	1    8350 1600
 	1    0    0    -1  
 $EndComp
+Text HLabel 2600 6200 2    50   Input ~ 0
+DIAG
+Wire Wire Line
+	2600 6200 1800 6200
+Connection ~ 1800 6200
 $EndSCHEMATC

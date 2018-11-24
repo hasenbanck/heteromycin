@@ -697,8 +697,6 @@ SPI1_MISO
 Text HLabel 6050 4600 3    50   Input ~ 0
 SPI1_MOSI
 NoConn ~ 6150 4600
-NoConn ~ 6850 4600
-NoConn ~ 6950 4600
 Text HLabel 6350 4600 3    50   Input ~ 0
 SS_Z
 Text HLabel 6250 4600 3    50   Input ~ 0
@@ -715,7 +713,6 @@ Text HLabel 7150 4600 3    50   Input ~ 0
 SPI4_SCK
 Text HLabel 7250 4600 3    50   Input ~ 0
 SPI4_MISO
-NoConn ~ 7450 4600
 Text HLabel 7350 4600 3    50   Input ~ 0
 SPI4_MOSI
 Text HLabel 7550 4600 3    50   Input ~ 0
@@ -781,27 +778,14 @@ NoConn ~ 5750 1400
 Text HLabel 6650 4600 3    50   Input ~ 0
 DIR_X
 NoConn ~ 8350 3800
-NoConn ~ 7650 4600
 Text HLabel 8350 3500 2    50   Input ~ 0
 SD_DETECT
-NoConn ~ 7050 4600
 Text HLabel 5150 2000 0    50   Input ~ 0
 X_MIN
 Text HLabel 5150 1900 0    50   Input ~ 0
 Y_MIN
 Text HLabel 5150 1800 0    50   Input ~ 0
 Z_MIN
-$Comp
-L heteromycin:STM32F765VIT6 U5
-U 1 1 5AD0AB9A
-P 6750 3000
-F 0 "U5" H 6750 3000 50  0000 L CNN
-F 1 "STM32F765VIT6" H 6500 2900 50  0000 L CNN
-F 2 "heteromycin:TQFP-100_14x14mm_P0.5mm" H 6750 3000 50  0001 C CNN
-F 3 "http://www.st.com/en/microcontrollers/stm32f765vi.html" H 6750 3000 50  0001 C CNN
-	1    6750 3000
-	1    0    0    -1  
-$EndComp
 Text HLabel 6850 1400 1    50   Input ~ 0
 D1
 Text HLabel 6950 1400 1    50   Input ~ 0
@@ -957,4 +941,25 @@ Wire Wire Line
 Wire Wire Line
 	2000 2850 1900 2850
 NoConn ~ 7850 1400
+$Comp
+L heteromycin:STM32F765VIT6 U5
+U 1 1 5AD0AB9A
+P 6750 3000
+F 0 "U5" H 6750 3000 50  0000 L CNN
+F 1 "STM32F765VIT6" H 6500 2900 50  0000 L CNN
+F 2 "heteromycin:TQFP-100_14x14mm_P0.5mm" H 6750 3000 50  0001 C CNN
+F 3 "http://www.st.com/en/microcontrollers/stm32f765vi.html" H 6750 3000 50  0001 C CNN
+	1    6750 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 6850 4600 3    50   Input ~ 0
+DIAG_Z
+Text HLabel 6950 4600 3    50   Input ~ 0
+DIAG_Y
+Text HLabel 7050 4600 3    50   Input ~ 0
+DIAG_X
+Text HLabel 7450 4600 3    50   Input ~ 0
+DIAG_E1
+Text HLabel 7650 4600 3    50   Input ~ 0
+DIAG_E0
 $EndSCHEMATC
