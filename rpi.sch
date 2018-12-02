@@ -133,9 +133,9 @@ F 3 "" H 4050 4850 50  0001 C CNN
 	1    4050 4850
 	0    1    1    0   
 $EndComp
-Text Label 4950 5100 2    60   ~ 0
-ID_SD_EEPROM
 Text Label 4950 5200 2    60   ~ 0
+ID_SD_EEPROM
+Text Label 4950 5100 2    60   ~ 0
 ID_SC_EEPROM
 $Comp
 L power:GND #PWR?
