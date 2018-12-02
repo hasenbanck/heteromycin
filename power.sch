@@ -784,10 +784,10 @@ Wire Wire Line
 Wire Wire Line
 	8450 1750 8900 1750
 $Comp
-L Connector_Generic:Conn_02x03_Odd_Even J25
+L Connector_Generic:Conn_02x03_Odd_Even J5
 U 1 1 5C045A3C
 P 7850 3850
-F 0 "J25" V 7854 4030 50  0000 L CNN
+F 0 "J5" V 7854 4030 50  0000 L CNN
 F 1 "Conn_02x03_Counter_Clockwise" V 7945 4030 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7850 3850 50  0001 C CNN
 F 3 "~" H 7850 3850 50  0001 C CNN
