@@ -946,9 +946,9 @@ L heteromycin:STM32F765VIT6 U5
 U 1 1 5AD0AB9A
 P 6750 3000
 F 0 "U5" H 6750 3000 50  0000 L CNN
-F 1 "STM32F765VIT6" H 6500 2900 50  0000 L CNN
+F 1 "STM32H743VI" H 6500 2900 50  0000 L CNN
 F 2 "heteromycin:TQFP-100_14x14mm_P0.5mm" H 6750 3000 50  0001 C CNN
-F 3 "http://www.st.com/en/microcontrollers/stm32f765vi.html" H 6750 3000 50  0001 C CNN
+F 3 "https://www.st.com/en/microcontrollers/stm32h743vi.html" H 6750 3000 50  0001 C CNN
 	1    6750 3000
 	1    0    0    -1  
 $EndComp

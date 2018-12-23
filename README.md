@@ -12,7 +12,7 @@ TMC5160 or TMC2160 driver (SD / SPI mode).
 
 ## Features
 
-* 32bit STM32F765VI 216Mhz / 512KiB RAM / 2MiB Flash MCU / 32 KiB EEPROM
+* 32bit STM32H743VI 400Mhz / 1024KiB RAM / 2MiB Flash MCU / 4 KiB EEPROM
 * Integrated Raspberry Pi 3 / Zero W HAT connector as the main user interface
 * Integrated DC/DC switching module for 5V / 3.3V power supply
 * 5x TMC5160 or TMC2160 stepper driver with 8x external Power MOSFET each
@@ -58,15 +58,6 @@ You can use both TMC5160 or TMC2160 as the stepper driver, since they both are
 functionally / pin equal when used in SD / SPI-Mode.
 
 It doesn't mater choosing one over the other, other than price and availability.
-
-### MOSFET
-
-For the small SOT1220 N-Channel MOSFET you can choose one of the
-following MOSFET (default: PMPB11EN):
-
-* PMPB11EN,115
-* BUK9D23-40E
-* PMPB20EN,115
 
 Fine tuning of the MOSFET driver may be necessary.
 
