@@ -587,18 +587,18 @@ $EndComp
 $Comp
 L Device:Ferrite_Bead_Small FB?
 U 1 1 5BCC4BBE
-P 6650 1750
+P 6700 1750
 AR Path="/5BC1C8A4/5BCC4BBE" Ref="FB?"  Part="1" 
 AR Path="/5BC54251/5BCC4BBE" Ref="FB1"  Part="1" 
-F 0 "FB1" V 6800 1700 50  0000 C CNN
-F 1 "MPZ1608S221A" V 6900 1700 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 6580 1750 50  0001 C CNN
-F 3 "https://www.mouser.de/datasheet/2/400/eads_commercial_power_mpz1608_en-923650.pdf" H 6650 1750 50  0001 C CNN
-	1    6650 1750
+F 0 "FB1" V 6850 1700 50  0000 C CNN
+F 1 "MPZ1608S221A" V 6950 1700 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 1750 50  0001 C CNN
+F 3 "https://www.mouser.de/datasheet/2/400/eads_commercial_power_mpz1608_en-923650.pdf" H 6700 1750 50  0001 C CNN
+	1    6700 1750
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	6350 1750 6550 1750
+	6350 1750 6600 1750
 $Comp
 L Device:C C15
 U 1 1 5BCCA55E
@@ -614,7 +614,7 @@ Wire Wire Line
 	8250 1750 8450 1750
 Connection ~ 8450 1750
 Wire Wire Line
-	6750 1750 7000 1750
+	6800 1750 7000 1750
 Connection ~ 7000 1750
 Connection ~ 7350 1750
 Text GLabel 4200 5600 2    50   Input ~ 0
@@ -635,11 +635,11 @@ Text GLabel 1400 4700 2    50   Input ~ 0
 HEAT1_OUT
 Text GLabel 1400 5200 2    50   Input ~ 0
 HEAT2_OUT
-Text GLabel 7750 3650 1    50   Input ~ 0
+Text GLabel 7550 3850 0    50   Input ~ 0
 VDD5V
-Text GLabel 7950 3650 1    50   Input ~ 0
+Text GLabel 7550 3650 0    50   Input ~ 0
 VDD24V
-Text GLabel 7850 4150 3    50   Input ~ 0
+Text GLabel 8050 3750 2    50   Input ~ 0
 VDD_FAN
 Text Notes 6450 3150 0    157  ~ 31
 FAN Voltage Selection
@@ -786,18 +786,18 @@ Wire Wire Line
 $Comp
 L Connector_Generic:Conn_02x03_Odd_Even J5
 U 1 1 5C045A3C
-P 7850 3850
-F 0 "J5" V 7854 4030 50  0000 L CNN
-F 1 "Conn_02x03_Counter_Clockwise" V 7945 4030 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7850 3850 50  0001 C CNN
-F 3 "~" H 7850 3850 50  0001 C CNN
-	1    7850 3850
-	0    1    1    0   
+P 7750 3750
+F 0 "J5" H 7750 4100 50  0000 L CNN
+F 1 "Conn_02x03_Counter_Clockwise" H 7200 4000 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7750 3750 50  0001 C CNN
+F 3 "~" H 7750 3750 50  0001 C CNN
+	1    7750 3750
+	1    0    0    -1  
 $EndComp
-Text GLabel 7850 3650 1    50   Input ~ 0
+Text GLabel 7550 3750 0    50   Input ~ 0
 VDD_FAN
-Text GLabel 7750 4150 3    50   Input ~ 0
+Text GLabel 8050 3850 2    50   Input ~ 0
 VDD5V
-Text GLabel 7950 4150 3    50   Input ~ 0
+Text GLabel 8050 3650 2    50   Input ~ 0
 VDD24V
 $EndSCHEMATC

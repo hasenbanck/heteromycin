@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 9 12
+Sheet 10 12
 Title "Motor"
 Date ""
 Rev ""
@@ -24,26 +24,6 @@ Text HLabel 4450 3200 3    50   Input ~ 0
 MOSI
 Text HLabel 4550 3200 3    50   Output ~ 0
 MISO
-$Comp
-L Device:C C?
-U 1 1 5AF8CEA3
-P 1750 4600
-AR Path="/5B03041B/5AF8CEA3" Ref="C?"  Part="1" 
-AR Path="/5AFC9D86/5AF8CEA3" Ref="C?"  Part="1" 
-AR Path="/5AFD185C/5AF8CEA3" Ref="C?"  Part="1" 
-AR Path="/5AFC22B0/5AF8CEA3" Ref="C?"  Part="1" 
-AR Path="/5BC2F52C/5AF8CEA3" Ref="C34"  Part="1" 
-AR Path="/5BC77BE8/5AF8CEA3" Ref="C50"  Part="1" 
-AR Path="/5BC77F87/5AF8CEA3" Ref="C66"  Part="1" 
-AR Path="/5BC77F8A/5AF8CEA3" Ref="C82"  Part="1" 
-AR Path="/5BC77F8D/5AF8CEA3" Ref="C98"  Part="1" 
-F 0 "C98" V 1498 4600 50  0000 C CNN
-F 1 "22nF" V 1589 4600 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 4450 50  0001 C CNN
-F 3 "~" H 1750 4600 50  0001 C CNN
-	1    1750 4600
-	-1   0    0    1   
-$EndComp
 $Comp
 L Device:C C?
 U 1 1 5B03C54C
@@ -106,7 +86,7 @@ F 3 "https://www.mouser.de/ProductDetail/Molex/70543-0003?qs=sGAEpiMZZMs%252bGHl
 $EndComp
 Text GLabel 1450 7200 0    50   Input ~ 0
 VDD24V
-Text Notes 1400 7700 0    50   ~ 0
+Text Notes 1700 7650 0    50   ~ 0
 Place as close as possible to pins!
 Text GLabel 1400 1150 0    50   Input ~ 0
 VDD3V3
@@ -189,22 +169,6 @@ CPI
 Text Label 5950 2200 0    50   ~ 0
 CPO
 $Comp
-L power:GND #PWR054
-U 1 1 5BC6E131
-P 6450 2300
-AR Path="/5BC2F52C/5BC6E131" Ref="#PWR054"  Part="1" 
-AR Path="/5BC77BE8/5BC6E131" Ref="#PWR072"  Part="1" 
-AR Path="/5BC77F87/5BC6E131" Ref="#PWR083"  Part="1" 
-AR Path="/5BC77F8A/5BC6E131" Ref="#PWR094"  Part="1" 
-AR Path="/5BC77F8D/5BC6E131" Ref="#PWR0105"  Part="1" 
-F 0 "#PWR0105" H 6450 2050 50  0001 C CNN
-F 1 "GND" V 6455 2172 50  0000 R CNN
-F 2 "" H 6450 2300 50  0001 C CNN
-F 3 "" H 6450 2300 50  0001 C CNN
-	1    6450 2300
-	0    -1   -1   0   
-$EndComp
-$Comp
 L power:GND #PWR052
 U 1 1 5BC6E1AA
 P 4150 1400
@@ -271,7 +235,6 @@ Wire Wire Line
 	6450 2800 5950 2800
 Wire Wire Line
 	6450 2300 5950 2300
-Connection ~ 6450 2300
 Text Label 4250 3200 3    50   ~ 0
 SS
 Text Label 6150 2700 0    50   ~ 0
@@ -542,9 +505,9 @@ F 3 "~" H 7650 3800 50  0001 C CNN
 	1    7650 3800
 	0    -1   -1   0   
 $EndComp
-Text Label 7300 6000 2    50   ~ 0
+Text Label 7250 6000 2    50   ~ 0
 SRAH
-Text Label 7300 6300 2    50   ~ 0
+Text Label 7250 6300 2    50   ~ 0
 SRAL
 $Comp
 L Device:R R21
@@ -643,14 +606,14 @@ F 4 "0.5W or 1W" H 8150 6150 50  0001 C CNN "Note"
 	1    8150 6150
 	-1   0    0    1   
 $EndComp
-Text Label 7300 5700 2    50   ~ 0
+Text Label 7250 5700 2    50   ~ 0
 LA2
-Text Label 7300 5350 2    50   ~ 0
+Text Label 7250 5350 2    50   ~ 0
 LA1
 Wire Wire Line
-	7300 5350 7850 5350
+	7250 5350 7850 5350
 Wire Wire Line
-	7300 5700 10750 5700
+	7250 5700 10750 5700
 Wire Wire Line
 	10750 5700 10750 5350
 Wire Wire Line
@@ -823,9 +786,9 @@ F 3 "~" H 7650 900 50  0001 C CNN
 	1    7650 900 
 	0    -1   -1   0   
 $EndComp
-Text Label 7300 3100 2    50   ~ 0
+Text Label 7250 3100 2    50   ~ 0
 SRBH
-Text Label 7300 3400 2    50   ~ 0
+Text Label 7250 3400 2    50   ~ 0
 SRBL
 $Comp
 L Device:R R19
@@ -924,14 +887,10 @@ F 4 "0.5 or 1W" H 8150 3250 50  0001 C CNN "Note"
 	1    8150 3250
 	-1   0    0    1   
 $EndComp
-Text Label 7300 2800 2    50   ~ 0
+Text Label 7250 2800 2    50   ~ 0
 LB2
-Text Label 7300 2450 2    50   ~ 0
+Text Label 7250 2450 2    50   ~ 0
 LB1
-Wire Wire Line
-	7300 2450 7850 2450
-Wire Wire Line
-	7300 2800 10750 2800
 Wire Wire Line
 	10750 2800 10750 2450
 Wire Wire Line
@@ -1102,18 +1061,14 @@ Connection ~ 9850 3750
 Wire Wire Line
 	9850 3750 9850 3900
 Wire Wire Line
-	7300 3100 7500 3100
-Wire Wire Line
-	7300 3400 7500 3400
-Wire Wire Line
 	7800 3100 8150 3100
 Connection ~ 8150 3100
 Wire Wire Line
 	7800 3400 8150 3400
 Wire Wire Line
-	7300 6000 7500 6000
+	7250 6000 7500 6000
 Wire Wire Line
-	7300 6300 7500 6300
+	7250 6300 7500 6300
 Wire Wire Line
 	7800 6000 8150 6000
 Connection ~ 8150 6000
@@ -1137,22 +1092,6 @@ F 3 "" H 1200 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 1200 3550
-$Comp
-L power:GND #PWR049
-U 1 1 5BC9CA91
-P 1600 7500
-AR Path="/5BC2F52C/5BC9CA91" Ref="#PWR049"  Part="1" 
-AR Path="/5BC77BE8/5BC9CA91" Ref="#PWR067"  Part="1" 
-AR Path="/5BC77F87/5BC9CA91" Ref="#PWR078"  Part="1" 
-AR Path="/5BC77F8A/5BC9CA91" Ref="#PWR089"  Part="1" 
-AR Path="/5BC77F8D/5BC9CA91" Ref="#PWR0100"  Part="1" 
-F 0 "#PWR0100" H 1600 7250 50  0001 C CNN
-F 1 "GND" V 1605 7372 50  0000 R CNN
-F 2 "" H 1600 7500 50  0001 C CNN
-F 3 "" H 1600 7500 50  0001 C CNN
-	1    1600 7500
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8150 6000 9200 6000
 Wire Wire Line
@@ -1246,7 +1185,6 @@ F 3 "" H 2150 7350 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	1600 7500 2150 7500
-Connection ~ 1600 7500
 Connection ~ 2150 7500
 Wire Wire Line
 	2150 7200 1600 7200
@@ -1458,4 +1396,57 @@ DIAG
 Wire Wire Line
 	2600 6200 1800 6200
 Connection ~ 1800 6200
+$Comp
+L power:GND #PWR0136
+U 1 1 5C404578
+P 6450 2800
+AR Path="/5BC77F8A/5C404578" Ref="#PWR0136"  Part="1" 
+AR Path="/5BC2F52C/5C404578" Ref="#PWR0105"  Part="1" 
+AR Path="/5BC77BE8/5C404578" Ref="#PWR0134"  Part="1" 
+AR Path="/5BC77F87/5C404578" Ref="#PWR0135"  Part="1" 
+AR Path="/5BC77F8D/5C404578" Ref="#PWR0137"  Part="1" 
+F 0 "#PWR0137" H 6450 2550 50  0001 C CNN
+F 1 "GND" H 6455 2627 50  0000 C CNN
+F 2 "" H 6450 2800 50  0001 C CNN
+F 3 "" H 6450 2800 50  0001 C CNN
+	1    6450 2800
+	1    0    0    -1  
+$EndComp
+Connection ~ 6450 2800
+Wire Wire Line
+	7250 3100 7500 3100
+Wire Wire Line
+	7250 3400 7500 3400
+Wire Wire Line
+	7250 2800 10750 2800
+Wire Wire Line
+	7250 2450 7850 2450
+$Comp
+L power:GND #PWR0143
+U 1 1 5C45E016
+P 1600 7500
+AR Path="/5BC2F52C/5C45E016" Ref="#PWR0143"  Part="1" 
+AR Path="/5BC77F87/5C45E016" Ref="#PWR0145"  Part="1" 
+AR Path="/5BC77BE8/5C45E016" Ref="#PWR0144"  Part="1" 
+AR Path="/5BC77F8A/5C45E016" Ref="#PWR0146"  Part="1" 
+AR Path="/5BC77F8D/5C45E016" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 1600 7250 50  0001 C CNN
+F 1 "GND" H 1605 7327 50  0000 C CNN
+F 2 "" H 1600 7500 50  0001 C CNN
+F 3 "" H 1600 7500 50  0001 C CNN
+	1    1600 7500
+	1    0    0    -1  
+$EndComp
+Connection ~ 1600 7500
+$Comp
+L Device:C C98
+U 1 1 5C503358
+P 1750 4600
+F 0 "C98" H 1865 4646 50  0000 L CNN
+F 1 "22nF" H 1865 4555 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1788 4450 50  0001 C CNN
+F 3 "~" H 1750 4600 50  0001 C CNN
+	1    1750 4600
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

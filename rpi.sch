@@ -76,20 +76,7 @@ Wire Wire Line
 Wire Wire Line
 	8200 2650 8200 2600
 Wire Wire Line
-	8200 2050 8200 2150
-Wire Wire Line
 	7800 2150 8200 2150
-Connection ~ 8200 2150
-Wire Wire Line
-	7400 2050 7400 2200
-Wire Wire Line
-	7700 1850 7700 2200
-Wire Wire Line
-	7400 2200 7700 2200
-Connection ~ 7400 2200
-Wire Wire Line
-	7900 2200 7900 1850
-Connection ~ 7700 2200
 Wire Wire Line
 	7400 1650 7400 1250
 Connection ~ 7400 1250
@@ -123,14 +110,14 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5BC4B1E8
-P 4050 4850
+P 4050 4800
 AR Path="/5BC4B1E8" Ref="R?"  Part="1" 
 AR Path="/5BC4AC32/5BC4B1E8" Ref="R3"  Part="1" 
-F 0 "R3" V 4150 4850 50  0000 C CNN
-F 1 "3.9K" V 4250 4850 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3980 4850 50  0001 C CNN
-F 3 "" H 4050 4850 50  0001 C CNN
-	1    4050 4850
+F 0 "R3" V 4150 4800 50  0000 C CNN
+F 1 "3.9K" V 4250 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3980 4800 50  0001 C CNN
+F 3 "" H 4050 4800 50  0001 C CNN
+	1    4050 4800
 	0    1    1    0   
 $EndComp
 Text Label 4950 5200 2    60   ~ 0
@@ -144,7 +131,7 @@ P 2250 4900
 AR Path="/5BC4B1F1" Ref="#PWR?"  Part="1" 
 AR Path="/5BC4AC32/5BC4B1F1" Ref="#PWR02"  Part="1" 
 F 0 "#PWR02" H 2250 4650 50  0001 C CNN
-F 1 "GND" H 2250 4750 50  0000 C CNN
+F 1 "GND" V 2250 4700 50  0000 C CNN
 F 2 "" H 2250 4900 50  0000 C CNN
 F 3 "" H 2250 4900 50  0000 C CNN
 	1    2250 4900
@@ -152,7 +139,7 @@ F 3 "" H 2250 4900 50  0000 C CNN
 $EndComp
 Text Notes 2700 4300 0    118  ~ 24
 HAT EEPROM
-Text Notes 6750 4300 0    118  ~ 24
+Text Notes 7600 4250 0    118  ~ 24
 Mounting Holes
 Text Label 1450 2400 0    60   ~ 0
 ID_SD_EEPROM
@@ -173,22 +160,16 @@ Wire Wire Line
 $Comp
 L power:GND #PWR06
 U 1 1 5BC4B213
-P 2850 5500
-F 0 "#PWR06" H 2850 5250 50  0001 C CNN
-F 1 "GND" H 2850 5350 50  0000 C CNN
-F 2 "" H 2850 5500 50  0000 C CNN
-F 3 "" H 2850 5500 50  0000 C CNN
-	1    2850 5500
+P 2850 5450
+F 0 "#PWR06" H 2850 5200 50  0001 C CNN
+F 1 "GND" H 2850 5300 50  0000 C CNN
+F 2 "" H 2850 5450 50  0000 C CNN
+F 3 "" H 2850 5450 50  0000 C CNN
+	1    2850 5450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 5400 2850 5500
-Wire Wire Line
-	8200 2150 8200 2300
-Wire Wire Line
-	7400 2200 7400 2300
-Wire Wire Line
-	7700 2200 7900 2200
+	2850 5400 2850 5450
 Wire Wire Line
 	8200 1250 8800 1250
 $Comp
@@ -216,34 +197,34 @@ $EndComp
 $Comp
 L Mechanical:MountingHole H1
 U 1 1 5BC4B22D
-P 7050 4600
-F 0 "H1" H 6900 4700 60  0000 C CNN
-F 1 "MountingHole_2.7mm_M2.5_Pad" H 7050 4450 60  0000 C CNN
-F 2 "heteromycin:MountingHole_2.7mm_M2.5_Pad" H 6950 4600 60  0001 C CNN
-F 3 "" H 6950 4600 60  0001 C CNN
-	1    7050 4600
+P 6650 4500
+F 0 "H1" H 6500 4600 60  0000 C CNN
+F 1 "MountingHole_2.7mm_M2.5_Pad" H 6650 4350 60  0000 C CNN
+F 2 "heteromycin:MountingHole_2.7mm_M2.5_Pad" H 6550 4500 60  0001 C CNN
+F 3 "" H 6550 4500 60  0001 C CNN
+	1    6650 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
 U 1 1 5BC4B234
-P 7050 5100
-F 0 "H2" H 6900 5200 60  0000 C CNN
-F 1 "MountingHole_2.7mm_M2.5_Pad" H 7050 4950 60  0000 C CNN
-F 2 "heteromycin:MountingHole_2.7mm_M2.5_Pad" H 6950 5100 60  0001 C CNN
-F 3 "" H 6950 5100 60  0001 C CNN
-	1    7050 5100
+P 6650 5000
+F 0 "H2" H 6500 5100 60  0000 C CNN
+F 1 "MountingHole_2.7mm_M2.5_Pad" H 6650 4850 60  0000 C CNN
+F 2 "heteromycin:MountingHole_2.7mm_M2.5_Pad" H 6550 5000 60  0001 C CNN
+F 3 "" H 6550 5000 60  0001 C CNN
+	1    6650 5000
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
 U 1 1 5BC4B23B
-P 7050 5500
-F 0 "H3" H 6900 5600 60  0000 C CNN
-F 1 "MountingHole_2.7mm_M2.5_Pad" H 7050 5350 60  0000 C CNN
-F 2 "heteromycin:MountingHole_2.7mm_M2.5_Pad" H 6950 5500 60  0001 C CNN
-F 3 "" H 6950 5500 60  0001 C CNN
-	1    7050 5500
+P 8300 5450
+F 0 "H3" H 8150 5550 60  0000 C CNN
+F 1 "MountingHole_2.7mm_M2.5_Pad" H 8300 5300 60  0000 C CNN
+F 2 "heteromycin:MountingHole_2.7mm_M2.5_Pad" H 8200 5450 60  0001 C CNN
+F 3 "" H 8200 5450 60  0001 C CNN
+	1    8300 5450
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -298,7 +279,7 @@ F 3 "" H 1900 5400 50  0001 C CNN
 $EndComp
 Text GLabel 1550 5400 0    50   Input ~ 0
 VDD3V3
-Text GLabel 3400 4450 2    50   Input ~ 0
+Text GLabel 3450 4400 2    50   Input ~ 0
 VDD3V3
 Wire Wire Line
 	1550 5200 1650 5200
@@ -314,13 +295,11 @@ Connection ~ 2200 5200
 Wire Wire Line
 	2200 5200 2350 5200
 Wire Wire Line
-	2850 4600 2850 4450
-Wire Wire Line
 	3350 5100 3800 5100
 Wire Wire Line
 	3350 5200 3900 5200
 Wire Wire Line
-	3900 4850 3900 5200
+	3900 4800 3900 5200
 Connection ~ 3900 5200
 Wire Wire Line
 	3900 5200 4950 5200
@@ -336,9 +315,9 @@ VDD3V3
 Wire Wire Line
 	4200 4650 4300 4650
 Wire Wire Line
-	4300 4650 4300 4850
+	4300 4650 4300 4800
 Wire Wire Line
-	4300 4850 4200 4850
+	4300 4800 4200 4800
 Connection ~ 4300 4650
 Wire Wire Line
 	4300 4650 4400 4650
@@ -460,34 +439,34 @@ NoConn ~ 2650 1900
 $Comp
 L Mechanical:MountingHole H4
 U 1 1 5BC57D78
-P 8700 4600
-F 0 "H4" H 8550 4700 60  0000 C CNN
-F 1 "MountingHole_3.2mm_M3_Pad" H 8700 4450 60  0000 C CNN
-F 2 "heteromycin:MountingHole_3.2mm_M3_Pad" H 8600 4600 60  0001 C CNN
-F 3 "" H 8600 4600 60  0001 C CNN
-	1    8700 4600
+P 8300 4500
+F 0 "H4" H 8150 4600 60  0000 C CNN
+F 1 "MountingHole_3.2mm_M3_Pad" H 8300 4350 60  0000 C CNN
+F 2 "heteromycin:MountingHole_3.2mm_M3_Pad" H 8200 4500 60  0001 C CNN
+F 3 "" H 8200 4500 60  0001 C CNN
+	1    8300 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H6
 U 1 1 5BC57D7F
-P 10250 4600
-F 0 "H6" H 10100 4700 60  0000 C CNN
-F 1 "MountingHole_3.2mm_M3_Pad" H 10250 4450 60  0000 C CNN
-F 2 "heteromycin:MountingHole_3.2mm_M3_Pad" H 10150 4600 60  0001 C CNN
-F 3 "" H 10150 4600 60  0001 C CNN
-	1    10250 4600
+P 9850 4500
+F 0 "H6" H 9700 4600 60  0000 C CNN
+F 1 "MountingHole_3.2mm_M3_Pad" H 9850 4350 60  0000 C CNN
+F 2 "heteromycin:MountingHole_3.2mm_M3_Pad" H 9750 4500 60  0001 C CNN
+F 3 "" H 9750 4500 60  0001 C CNN
+	1    9850 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H5
 U 1 1 5BC57D86
-P 8700 5100
-F 0 "H5" H 8550 5200 60  0000 C CNN
-F 1 "MountingHole_3.2mm_M3_Pad" H 8700 4950 60  0000 C CNN
-F 2 "heteromycin:MountingHole_3.2mm_M3_Pad" H 8600 5100 60  0001 C CNN
-F 3 "" H 8600 5100 60  0001 C CNN
-	1    8700 5100
+P 8300 5000
+F 0 "H5" H 8150 5100 60  0000 C CNN
+F 1 "MountingHole_3.2mm_M3_Pad" H 8300 4850 60  0000 C CNN
+F 2 "heteromycin:MountingHole_3.2mm_M3_Pad" H 8200 5000 60  0001 C CNN
+F 3 "" H 8200 5000 60  0001 C CNN
+	1    8300 5000
 	1    0    0    -1  
 $EndComp
 Text HLabel 2650 1200 0    50   Input ~ 0
@@ -534,12 +513,12 @@ NoConn ~ 3850 3000
 $Comp
 L Mechanical:MountingHole H7
 U 1 1 5BCFB1ED
-P 10250 5100
-F 0 "H7" H 10100 5200 60  0000 C CNN
-F 1 "MountingHole_3.2mm_M3_Pad" H 10250 4950 60  0000 C CNN
-F 2 "heteromycin:MountingHole_3.2mm_M3_Pad" H 10150 5100 60  0001 C CNN
-F 3 "" H 10150 5100 60  0001 C CNN
-	1    10250 5100
+P 9850 5000
+F 0 "H7" H 9700 5100 60  0000 C CNN
+F 1 "MountingHole_3.2mm_M3_Pad" H 9850 4850 60  0000 C CNN
+F 2 "heteromycin:MountingHole_3.2mm_M3_Pad" H 9750 5000 60  0001 C CNN
+F 3 "" H 9750 5000 60  0001 C CNN
+	1    9850 5000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -548,8 +527,8 @@ U 1 1 5BD28BFC
 P 3400 4600
 AR Path="/5BC1C8A4/5BD28BFC" Ref="C?"  Part="1" 
 AR Path="/5BC4AC32/5BD28BFC" Ref="C1"  Part="1" 
-F 0 "C1" V 3652 4600 50  0000 C CNN
-F 1 "100nF" V 3561 4600 50  0000 C CNN
+F 0 "C1" H 3650 4650 50  0000 C CNN
+F 1 "100nF" H 3650 4550 50  0000 C CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 3438 4450 50  0001 C CNN
 F 3 "~" H 3400 4600 50  0001 C CNN
 	1    3400 4600
@@ -569,5 +548,31 @@ F 3 "" H 3400 4750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2850 4450 3400 4450
+	2850 4400 3400 4400
+Connection ~ 8200 2150
+Wire Wire Line
+	8200 2150 8200 2300
+Wire Wire Line
+	8200 2050 8200 2150
+Wire Wire Line
+	7700 1850 7750 1850
+Wire Wire Line
+	7400 2050 7400 2150
+Wire Wire Line
+	7750 1850 7750 2150
+Wire Wire Line
+	7750 2150 7400 2150
+Connection ~ 7750 1850
+Wire Wire Line
+	7750 1850 7900 1850
+Connection ~ 7400 2150
+Wire Wire Line
+	7400 2150 7400 2300
+Wire Wire Line
+	3400 4450 3400 4400
+Wire Wire Line
+	3400 4400 3450 4400
+Connection ~ 3400 4400
+Wire Wire Line
+	2850 4600 2850 4400
 $EndSCHEMATC

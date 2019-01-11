@@ -213,17 +213,6 @@ F 3 "" H 2200 6100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR043
-U 1 1 5AF5BF00
-P 4450 3600
-F 0 "#PWR043" H 4450 3350 50  0001 C CNN
-F 1 "GND" V 4455 3472 50  0000 R CNN
-F 2 "" H 4450 3600 50  0001 C CNN
-F 3 "" H 4450 3600 50  0001 C CNN
-	1    4450 3600
-	0    1    1    0   
-$EndComp
-$Comp
 L power:GND #PWR045
 U 1 1 5AF5CFF3
 P 5650 850
@@ -233,17 +222,6 @@ F 2 "" H 5650 850 50  0001 C CNN
 F 3 "" H 5650 850 50  0001 C CNN
 	1    5650 850 
 	-1   0    0    1   
-$EndComp
-$Comp
-L power:GND #PWR047
-U 1 1 5AF5E7FC
-P 9300 1900
-F 0 "#PWR047" H 9300 1650 50  0001 C CNN
-F 1 "GND" H 9300 1750 50  0000 C CNN
-F 2 "" H 9300 1900 50  0001 C CNN
-F 3 "" H 9300 1900 50  0001 C CNN
-	1    9300 1900
-	0    -1   -1   0   
 $EndComp
 $Comp
 L power:GND #PWR046
@@ -266,17 +244,6 @@ F 2 "Button_Switch_THT:SW_Tactile_SPST_Angled_PTS645Vx39-2LFS" H 1550 3050 50  0
 F 3 "https://www.mouser.de/datasheet/2/60/-1131575.pdf" H 1550 3050 50  0001 C CNN
 	1    1550 2850
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR032
-U 1 1 5AF616AA
-P 1100 2850
-F 0 "#PWR032" H 1100 2600 50  0001 C CNN
-F 1 "GND" H 1105 2677 50  0000 C CNN
-F 2 "" H 1100 2850 50  0001 C CNN
-F 3 "" H 1100 2850 50  0001 C CNN
-	1    1100 2850
-	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1100 2850 1350 2850
@@ -340,7 +307,6 @@ Connection ~ 1800 6400
 Wire Wire Line
 	1450 6500 1800 6500
 Connection ~ 1800 6500
-Connection ~ 1100 2850
 Text GLabel 8350 1800 2    50   Input ~ 0
 VDD3V3
 Text HLabel 1850 2400 0    50   Input ~ 0
@@ -349,17 +315,6 @@ Wire Wire Line
 	1750 2850 1900 2850
 Wire Wire Line
 	1900 3200 1900 2850
-$Comp
-L power:GND #PWR031
-U 1 1 5AFDE2A1
-P 950 7450
-F 0 "#PWR031" H 950 7200 50  0001 C CNN
-F 1 "GND" H 955 7277 50  0000 C CNN
-F 2 "" H 950 7450 50  0001 C CNN
-F 3 "" H 950 7450 50  0001 C CNN
-	1    950  7450
-	0    1    1    0   
-$EndComp
 Text HLabel 4050 2650 2    50   Input ~ 0
 BOOT
 Text Notes 6500 950  0    157  ~ 31
@@ -424,20 +379,6 @@ F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 1900 4350 50  0001 C CNN
 F 3 "" H 1900 4350 50  0000 C CNN
 	1    1900 4350
 	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5BC1FDFA
-P 1300 4250
-AR Path="/5BC1FDFA" Ref="#PWR?"  Part="1" 
-AR Path="/5BC4AC32/5BC1FDFA" Ref="#PWR?"  Part="1" 
-AR Path="/5BC1C8A4/5BC1FDFA" Ref="#PWR033"  Part="1" 
-F 0 "#PWR033" H 1300 4000 50  0001 C CNN
-F 1 "GND" H 1300 4100 50  0000 C CNN
-F 2 "" H 1300 4250 50  0000 C CNN
-F 3 "" H 1300 4250 50  0000 C CNN
-	1    1300 4250
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
@@ -615,12 +556,7 @@ Wire Wire Line
 Wire Wire Line
 	5650 1400 5650 850 
 Wire Wire Line
-	4450 3600 4500 3600
-Wire Wire Line
-	4500 3600 4500 2700
-Wire Wire Line
 	4500 2700 5150 2700
-Connection ~ 4500 3600
 Wire Wire Line
 	4500 3600 5150 3600
 Wire Wire Line
@@ -638,12 +574,9 @@ Wire Wire Line
 	7850 5100 7850 4600
 Wire Wire Line
 	950  7150 1150 7150
-Wire Wire Line
-	950  7450 1150 7450
 Connection ~ 1150 7150
 Wire Wire Line
 	1150 7150 1600 7150
-Connection ~ 1150 7450
 Wire Wire Line
 	1150 7450 1600 7450
 Connection ~ 1600 7150
@@ -962,4 +895,65 @@ Text HLabel 7450 4600 3    50   Input ~ 0
 DIAG_E1
 Text HLabel 7650 4600 3    50   Input ~ 0
 DIAG_E0
+Wire Wire Line
+	4500 3600 4500 2700
+$Comp
+L power:GND #PWR0138
+U 1 1 5C45B9BC
+P 4500 3600
+F 0 "#PWR0138" H 4500 3350 50  0001 C CNN
+F 1 "GND" H 4505 3427 50  0000 C CNN
+F 2 "" H 4500 3600 50  0001 C CNN
+F 3 "" H 4500 3600 50  0001 C CNN
+	1    4500 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 4500 3600
+$Comp
+L power:GND #PWR0139
+U 1 1 5C45C692
+P 1100 3200
+F 0 "#PWR0139" H 1100 2950 50  0001 C CNN
+F 1 "GND" H 1105 3027 50  0000 C CNN
+F 2 "" H 1100 3200 50  0001 C CNN
+F 3 "" H 1100 3200 50  0001 C CNN
+	1    1100 3200
+	1    0    0    -1  
+$EndComp
+Connection ~ 1100 3200
+$Comp
+L power:GND #PWR0140
+U 1 1 5C45CCF1
+P 1300 4550
+F 0 "#PWR0140" H 1300 4300 50  0001 C CNN
+F 1 "GND" H 1305 4377 50  0000 C CNN
+F 2 "" H 1300 4550 50  0001 C CNN
+F 3 "" H 1300 4550 50  0001 C CNN
+	1    1300 4550
+	1    0    0    -1  
+$EndComp
+Connection ~ 1300 4550
+$Comp
+L power:GND #PWR0141
+U 1 1 5C45CE8D
+P 1150 7450
+F 0 "#PWR0141" H 1150 7200 50  0001 C CNN
+F 1 "GND" H 1155 7277 50  0000 C CNN
+F 2 "" H 1150 7450 50  0001 C CNN
+F 3 "" H 1150 7450 50  0001 C CNN
+	1    1150 7450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1150 7450
+$Comp
+L power:GND #PWR0142
+U 1 1 5C45D233
+P 9300 1900
+F 0 "#PWR0142" H 9300 1650 50  0001 C CNN
+F 1 "GND" H 9305 1727 50  0000 C CNN
+F 2 "" H 9300 1900 50  0001 C CNN
+F 3 "" H 9300 1900 50  0001 C CNN
+	1    9300 1900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
