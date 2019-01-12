@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:heteromycin-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -293,7 +293,7 @@ Wire Wire Line
 	1750 2850 1900 2850
 Wire Wire Line
 	1900 3200 1900 2850
-Text HLabel 3800 2750 2    50   Input ~ 0
+Text HLabel 2740 2470 0    50   Input ~ 0
 BOOT
 Text Notes 6500 950  0    157  ~ 31
 MCU
@@ -446,7 +446,7 @@ Text Label 9300 6400 2    50   ~ 0
 SDA
 Text Label 9300 6300 2    50   ~ 0
 SCL
-Text Label 2900 2750 2    50   ~ 0
+Text Label 3340 2470 0    50   ~ 0
 BOOTpin
 $Comp
 L Device:R R12
@@ -790,17 +790,6 @@ Wire Wire Line
 Wire Wire Line
 	1900 3800 2550 3800
 Connection ~ 2550 3800
-$Comp
-L Device:R R9
-U 1 1 5BD6A8E4
-P 3200 2900
-F 0 "R9" H 3050 2850 50  0000 L CNN
-F 1 "10k" H 3000 2950 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3130 2900 50  0001 C CNN
-F 3 "~" H 3200 2900 50  0001 C CNN
-	1    3200 2900
-	-1   0    0    1   
-$EndComp
 Text Notes 2750 2200 0    157  ~ 31
 Boot
 Connection ~ 1900 2850
@@ -900,30 +889,39 @@ $EndComp
 $Comp
 L power:GND #PWR041
 U 1 1 5C3CEF29
-P 3200 3050
-F 0 "#PWR041" H 3200 2800 50  0001 C CNN
-F 1 "GND" H 3205 2877 50  0000 C CNN
-F 2 "" H 3200 3050 50  0001 C CNN
-F 3 "" H 3200 3050 50  0001 C CNN
-	1    3200 3050
+P 3140 2770
+F 0 "#PWR041" H 3140 2520 50  0001 C CNN
+F 1 "GND" H 3145 2597 50  0000 C CNN
+F 2 "" H 3140 2770 50  0001 C CNN
+F 3 "" H 3140 2770 50  0001 C CNN
+	1    3140 2770
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3200 2750 2900 2750
 $Comp
-L Device:R R10
+L Device:R R9
 U 1 1 5C3D11E8
-P 3550 2750
-F 0 "R10" V 3650 2700 50  0000 L CNN
-F 1 "10k" V 3450 2700 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3480 2750 50  0001 C CNN
-F 3 "~" H 3550 2750 50  0001 C CNN
-	1    3550 2750
+P 2890 2470
+F 0 "R9" V 2990 2420 50  0000 L CNN
+F 1 "10k" V 2790 2420 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2820 2470 50  0001 C CNN
+F 3 "~" H 2890 2470 50  0001 C CNN
+	1    2890 2470
 	0    -1   -1   0   
 $EndComp
+Connection ~ 3140 2470
 Wire Wire Line
-	3800 2750 3700 2750
+	3040 2470 3140 2470
 Wire Wire Line
-	3400 2750 3200 2750
-Connection ~ 3200 2750
+	3340 2470 3140 2470
+$Comp
+L Device:R R10
+U 1 1 5BD6A8E4
+P 3140 2620
+F 0 "R10" H 2965 2570 50  0000 L CNN
+F 1 "100k" H 2880 2660 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3070 2620 50  0001 C CNN
+F 3 "~" H 3140 2620 50  0001 C CNN
+	1    3140 2620
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
