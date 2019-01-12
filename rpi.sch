@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 12
 Title "Raspberry Pi Connector"
-Date ""
-Rev ""
+Date "2019-01-12"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
