@@ -5,9 +5,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 12
-Title ""
-Date ""
-Rev ""
+Title "Structure"
+Date "2019-01-12"
+Rev "1.3"
 Comp ""
 Comment1 ""
 Comment2 ""
