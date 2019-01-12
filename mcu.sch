@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:heteromycin-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -14,17 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:R R10
-U 1 1 5AD0B119
-P 3450 3300
-F 0 "R10" H 3250 3250 50  0000 L CNN
-F 1 "10k" H 3250 3350 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3380 3300 50  0001 C CNN
-F 3 "~" H 3450 3300 50  0001 C CNN
-	1    3450 3300
-	-1   0    0    1   
-$EndComp
 Text GLabel 950  6500 0    50   Input ~ 0
 VDD3V3
 Text GLabel 5150 2800 0    50   Input ~ 0
@@ -265,17 +254,6 @@ Wire Wire Line
 Wire Wire Line
 	1100 3200 1400 3200
 $Comp
-L power:GND #PWR041
-U 1 1 5AF66D47
-P 3450 3450
-F 0 "#PWR041" H 3450 3200 50  0001 C CNN
-F 1 "GND" H 3455 3277 50  0000 C CNN
-F 2 "" H 3450 3450 50  0001 C CNN
-F 3 "" H 3450 3450 50  0001 C CNN
-	1    3450 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:Ferrite_Bead_Small FB2
 U 1 1 5AF6D789
 P 1250 6400
@@ -315,7 +293,7 @@ Wire Wire Line
 	1750 2850 1900 2850
 Wire Wire Line
 	1900 3200 1900 2850
-Text HLabel 4050 2650 2    50   Input ~ 0
+Text HLabel 3200 2400 2    50   Input ~ 0
 BOOT
 Text Notes 6500 950  0    157  ~ 31
 MCU
@@ -468,7 +446,7 @@ Text Label 9300 6400 2    50   ~ 0
 SDA
 Text Label 9300 6300 2    50   ~ 0
 SCL
-Text Label 2900 3050 2    50   ~ 0
+Text Label 2900 2400 2    50   ~ 0
 BOOTpin
 $Comp
 L Device:R R13
@@ -815,54 +793,17 @@ Connection ~ 2550 3800
 $Comp
 L Device:R R9
 U 1 1 5BD6A8E4
-P 3150 3050
-F 0 "R9" V 3050 3000 50  0000 L CNN
-F 1 "10k" V 2950 3000 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3080 3050 50  0001 C CNN
-F 3 "~" H 3150 3050 50  0001 C CNN
-	1    3150 3050
+P 3050 2400
+F 0 "R9" V 2950 2350 50  0000 L CNN
+F 1 "10k" V 2850 2350 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2980 2400 50  0001 C CNN
+F 3 "~" H 3050 2400 50  0001 C CNN
+	1    3050 2400
 	0    -1   -1   0   
 $EndComp
-Text Notes 3250 2200 0    157  ~ 31
+Text Notes 2750 2200 0    157  ~ 31
 Boot
 Connection ~ 1900 2850
-Wire Wire Line
-	3300 3050 3450 3050
-Text GLabel 3400 2350 0    50   Input ~ 0
-VDD3V3
-$Comp
-L Device:Q_NPN_BEC Q3
-U 1 1 5BD9AD61
-P 3550 2650
-F 0 "Q3" H 3740 2696 50  0000 L CNN
-F 1 "MMBT3904-7-F" H 3740 2605 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23" H 3750 2750 50  0001 C CNN
-F 3 "https://eu.mouser.com/datasheet/2/115/ds30036-41708.pdf" H 3550 2650 50  0001 C CNN
-	1    3550 2650
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 3150 3450 3050
-Wire Wire Line
-	3450 2850 3450 3050
-Connection ~ 3450 3050
-Wire Wire Line
-	3400 2350 3450 2350
-Wire Wire Line
-	3450 2350 3450 2450
-Wire Wire Line
-	2900 3050 3000 3050
-$Comp
-L Device:R R11
-U 1 1 5BDA97CE
-P 3900 2650
-F 0 "R11" V 3800 2600 50  0000 L CNN
-F 1 "10k" V 3700 2600 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 2650 50  0001 C CNN
-F 3 "~" H 3900 2650 50  0001 C CNN
-	1    3900 2650
-	0    -1   -1   0   
-$EndComp
 Text Label 5150 3100 2    50   ~ 0
 nRESETpin
 Text Label 2000 2850 0    50   ~ 0
