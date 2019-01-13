@@ -22,6 +22,7 @@ F 0 "U3" H 7900 1850 50  0000 C CNN
 F 1 "AP7365-33WG-7" H 7850 2150 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-23-5" H 7900 1850 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/115/AP7365-86154.pdf" H 7900 1850 50  0001 C CNN
+F 4 "AP7365-33WG-7" H 0   0   50  0001 C CNN "manf#"
 	1    7900 1850
 	1    0    0    -1  
 $EndComp
@@ -49,6 +50,7 @@ F 0 "C12" H 4665 1446 50  0000 L CNN
 F 1 "22uF" H 4665 1355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4588 1250 50  0001 C CNN
 F 3 "~" H 4550 1400 50  0001 C CNN
+F 4 "LMK316ABJ226KL-T" H 0   0   50  0001 C CNN "manf#"
 	1    4550 1400
 	1    0    0    -1  
 $EndComp
@@ -60,6 +62,7 @@ F 0 "C2" H 1618 1446 50  0000 L CNN
 F 1 "100uF" H 1618 1355 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 1538 1250 50  0001 C CNN
 F 3 "" H 1500 1400 50  0001 C CNN
+F 4 "860020573008" H 0   0   50  0001 C CNN "manf#"
 	1    1500 1400
 	1    0    0    -1  
 $EndComp
@@ -75,6 +78,7 @@ F 0 "R8" H 8970 1946 50  0000 L CNN
 F 1 "1k" H 8970 1855 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 8830 1900 50  0001 C CNN
 F 3 "~" H 8900 1900 50  0001 C CNN
+F 4 "RC0603JR-7W1KL" H 0   0   50  0001 C CNN "manf#"
 	1    8900 1900
 	1    0    0    -1  
 $EndComp
@@ -86,6 +90,7 @@ F 0 "D5" V 8938 2083 50  0000 R CNN
 F 1 "LTST-C194KGKT" V 8847 2083 50  0000 R CNN
 F 2 "LED_SMD:LED_0603_1608Metric" H 8900 2200 50  0001 C CNN
 F 3 "~" H 8900 2200 50  0001 C CNN
+F 4 "LTST-C194KGKT" H 0   0   50  0001 C CNN "manf#"
 	1    8900 2200
 	0    -1   -1   0   
 $EndComp
@@ -128,6 +133,7 @@ F 1 "4DB-P108-06" H 1120 4326 50  0000 C CNN
 F 2 "heteromycin:4DB-P108-06" H 1200 4000 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/418/NG_CD_2-1437667-4_N8-639207.pdf" H 1200 4000 50  0001 C CNN
 F 4 "Alternative: OSTYK42106030" H 1200 4000 50  0001 C CNN "Note"
+F 5 "4DB-P108-06" H 0   0   50  0001 C CNN "manf#"
 	1    1200 4000
 	-1   0    0    -1  
 $EndComp
@@ -141,6 +147,7 @@ F 0 "F2" V 2403 4400 50  0000 C CNN
 F 1 "3557-2" V 2494 4400 50  0000 C CNN
 F 2 "heteromycin:KEYSTONE-FUSE-3557-2" V 2530 4400 50  0001 C CNN
 F 3 "~" H 2600 4400 50  0001 C CNN
+F 4 "3557-2" H 0   0   50  0001 C CNN "manf#"
 	1    2600 4400
 	0    1    1    0   
 $EndComp
@@ -152,6 +159,7 @@ F 0 "F1" V 2403 3800 50  0000 C CNN
 F 1 "3557-2" V 2494 3800 50  0000 C CNN
 F 2 "heteromycin:KEYSTONE-FUSE-3557-2" V 2530 3800 50  0001 C CNN
 F 3 "~" H 2600 3800 50  0001 C CNN
+F 4 "3557-2" H 0   0   50  0001 C CNN "manf#"
 	1    2600 3800
 	0    1    1    0   
 $EndComp
@@ -189,6 +197,7 @@ F 0 "F4" V 2403 5600 50  0000 C CNN
 F 1 "3557-2" V 2494 5600 50  0000 C CNN
 F 2 "heteromycin:KEYSTONE-FUSE-3557-2" V 2530 5600 50  0001 C CNN
 F 3 "~" H 2600 5600 50  0001 C CNN
+F 4 "3557-2" H 0   0   50  0001 C CNN "manf#"
 	1    2600 5600
 	0    1    1    0   
 $EndComp
@@ -202,6 +211,7 @@ F 0 "J3" H 1120 4917 50  0000 C CNN
 F 1 "39531-1002" H 1120 4826 50  0000 C CNN
 F 2 "heteromycin:39531-1002" H 1200 4700 50  0001 C CNN
 F 3 "~" H 1200 4700 50  0001 C CNN
+F 4 "039531-1002" H 0   0   50  0001 C CNN "manf#"
 	1    1200 4700
 	-1   0    0    -1  
 $EndComp
@@ -213,6 +223,7 @@ F 0 "J4" H 1120 5417 50  0000 C CNN
 F 1 "39531-1002" H 1120 5326 50  0000 C CNN
 F 2 "heteromycin:39531-1002" H 1200 5200 50  0001 C CNN
 F 3 "~" H 1200 5200 50  0001 C CNN
+F 4 "039531-1002" H 0   0   50  0001 C CNN "manf#"
 	1    1200 5200
 	-1   0    0    -1  
 $EndComp
@@ -246,6 +257,7 @@ F 0 "D1" V 2904 4029 50  0000 L CNN
 F 1 "SMAJ28A" V 2995 4029 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 2950 3950 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/240/Littelfuse_TVS_Diode_SMAJ_Datasheet.pdf-540740.pdf" H 2950 3950 50  0001 C CNN
+F 4 "SMAJ28A-13-F" H 0   0   50  0001 C CNN "manf#"
 	1    2950 3950
 	0    1    1    0   
 $EndComp
@@ -257,6 +269,7 @@ F 0 "D2" V 2904 4629 50  0000 L CNN
 F 1 "SMAJ28A" V 2995 4629 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 2950 4550 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/240/Littelfuse_TVS_Diode_SMAJ_Datasheet.pdf-540740.pdf" H 2950 4550 50  0001 C CNN
+F 4 "SMAJ28A-13-F" H 0   0   50  0001 C CNN "manf#"
 	1    2950 4550
 	0    1    1    0   
 $EndComp
@@ -271,6 +284,7 @@ F 0 "C11" H 4165 5796 50  0000 L CNN
 F 1 "100nF" H 4165 5705 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1812_4532Metric" H 4088 5600 50  0001 C CNN
 F 3 "" H 4050 5750 50  0001 C CNN
+F 4 "VJ1812Y104KXBAT" H 0   0   50  0001 C CNN "manf#"
 	1    4050 5750
 	1    0    0    -1  
 $EndComp
@@ -282,6 +296,7 @@ F 0 "D4" V 2904 5829 50  0000 L CNN
 F 1 "S3A-13-F" V 2995 5829 50  0000 L CNN
 F 2 "Diode_SMD:D_SMC" H 2950 5750 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/115/ds16005-37880.pdf" H 2950 5750 50  0001 C CNN
+F 4 "S3A-13-F" H 0   0   50  0001 C CNN "manf#"
 	1    2950 5750
 	0    1    1    0   
 $EndComp
@@ -296,6 +311,7 @@ F 0 "C9" H 4165 4596 50  0000 L CNN
 F 1 "100nF" H 4165 4505 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1812_4532Metric" H 4088 4400 50  0001 C CNN
 F 3 "" H 4050 4550 50  0001 C CNN
+F 4 "VJ1812Y104KXBAT" H 0   0   50  0001 C CNN "manf#"
 	1    4050 4550
 	1    0    0    -1  
 $EndComp
@@ -307,6 +323,7 @@ F 0 "C8" H 4165 3996 50  0000 L CNN
 F 1 "100nF" H 4165 3905 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1812_4532Metric" H 4088 3800 50  0001 C CNN
 F 3 "" H 4050 3950 50  0001 C CNN
+F 4 "VJ1812Y104KXBAT" H 0   0   50  0001 C CNN "manf#"
 	1    4050 3950
 	1    0    0    -1  
 $EndComp
@@ -328,6 +345,7 @@ F 0 "F3" V 2403 5000 50  0000 C CNN
 F 1 "3557-2" V 2494 5000 50  0000 C CNN
 F 2 "heteromycin:KEYSTONE-FUSE-3557-2" V 2530 5000 50  0001 C CNN
 F 3 "~" H 2600 5000 50  0001 C CNN
+F 4 "3557-2" H 0   0   50  0001 C CNN "manf#"
 	1    2600 5000
 	0    1    1    0   
 $EndComp
@@ -341,6 +359,7 @@ F 0 "D3" V 2904 5229 50  0000 L CNN
 F 1 "SMAJ28A" V 2995 5229 50  0000 L CNN
 F 2 "Diode_SMD:D_SMA" H 2950 5150 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/240/Littelfuse_TVS_Diode_SMAJ_Datasheet.pdf-540740.pdf" H 2950 5150 50  0001 C CNN
+F 4 "SMAJ28A-13-F" H 0   0   50  0001 C CNN "manf#"
 	1    2950 5150
 	0    1    1    0   
 $EndComp
@@ -355,6 +374,7 @@ F 0 "C10" H 4165 5196 50  0000 L CNN
 F 1 "100nF" H 4165 5105 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1812_4532Metric" H 4088 5000 50  0001 C CNN
 F 3 "" H 4050 5150 50  0001 C CNN
+F 4 "VJ1812Y104KXBAT" H 0   0   50  0001 C CNN "manf#"
 	1    4050 5150
 	1    0    0    -1  
 $EndComp
@@ -525,6 +545,7 @@ F 0 "C6" H 3668 5196 50  0000 L CNN
 F 1 "100uF" H 3668 5105 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3588 5000 50  0001 C CNN
 F 3 "" H 3550 5150 50  0001 C CNN
+F 4 "860020573008" H 0   0   50  0001 C CNN "manf#"
 	1    3550 5150
 	1    0    0    -1  
 $EndComp
@@ -536,6 +557,7 @@ F 0 "C5" H 3668 4596 50  0000 L CNN
 F 1 "100uF" H 3668 4505 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3588 4400 50  0001 C CNN
 F 3 "" H 3550 4550 50  0001 C CNN
+F 4 "860020573008" H 0   0   50  0001 C CNN "manf#"
 	1    3550 4550
 	1    0    0    -1  
 $EndComp
@@ -547,6 +569,7 @@ F 0 "C4" H 3668 3996 50  0000 L CNN
 F 1 "100uF" H 3668 3905 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3588 3800 50  0001 C CNN
 F 3 "" H 3550 3950 50  0001 C CNN
+F 4 "860020573008" H 0   0   50  0001 C CNN "manf#"
 	1    3550 3950
 	1    0    0    -1  
 $EndComp
@@ -558,6 +581,7 @@ F 0 "C7" H 3668 5796 50  0000 L CNN
 F 1 "100uF" H 3668 5705 50  0000 L CNN
 F 2 "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm" H 3588 5600 50  0001 C CNN
 F 3 "" H 3550 5750 50  0001 C CNN
+F 4 "860020573008" H 0   0   50  0001 C CNN "manf#"
 	1    3550 5750
 	1    0    0    -1  
 $EndComp
@@ -581,6 +605,7 @@ F 0 "C14" H 7115 1946 50  0000 L CNN
 F 1 "22uF" H 7115 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 7038 1750 50  0001 C CNN
 F 3 "~" H 7000 1900 50  0001 C CNN
+F 4 "LMK316ABJ226KL-T" H 0   0   50  0001 C CNN "manf#"
 	1    7000 1900
 	1    0    0    -1  
 $EndComp
@@ -594,6 +619,7 @@ F 0 "FB1" V 6850 1700 50  0000 C CNN
 F 1 "MPZ1608S221A" V 6950 1700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 6630 1750 50  0001 C CNN
 F 3 "https://www.mouser.de/datasheet/2/400/eads_commercial_power_mpz1608_en-923650.pdf" H 6700 1750 50  0001 C CNN
+F 4 "MPZ1608S221A" H 0   0   50  0001 C CNN "manf#"
 	1    6700 1750
 	0    1    1    0   
 $EndComp
@@ -607,6 +633,7 @@ F 0 "C15" H 8565 1946 50  0000 L CNN
 F 1 "10uF" H 8565 1855 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 8488 1750 50  0001 C CNN
 F 3 "~" H 8450 1900 50  0001 C CNN
+F 4 "EMK316BJ106MD-T " H 0   0   50  0001 C CNN "manf#"
 	1    8450 1900
 	1    0    0    -1  
 $EndComp
@@ -651,6 +678,7 @@ F 0 "C13" H 5065 1446 50  0000 L CNN
 F 1 "100nF" H 5065 1355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4988 1250 50  0001 C CNN
 F 3 "~" H 4950 1400 50  0001 C CNN
+F 4 "VJ1206Y104JXQCW1BC" H 0   0   50  0001 C CNN "manf#"
 	1    4950 1400
 	1    0    0    -1  
 $EndComp
@@ -664,6 +692,7 @@ F 0 "U2" H 3000 2315 50  0000 C CNN
 F 1 "i3A" H 3000 2224 50  0000 C CNN
 F 2 "heteromycin:i3A" H 3000 1650 50  0001 C CNN
 F 3 "https://www.us.tdk-lambda.com/ftp/specs/i3a_full_datasheet.pdf" H 3000 1650 50  0001 C CNN
+F 4 "I3A4W008A033V-001-R" H 0   0   50  0001 C CNN "manf#"
 	1    3000 1650
 	1    0    0    -1  
 $EndComp
@@ -675,6 +704,7 @@ F 0 "R6" H 3970 2046 50  0000 L CNN
 F 1 "20k" H 3970 1955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3830 2000 50  0001 C CNN
 F 3 "~" H 3900 2000 50  0001 C CNN
+F 4 "RC0603FR-1020KL" H 0   0   50  0001 C CNN "manf#"
 	1    3900 2000
 	1    0    0    -1  
 $EndComp
@@ -686,6 +716,7 @@ F 0 "R7" H 4220 2046 50  0000 L CNN
 F 1 "15k" H 4220 1955 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4080 2000 50  0001 C CNN
 F 3 "~" H 4150 2000 50  0001 C CNN
+F 4 "RC0603FR-0715KL" H 0   0   50  0001 C CNN "manf#"
 	1    4150 2000
 	1    0    0    -1  
 $EndComp
@@ -756,6 +787,7 @@ F 0 "C3" H 2165 1446 50  0000 L CNN
 F 1 "100nF" H 2165 1355 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1812_4532Metric" H 2088 1250 50  0001 C CNN
 F 3 "" H 2050 1400 50  0001 C CNN
+F 4 "VJ1812Y104KXBAT" H 0   0   50  0001 C CNN "manf#"
 	1    2050 1400
 	1    0    0    -1  
 $EndComp
@@ -791,6 +823,7 @@ F 0 "J5" H 7750 4100 50  0000 L CNN
 F 1 "Conn_02x03_Counter_Clockwise" H 7200 4000 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 7750 3750 50  0001 C CNN
 F 3 "~" H 7750 3750 50  0001 C CNN
+F 4 "68602-406HLF" H 0   0   50  0001 C CNN "manf#"
 	1    7750 3750
 	1    0    0    -1  
 $EndComp
