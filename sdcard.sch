@@ -22,6 +22,7 @@ F 0 "J11" H 5950 3967 50  0000 C CNN
 F 1 "DM3D-SF" H 5950 3876 50  0000 C CNN
 F 2 "Connector_Card:microSD_HC_Hirose_DM3D-SF" H 8050 3850 50  0001 C CNN
 F 3 "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1" H 6000 3250 50  0001 C CNN
+F 4 "DM3D-SF" H 0   0   50  0001 C CNN "manf#"
 	1    6000 3150
 	1    0    0    -1  
 $EndComp
@@ -49,6 +50,7 @@ F 0 "R118" H 4700 2450 50  0000 C CNN
 F 1 "47k" H 4700 2550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4780 2500 50  0001 C CNN
 F 3 "~" H 4850 2500 50  0001 C CNN
+F 4 "CR0603-FX-4702ELF" H 0   0   50  0001 C CNN "manf#"
 	1    4850 2500
 	-1   0    0    1   
 $EndComp
@@ -79,6 +81,7 @@ F 0 "R117" H 4400 2450 50  0000 C CNN
 F 1 "47k" H 4400 2550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4480 2500 50  0001 C CNN
 F 3 "~" H 4550 2500 50  0001 C CNN
+F 4 "CR0603-FX-4702ELF" H 0   0   50  0001 C CNN "manf#"
 	1    4550 2500
 	-1   0    0    1   
 $EndComp
@@ -96,6 +99,7 @@ F 0 "R116" H 4100 2450 50  0000 C CNN
 F 1 "47k" H 4100 2550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 4180 2500 50  0001 C CNN
 F 3 "~" H 4250 2500 50  0001 C CNN
+F 4 "CR0603-FX-4702ELF" H 0   0   50  0001 C CNN "manf#"
 	1    4250 2500
 	-1   0    0    1   
 $EndComp
@@ -113,6 +117,7 @@ F 0 "R115" H 3800 2450 50  0000 C CNN
 F 1 "47k" H 3800 2550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3880 2500 50  0001 C CNN
 F 3 "~" H 3950 2500 50  0001 C CNN
+F 4 "CR0603-FX-4702ELF" H 0   0   50  0001 C CNN "manf#"
 	1    3950 2500
 	-1   0    0    1   
 $EndComp
@@ -138,6 +143,7 @@ F 0 "R114" H 3500 2450 50  0000 C CNN
 F 1 "47k" H 3500 2550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3580 2500 50  0001 C CNN
 F 3 "~" H 3650 2500 50  0001 C CNN
+F 4 "CR0603-FX-4702ELF" H 0   0   50  0001 C CNN "manf#"
 	1    3650 2500
 	-1   0    0    1   
 $EndComp
@@ -198,6 +204,7 @@ F 0 "C111" H 4515 3896 50  0000 L CNN
 F 1 "10uF" H 4515 3805 50  0000 L CNN
 F 2 "Capacitor_SMD:C_1206_3216Metric" H 4438 3700 50  0001 C CNN
 F 3 "~" H 4400 3850 50  0001 C CNN
+F 4 "EMK316BJ106MD-T " H 0   0   50  0001 C CNN "manf#"
 	1    4400 3850
 	1    0    0    -1  
 $EndComp
@@ -237,6 +244,7 @@ F 0 "R113" H 3200 2450 50  0000 C CNN
 F 1 "47k" H 3200 2550 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 3280 2500 50  0001 C CNN
 F 3 "~" H 3350 2500 50  0001 C CNN
+F 4 "CR0603-FX-4702ELF" H 0   0   50  0001 C CNN "manf#"
 	1    3350 2500
 	-1   0    0    1   
 $EndComp
