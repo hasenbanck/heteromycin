@@ -1,9 +1,9 @@
-(kicad_pcb (version 20171130) (host pcbnew "(6.0.0-rc1-dev-1530-gf5144eb5c)")
+(kicad_pcb (version 20171130) (host pcbnew "(6.0.0-rc1-dev-1532-ga0a4e5e18)")
 
   (general
     (thickness 1.6)
     (drawings 81)
-    (tracks 4061)
+    (tracks 4065)
     (zones 0)
     (modules 373)
     (nets 331)
@@ -22611,6 +22611,10 @@
   (segment (start 105.925 117.55) (end 105.925 116.55) (width 0.25) (layer F.Cu) (net 268))
   (segment (start 106.55 118.275) (end 105.925 117.65) (width 0.25) (layer F.Cu) (net 268))
   (segment (start 106.55 118.8125) (end 106.55 118.275) (width 0.25) (layer F.Cu) (net 268))
+  (segment (start 106.088388 121.400888) (end 106.55 121.8625) (width 0.25) (layer F.Cu) (net 268))
+  (segment (start 105.74999 121.06249) (end 106.088388 121.400888) (width 0.25) (layer F.Cu) (net 268))
+  (segment (start 105.74999 119.61251) (end 105.74999 121.06249) (width 0.25) (layer F.Cu) (net 268))
+  (segment (start 106.55 118.8125) (end 105.74999 119.61251) (width 0.25) (layer F.Cu) (net 268))
   (segment (start 88.492499 119.7) (end 88.4875 119.695001) (width 0.25) (layer F.Cu) (net 269) (status 30))
   (segment (start 90.5125 119.7) (end 88.492499 119.7) (width 0.25) (layer F.Cu) (net 269) (status 30))
   (segment (start 134.85 67.5) (end 135.575001 68.225001) (width 0.25) (layer In2.Cu) (net 270))
